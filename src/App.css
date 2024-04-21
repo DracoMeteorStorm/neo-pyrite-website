@@ -31,16 +31,22 @@
 }
 
 .header-buttons {
-  margin: 2px;
-
+  margin: 5px;
+  background-color: #209bd7;
+  border: 2px solid gray;
+  
+  border-radius: 10px;
+  font-size: 25px;
+  text-align: center;
+  transition: .2s ease;
 }
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header-buttons:hover{
+  transform: rotate(15deg);
+  
+  cursor: pointer;
 }
+
+/* .header-buttons: */
+
+
