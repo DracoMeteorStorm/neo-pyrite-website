@@ -11,14 +11,14 @@ function App() {
   }
 
   return (
-    <div className='Page-background'>
+    
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <h1>
           Fool's Gold
               
-          {/* <img className='App-logo' src = {fg_beta_logo}/> */}
+          {/*  */}
         </h1>
         <div>
           <button className='header-buttons'>
@@ -43,10 +43,19 @@ function App() {
         </div>
         
       </header>
-      <p>
-        home
-      </p>
+      <div className='Page-background'>
+      
+        
+        <img className='App-logo' src = {fg_beta_logo}/>
+      
     </div>
+
+    <div className='App-footer'>
+      <div className='footer-text'>
+        hiiiiiiiii
+      </div>
+      
+      </div>
     </div>
   );
 }
