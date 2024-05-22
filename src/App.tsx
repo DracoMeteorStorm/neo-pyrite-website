@@ -21,9 +21,10 @@ function App() {
           {/*  */}
         </h1>
         <div>
-          <button className='header-buttons'>
+          <a href='\draco'>
+          <button className='header-buttons' onClick={changeToDraco}>
             Draco
-          </button>
+          </button></a>
           <button className='header-buttons'>
             Mukk
           </button>
