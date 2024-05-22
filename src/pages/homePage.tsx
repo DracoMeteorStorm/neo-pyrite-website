@@ -11,7 +11,7 @@ function App() {
   }
 
   return (
-    
+    <html lang='en'>
     <div className="App">
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
@@ -45,12 +45,14 @@ function App() {
         
       </header>
       <div className='Page-background'>
-      
+
+      <script src="dist/home.js"></script>
         
         <img className='App-logo' src = {fg_beta_logo}/>
+        wassup
       
     </div>
-
+<div id="content"></div>
     <div className='App-footer'>
       <div className='footer-text'>
         hiiiiiiiii
@@ -58,6 +60,7 @@ function App() {
       
       </div>
     </div>
+    </html>
   );
 }
 
