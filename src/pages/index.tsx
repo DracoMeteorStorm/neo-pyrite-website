@@ -11,15 +11,23 @@ import ReactDOM from 'react-dom';
 //   root.render(<App />);
 // }
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
+// const root = ReactDOM.createRoot(
+//   document.getElementById('root') as HTMLElement
+// );
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
+const container = document.getElementById('root'); // Get the root container
+if (container) {
+  const root = createRoot(container); // Create the root with createRoot
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

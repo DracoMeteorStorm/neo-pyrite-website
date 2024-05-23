@@ -1,24 +1,24 @@
+import './App.css'
 import React, { useState } from 'react';
 import fg_beta_logo from './assets/fg_beta_logo.png';
-import './App.css';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 
 const App: React.FC = () => {
-  type page = 'home' | 'draco' | 'mukk' | 'melk' | 'charm' | 'amigo' | 'septic'
-  const [currentPage, setCurrentPage] = useState<page>('home') 
+  // type page = 'home' | 'draco' | 'mukk' | 'melk' | 'charm' | 'amigo' | 'septic'
+  // const [currentPage, setCurrentPage] = useState<page>('home') 
 
-  function changeToDraco(): void {
-    setCurrentPage('draco')
-  }
+  // function changeToDraco(): void {
+  //   setCurrentPage('draco')
+  // }
 
   return (
 
     <Router>
     
-    <div className="App">
-      <header className="App-header">
+    {/* <div className="App">
+      </div><header className="App-header"> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         
         <nav>
@@ -27,7 +27,7 @@ const App: React.FC = () => {
             Home
           </button></Link>
           <a href='\draco'>
-          <button className='header-buttons' onClick={changeToDraco}>
+          <button className='header-buttons'>
             Draco
           </button></a>
           <button className='header-buttons'>
@@ -56,9 +56,9 @@ const App: React.FC = () => {
 <Route path='/about' Component={About}></Route>
 
 </Routes>
-
-        </div>
+</div>
         
+   {/*      
       </header>
       <div className='Page-background'>
       
@@ -73,7 +73,7 @@ const App: React.FC = () => {
       </div>
       
       </div>
-    </div>
+    </div> */}
     </Router>
   );
 }
