@@ -7,21 +7,13 @@ import About from '../components/About';
 import Draco from '../components/DracoPage';
 
 const App: React.FC = () => {
-  // type page = 'home' | 'draco' | 'mukk' | 'melk' | 'charm' | 'amigo' | 'septic'
-  // const [currentPage, setCurrentPage] = useState<page>('home') 
-
-  // function changeToDraco(): void {
-  //   setCurrentPage('draco')
-  // }
 
   return (
 
     <Router>
     
-    {/* <div className="App">
-      </div><header className="App-header"> */}
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        
+    <div className='App'>
+        <div className='App-header'>
         <nav>
         <Link to="/">
           <button className='header-buttons'>
@@ -51,7 +43,16 @@ const App: React.FC = () => {
           </button></Link>
 
         </nav>
+        </div>
+
+      
+        
         <div id="content">
+
+
+
+
+        </div>
 <Routes>
 <Route path='/' Component={Home} ></Route>
 <Route path='/about' Component={About}></Route>
@@ -60,22 +61,7 @@ const App: React.FC = () => {
 </Routes>
 </div>
         
-   {/*      
-      </header>
-      <div className='Page-background'>
-      
-        
-        <img className='App-logo' src = {fg_beta_logo}/>
-      
-    </div>
-
-    <div className='App-footer'>
-      <div className='footer-text'>
-        hiiiiiiiii
-      </div>
-      
-      </div>
-    </div> */}
+ 
     </Router>
   );
 }
