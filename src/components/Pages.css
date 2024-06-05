@@ -1,0 +1,11 @@
+import App.css
+
+.page-background {
+    background-color: #209bd7;
+    min-height: 100vh;
+    background-size: cover;
+    
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  
