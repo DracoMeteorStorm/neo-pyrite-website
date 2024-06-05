@@ -4,6 +4,7 @@ import fg_beta_logo from './assets/fg_beta_logo.png';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
+import Draco from '../components/DracoPage';
 
 const App: React.FC = () => {
   // type page = 'home' | 'draco' | 'mukk' | 'melk' | 'charm' | 'amigo' | 'septic'
@@ -26,10 +27,10 @@ const App: React.FC = () => {
           <button className='header-buttons'>
             Home
           </button></Link>
-          <a href='\draco'>
-          <button className='header-buttons'>
+          <Link to="/draco">
+            <button className='header-buttons'>
             Draco
-          </button></a>
+          </button></Link>
           <button className='header-buttons'>
             Mukk
           </button>
@@ -54,6 +55,7 @@ const App: React.FC = () => {
 <Routes>
 <Route path='/' Component={Home} ></Route>
 <Route path='/about' Component={About}></Route>
+<Route path='/draco' Component={Draco}></Route>
 
 </Routes>
 </div>
