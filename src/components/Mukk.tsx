@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Draco: React.FC = () => {
+const Mukk: React.FC = () => {
   return (
     <div>
       <div className='page-background'>
-      <h1>draco</h1>
-      <p>dracoddracodrqacodraco</p></div>
+      <h1>Mukk</h1>
+      <p>MukkdMukkMukk</p></div>
       <div className='footer'>hiiiiiiiii</div>
     </div>
   );
 };
 
-export default Draco;
+export default Mukk;

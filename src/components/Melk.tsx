@@ -1,14 +1,14 @@
 import React from 'react';
 
-const Draco: React.FC = () => {
+const Melk: React.FC = () => {
   return (
     <div>
       <div className='page-background'>
-      <h1>draco</h1>
-      <p>dracoddracodrqacodraco</p></div>
+      <h1>Melk</h1>
+      <p>MelkdMelkdrqacoMelk</p></div>
       <div className='footer'>hiiiiiiiii</div>
     </div>
   );
 };
 
-export default Draco;
+export default Melk;
