@@ -1,5 +1,5 @@
 import React from 'react';
-import dracoClip01 from './assets/dracoAssets/dracoClip1.mp4';
+import dracoClip01 from './assets/dracoAssets/dracoClip01.mp4';
 
 const Draco: React.FC = () => {
   return (
