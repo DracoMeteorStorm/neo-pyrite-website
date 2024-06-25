@@ -56,6 +56,15 @@
   text-align: left;
 }
 
+.footer-icon {
+    align-content: right;
+    text-align: right;
+    height: 45px;
+    width: 45px;
+    right: 20px;
+    
+}
+
 
 
 .header-buttons {
@@ -94,8 +103,8 @@
   margin-top: 0%;
   position: relative;
   z-index: 0;
-
 }
+
 
 .page-container {
   opacity: 100% !important;

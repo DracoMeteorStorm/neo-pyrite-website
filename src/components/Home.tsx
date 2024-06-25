@@ -1,5 +1,6 @@
 import React from 'react';
-import fg_beta_logo from './assets/fg_beta_logo.png';
+import fg_beta_logo from '../assets/fg_beta_logo.png';
+import Pictorial_HQ_Transparent from '../assets/Pictorial_HQ_Transparent.png'
 
 const Home: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Home: React.FC = () => {
 
     
     <div className='page-background'>
-<div className='page-container'>
+
       <h1>Home Page</h1>
       <p>fools gold baybeeeeee.</p>
       
@@ -16,8 +17,9 @@ const Home: React.FC = () => {
       </div>
       
       
-      </div>
-    <div className='footer'>hiiiiii</div>
+    
+    <div className='footer'>hiiiiii <img src={Pictorial_HQ_Transparent} className='footer-icon'/>
+    </div>
 </div>
     </div>
   );

@@ -10,7 +10,7 @@ import Melk from '../components/Melk';
 import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
-import FullLogo_HQ_Transparent_Crop from './assets/FullLogo_HQ_Transparent_Crop.png'
+import FullLogo_HQ_Transparent_Crop from '../assets/FullLogo_HQ_Transparent_Crop.png'
 import Twitter_Banner from './assets/Twitter_Banner.jpg'
 import YT_Banner from '../assets/YT_Banner.jpg'
 
