@@ -47,6 +47,8 @@
   /* position: sticky; */
   bottom: 0;
   margin: 0;
+  position: relative;
+  z-index: 1;
 
 }
 
@@ -74,19 +76,14 @@
   cursor: pointer;
 }
 
-body {
-  /* min-height: 100vh;
-  margin: 0; 
-  padding: 0; */
-  background-image: url("./assets/YT_Banner.jpg");
-  background-attachment: fixed;
-  background-size: 100%;
-  /* z-index: -2; */
-  
+.static-background {
+  position: fixed;
 }
 
+
+
 .page-background {
-  background-color: #209ad7de;
+  background-color: #209ad7f1;
   min-height: 100vh;
   background-size: cover;
   
@@ -94,7 +91,14 @@ body {
   padding: 0;
   margin-left: 10%;
   margin-right: 10%;
-  z-index: -1;
+  margin-top: 0%;
+  position: relative;
+  z-index: 0;
+
+}
+
+.page-container {
+  opacity: 100% !important;
 
 }
 
