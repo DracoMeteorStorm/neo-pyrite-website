@@ -10,6 +10,7 @@ import Melk from '../components/Melk';
 import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
+import FullLogo_HQ_Transparent from './assets/FullLogo_HQ_Transparent.png'
 
 const App: React.FC = () => {
 
@@ -19,7 +20,8 @@ const App: React.FC = () => {
     
     <div className='App'>
         <div className='header'>
-          <h1>NEO PYRITE</h1>
+          {/* <h1>NEO PYRITE</h1> */}
+          <img height='300px' width='300px' src= {FullLogo_HQ_Transparent}/>
         <nav>
         <Link to="/">
           <button className='header-buttons'>
