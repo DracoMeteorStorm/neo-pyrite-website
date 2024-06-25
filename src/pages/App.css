@@ -86,7 +86,12 @@
 }
 
 .static-background {
-  position: fixed;
+  position:fixed;
+  margin-bottom: 0%;
+  height: fit-content;
+  width: 100%;
+  
+  z-index: -2;
 }
 
 
