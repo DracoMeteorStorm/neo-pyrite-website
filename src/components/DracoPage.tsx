@@ -2,9 +2,10 @@ import React from 'react';
 import dracoClip01 from './assets/dracoAssets/dracoClip01.mp4';
 
 const Draco: React.FC = () => {
+  const backgroundColor = '#ae51edf1';
   return (
     <div>
-      <div className='page-background'>
+      <div className='page-background' style={{backgroundColor}}>
       <h1>draco</h1>
       <p>dracoddracodrqacodraco</p>
 
