@@ -2,14 +2,14 @@ import './App.css'
 import React, { useState } from 'react';
 import fg_beta_logo from './assets/fg_beta_logo.png';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Draco from './Draco';
-import Mukk from './Mukk';
-import Melk from './Melk';
-import Amigo from './Amigo';
-import Charm from './Charm';
-import Septic from './Septic';
+import Home from '../components/Home';
+import About from '../components/About';
+import Draco from '../components/Draco';
+import Mukk from '../components/Mukk';
+import Melk from '../components/Melk';
+import Amigo from '../components/Amigo';
+import Charm from '../components/Charm';
+import Septic from '../components/Septic';
 import FullLogo_HQ_Transparent_Crop from '../assets/FullLogo_HQ_Transparent_Crop.png'
 import Twitter_Banner from './assets/Twitter_Banner.jpg'
 import YT_Banner from '../assets/YT_Banner.jpg'
