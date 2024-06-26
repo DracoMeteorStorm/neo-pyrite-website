@@ -111,9 +111,13 @@
 }
 
 
-.page-container {
-  opacity: 100% !important;
+.content-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  align-content: center;
 
 }
+
 
 
