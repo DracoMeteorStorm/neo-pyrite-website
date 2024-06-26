@@ -10,6 +10,9 @@ import Melk from '../components/Melk';
 import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
+import FullLogo_HQ_Transparent_Crop from '../assets/FullLogo_HQ_Transparent_Crop.png'
+import Twitter_Banner from './assets/Twitter_Banner.jpg'
+import YT_Banner from '../assets/YT_Banner.jpg'
 
 const App: React.FC = () => {
 
@@ -19,7 +22,8 @@ const App: React.FC = () => {
     
     <div className='App'>
         <div className='header'>
-          <h1>NEO PYRITE</h1>
+          {/* <img height='300px' width='300px' src= {FullLogo_HQ_Transparent}/> */}
+          <img height='200px' src= {FullLogo_HQ_Transparent_Crop}/>
         <nav>
         <Link to="/">
           <button className='header-buttons'>
@@ -55,12 +59,16 @@ const App: React.FC = () => {
 
         </nav>
         </div>
+        <img width='100%' className='static-background' src = {YT_Banner}/>
+        
         <div id="content">
 
 
 
 
         </div>
+        
+        
         
 <Routes>
 <Route path='/' Component={Home} ></Route>
