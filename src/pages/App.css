@@ -118,11 +118,11 @@
   align-content: center;
 
 }
-
 .video-container {
   position: relative;
   width: 640px;
   height: 360px;
+  overflow: hidden; /* Ensure no overflow */
 }
 
 .video-element {
@@ -131,12 +131,16 @@
   left: 0;
   width: 100%;
   height: 100%;
-  transition: opacity 1s;
-  opacity: 1;
+  transition: transform .5s ease-in-out;
+  transform: translateX(100%); /* Start offscreen to the right */
+
 }
 
-.video-element.hidden {
-  opacity: 0;
+.video-element.active {
+  transform: translateX(0); /* Slide into view */
 }
 
+.video-element.exit {
 
+  transform: translateX(-100%); /* Slide out to the left */
+}
