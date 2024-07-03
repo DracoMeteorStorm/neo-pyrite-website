@@ -9,13 +9,13 @@ const Home: React.FC = () => {
 
     
     <div className='page-background'>
-
+<div className='content-container'>
       <h1>Home Page</h1>
       <p>fools gold baybeeeeee.</p>
       
-      <img className='App-logo' src = {fg_beta_logo}/>
+      <img src = {fg_beta_logo}/>
       </div>
-      
+      </div>
       
     
     <div className='footer'>hiiiiii <img src={Pictorial_HQ_Transparent} className='footer-icon'/>

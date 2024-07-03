@@ -4,7 +4,7 @@ import fg_beta_logo from './assets/fg_beta_logo.png';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
-import Draco from '../components/DracoPage';
+import Draco from '../components/Draco';
 import Mukk from '../components/Mukk';
 import Melk from '../components/Melk';
 import Amigo from '../components/Amigo';
@@ -15,6 +15,8 @@ import Twitter_Banner from './assets/Twitter_Banner.jpg'
 import YT_Banner from '../assets/YT_Banner.jpg'
 
 const App: React.FC = () => {
+
+  
 
   return (
 

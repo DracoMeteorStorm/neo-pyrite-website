@@ -27,7 +27,16 @@ module.exports = {
             loader: 'file-loader',
           },
         ],
-      },
+      },{
+        test: /\.(mp4|webm|ogg)$/, // Add video formats here
+        use: {
+          loader: 'file-loader',
+          options: {
+            name: '[name].[hash].[ext]',
+            outputPath: 'videos/', // Adjust output path if needed
+          },
+        },
+    },
       
     ],
     
