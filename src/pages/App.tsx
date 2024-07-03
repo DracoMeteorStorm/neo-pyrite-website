@@ -64,25 +64,22 @@ const App: React.FC = () => {
         <img width='100%' className='static-background' src = {YT_Banner}/>
         
         <div id="content">
-
+        <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/draco' element={<Draco />} />
+            <Route path='/mukk' element={<Mukk />} />
+            <Route path='/melk' element={<Melk />} />
+            <Route path='/charm' element={<Charm />} />
+            <Route path='/amigo' element={<Amigo />} />
+            <Route path='/septic' element={<Septic />} />
+          </Routes>
 
 
 
         </div>
         
         
-        
-<Routes>
-<Route path='/' Component={Home} ></Route>
-<Route path='/about' Component={About}></Route>
-<Route path='/draco' Component={Draco}></Route>
-<Route path='/mukk' Component={Mukk}></Route>
-<Route path='/melk' Component={Melk}></Route>
-<Route path='/charm' Component={Charm}></Route>
-<Route path='/amigo' Component={Amigo}></Route>
-<Route path='/septic' Component={Septic}></Route>
-
-</Routes>
 </div>
         
  
