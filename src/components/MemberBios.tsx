@@ -1,6 +1,6 @@
 import React from 'react';
 import { Bios } from './bios';
-import biosData from '../bios.json';
+import biosData from './bios.json';
 
 
 const bios: Bios = biosData;
@@ -18,7 +18,6 @@ const BioComponent: React.FC<BioComponentProps> = ({ page }) => {
 
   return (
     <div className="bio-container">
-      <h1>{bioData.name}</h1>
       <p>{bioData.bio}</p>
     </div>
   );
