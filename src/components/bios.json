@@ -2,27 +2,33 @@
 
     "Draco": {
         "name": "Draco",
-        "bio": "hey whats up im dracobro"
+        "bio": "hey whats up im dracobro",
+        "color": "#ae51ed"
     },
     "Charm": {
         "name": "Charm",
-        "bio": "hey whats up im charm"
+        "bio": "hey whats up im charm",
+        "color": "#FF01ce"
     },
     "Mukk": {
         "name": "Mukk",
-        "bio": "hey whats up im mukk"
+        "bio": "hey whats up im mukk",
+        "color": "#fbe746"
     },
     "Melk": {
         "name": "Melk",
-        "bio": "hey whats up im melk"
+        "bio": "hey whats up im melk",
+        "color": "#FF7f29"
     },
     "Amigo": {
         "name": "Amigo",
-        "bio": "hey whats up im amigoo"
+        "bio": "hey whats up im amigoo",
+        "color": "#def500"
     },
     "Septic": {
         "name": "Septic",
-        "bio": "hey whats up im septic"
+        "bio": "hey whats up im septic",
+        "color": "#2e00ff"
     }
     
     }

@@ -26,7 +26,7 @@ interface IconComponentProps {
     
     
     return (
-        <div>
+        <div className="component-container">
             <img src={iconSrc} className="bio-icon" />
             <h1>{bioData.name}</h1>
         </div>

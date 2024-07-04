@@ -17,10 +17,12 @@ const BioComponent: React.FC<BioComponentProps> = ({ page }) => {
   }
 
   return (
+    <div className='component-container'>
     <div className="bio-container">
       <p>{bioData.bio}</p>
-    </div>
+    </div></div>
   );
 };
 
 export default BioComponent;
+
