@@ -174,6 +174,9 @@ float:left;
     width: 100%; /* Stack containers on smaller screens */
     margin: 2% 0; /* Adjust margin for stacked layout */
   }
+  .page-background{
+    background-color: #00000000 !important;
+  }
 }
 .bio-icon{
   width: 55%;
