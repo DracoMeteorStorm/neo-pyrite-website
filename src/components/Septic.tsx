@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Septic: React.FC = () => {
-  const backgroundColor = '#2e00fff1';
+  const backgroundColor = '#2e00ffcc';
   return (
     <div>
       <div className='page-background' style={{backgroundColor}}>

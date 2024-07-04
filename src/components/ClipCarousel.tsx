@@ -39,14 +39,15 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
   }, [currentVideoIndex, isSliding]);
 
   return (
+    <div className='component-container'>
     <div className="video-container">
       {videoClips.map((clip, index) => (
         <video
           key={index}
           ref={(el) => videoRefs.current[index] = el}
           className={`video-element ${index === currentVideoIndex ? (isSliding ? 'exit' : 'active') : ''}`}
-          width="640"
-          height="360"
+          // width="640"
+          // height="360"
           muted={true}
           autoPlay={index === currentVideoIndex}
           loop={false}
@@ -56,7 +57,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
           Your browser does not support the video tag.
         </video>
       ))}
-    </div>
+    </div></div>
   );
 };
 
