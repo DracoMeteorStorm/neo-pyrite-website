@@ -24,7 +24,7 @@
     "predeploy": "npm run build",
     "deploy": "npm run build && npm run move-build",
     "build": "webpack --mode production",
-    "move-build": "cpx dist/**/* ./ && rimraf dist",
+    "move-build": "cpx dist/**/* ./ && rimraf dist && echo '' > .nojekyll",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
