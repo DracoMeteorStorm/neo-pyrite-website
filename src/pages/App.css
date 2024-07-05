@@ -159,6 +159,11 @@ float:left;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  overflow: hidden;
+  border-radius: 20px;
+  border-color: #00000069;
+  border-width: 4%;
+  border-style: inset;
   
 }
 
@@ -192,7 +197,7 @@ float:left;
   width: 100%;
   max-width: 1280px;
   padding-top: 56.25%;
-  overflow: hidden; /* Ensure no overflow */
+  overflow: hidden;
 }
 
 .video-element {

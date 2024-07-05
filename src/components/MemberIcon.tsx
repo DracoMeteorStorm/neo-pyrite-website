@@ -26,7 +26,7 @@ interface IconComponentProps {
     
     
     return (
-        <div className="component-container">
+        <div className="component-container" style={{backgroundColor:bioData.color}}>
             <img src={iconSrc} className="bio-icon" />
             <h1>{bioData.name}</h1>
         </div>
