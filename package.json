@@ -22,8 +22,9 @@
   "scripts": {
     "start": "webpack serve --mode development --open",
     "predeploy": "npm run build",
-    "deploy": "npm run build",
+    "deploy": "npm run build && npm run move-build",
     "build": "webpack --mode production",
+    "move-build": "cpx dist/**/* ./ && rimraf dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -46,9 +47,11 @@
     ]
   },
   "devDependencies": {
+    "cpx": "^1.5.0",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
     "gh-pages": "^6.1.1",
+    "html-loader": "^5.0.0",
     "html-webpack-plugin": "^5.6.0",
     "mini-css-extract-plugin": "^2.9.0",
     "ts-loader": "^9.5.1",

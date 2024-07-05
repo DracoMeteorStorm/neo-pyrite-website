@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/pages/index.tsx',
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'build'),
+    path: path.resolve(__dirname, 'dist'),
     publicPath: '/'
   },
   resolve: {
@@ -38,6 +38,10 @@ module.exports = {
           },
         },
     },
+    {
+      test: /\.html$/,
+      use: ['html-loader']
+    }
       
     ],
     
@@ -45,6 +49,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './public/index.html',
+      favicon: './public/new-favicon.png',
+      manifest: './public/manifest.json'
     }),
   ],
   devServer: {
