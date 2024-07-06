@@ -109,6 +109,8 @@
   margin-top: 0%;
   position: relative;
   z-index: 0;
+  border-left: #0000003d groove 15px;
+  border-right: #0000003d ridge 15px;
 }
 
 
@@ -181,12 +183,15 @@ float:left;
   }
   .page-background{
     background-color: #00000000 !important;
+    border-left: 0px;
+    border-right: 0px;
   }
 }
 .bio-icon{
   width: 55%;
   height: auto;
   position: relative;
+  border-radius: 20px;
 
 
 }
@@ -198,6 +203,7 @@ float:left;
   max-width: 1280px;
   padding-top: 56.25%;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .video-element {
