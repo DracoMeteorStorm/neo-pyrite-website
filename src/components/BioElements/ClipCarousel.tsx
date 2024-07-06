@@ -1,15 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Bios } from './bios';
-import biosData from './bios.json';
 
-const bios: Bios = biosData;
+
 interface VideoCarouselProps {
   videoClips: string[];
-  page: keyof Bios;
 }
 
-const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips } , { page }) => {
-  const bioData = bios[page];
+const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const [isSliding, setIsSliding] = useState(false);
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
@@ -44,7 +40,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips } , { page }) 
   }, [currentVideoIndex, isSliding]);
 
   return (
-    <div className='component-container'>
+    
     <div className="video-container">
       {videoClips.map((clip, index) => (
         <video
@@ -62,7 +58,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips } , { page }) 
           Your browser does not support the video tag.
         </video>
       ))}
-    </div></div>
+    </div>
   );
 };
 

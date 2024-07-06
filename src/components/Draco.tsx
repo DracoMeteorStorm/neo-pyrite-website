@@ -1,11 +1,11 @@
 import React, {useState, useEffect, useRef} from 'react';
 import dracoClip01 from '../assets/videos/DracoClip01.mp4';
 import dracoClip02 from '../assets/videos/DracoClip02.mp4';
-import VideoCarousel from './ClipCarousel';
-import BioComponent from './MemberBios';
-import IconComponent from './MemberIcon';
-import SocialsComponent from './MemberSocials';
-import bioData from './bios.json'
+import VideoCarousel from './BioElements/ClipCarousel';
+import BioComponent from './BioElements/MemberBios';
+import IconComponent from './BioElements/MemberIcon';
+import SocialsComponent from './BioElements/MemberSocials';
+import bioData from './BioElements/bios.json'
 
 
 const Draco: React.FC = () => {
@@ -28,8 +28,8 @@ const Draco: React.FC = () => {
 
         <div className='container-col-right'>
 <BioComponent page={pageID}/>
-      
-      <VideoCarousel videoClips={videoClipsDraco} page={pageID}></VideoCarousel>
+<div className='component-container' style={{backgroundColor:bioData.Draco.color}}>
+      <VideoCarousel videoClips={videoClipsDraco}></VideoCarousel></div>
 
         </div>
 
@@ -40,7 +40,7 @@ const Draco: React.FC = () => {
       
       </div></div>
 
-      <div className='footer'>hiiiiiiiii</div>
+      
     </div>
   );
 };

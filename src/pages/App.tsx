@@ -78,6 +78,8 @@ const App: React.FC = () => {
 
 
         </div>
+        <div className='footer'>hiiiiiiiii</div>
+    
         
         
 </div>

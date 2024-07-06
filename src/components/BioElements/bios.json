@@ -3,32 +3,38 @@
     "Draco": {
         "name": "Draco",
         "bio": "hey whats up im dracobro",
-        "color": "#ae51ed"
+        "color": "#ae51ed",
+        "weapons": ["Stamper","DualSquelch","CharDecav"]
     },
     "Charm": {
         "name": "Charm",
         "bio": "hey whats up im charm",
-        "color": "#FF01ce"
+        "color": "#FF01ce",
+        "weapons": [""]
     },
     "Mukk": {
         "name": "Mukk",
         "bio": "hey whats up im mukk",
-        "color": "#fbe746"
+        "color": "#fbe746",
+        "weapons": [""]
     },
     "Melk": {
         "name": "Melk",
         "bio": "hey whats up im melk",
-        "color": "#FF7f29"
+        "color": "#FF7f29",
+        "weapons": [""]
     },
     "Amigo": {
         "name": "Amigo",
         "bio": "hey whats up im amigoo",
-        "color": "#def500"
+        "color": "#def500",
+        "weapons": [""]
     },
     "Septic": {
         "name": "Septic",
         "bio": "hey whats up im septic",
-        "color": "#2e00ff"
+        "color": "#2e00ff",
+        "weapons": [""]
     }
     
     }
