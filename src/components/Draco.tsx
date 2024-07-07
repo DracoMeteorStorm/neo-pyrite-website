@@ -30,7 +30,7 @@ const Draco: React.FC = () => {
 <BioComponent page={pageID}/>
 <div className='component-container' style={{backgroundColor:bioData.Draco.color}}>
       <VideoCarousel videoClips={videoClipsDraco}></VideoCarousel></div>
-
+      
         </div>
 
 

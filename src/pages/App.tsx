@@ -24,9 +24,12 @@ const App: React.FC = () => {
     
     <div className='App'>
         <div className='header'>
-          {/* <img height='300px' width='300px' src= {FullLogo_HQ_Transparent}/> */}
-          <img height='200px' src= {FullLogo_HQ_Transparent_Crop}/>
-        <nav>
+        <div className='container-row' style={{margin:"15px"}}>
+          <div className='container-col-left' style={{width:"15%"}}>
+            <img height='100px' src= {FullLogo_HQ_Transparent_Crop}/></div>
+          
+          <div className='container-col-right' style={{width:"85%"}}>
+                    
         <Link to="/">
           <button className='header-buttons'>
             Home
@@ -59,7 +62,11 @@ const App: React.FC = () => {
             About
           </button></Link>
 
-        </nav>
+        </div>
+
+        </div>
+          
+
         </div>
         <img width='100%' className='static-background' src = {YT_Banner}/>
         

@@ -13,7 +13,13 @@ const SocialsComponent: React.FC<SocialsComponentProps> = ({ page }) => {
   const bioData = bios[page];
 
 
-  return (<div className='component-container' style={{backgroundColor:bioData.color}}>socials holder</div>
+  return (<div className='component-container' style={{backgroundColor:bioData.color}}>
+    {bioData.socials.map((sm: string[]) => (
+      <a href={sm[1]}>{sm[0]}</a>
+
+    ))}
+
+  </div>
     
   );
 };
