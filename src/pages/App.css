@@ -14,7 +14,7 @@
 
 .header {
   text-align: center;
-  background-color: #000142;
+  background-color: #5355e4;
   min-height: 20%;
   min-width: 100%;
   display: flex;
@@ -30,6 +30,10 @@
   padding: 0;
   z-index: 1;
 }
+/* 
+.header #my-links{
+  display: none;
+} */
 
 /* .App-link {
   color: #61dafb;
@@ -66,7 +70,6 @@
 }
 
 
-
 .header-buttons {
   margin: 5px;
   background-color: #209bd7;
@@ -74,14 +77,18 @@
   margin-top: 16px;
   margin-bottom: 16px;
   border-radius: 25px;
+  text-align: center !important;
 
   font-size: 25px;
   width: 11%;
+  min-width: 11%;
   min-height: 70px;
   text-align: center;
   transition: .2s ease;
-  
-  
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-buttons:hover{
@@ -100,7 +107,13 @@
   z-index: -2;
 }
 
-
+.mobile-only{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  margin: 0 auto;
+}
 
 .page-background {
   background-color: #209ad7f1;
@@ -191,8 +204,20 @@ float:left;
     border-left: 0px;
     border-right: 0px;
   }
+  .header-buttons{
+    width: 80%;
+    margin: 2% 0;
+    
+  }
   .header{
-    visibility: hidden;
+    position: static;
+  }
+  .header-buttons-cont {
+    
+    flex-direction: column;
+  }
+  .mobile-only{
+    display: block;
   }
 
 }

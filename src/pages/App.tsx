@@ -13,10 +13,19 @@ import Septic from '../components/Septic';
 import FullLogo_HQ_Transparent_Crop from '../assets/FullLogo_HQ_Transparent_Crop.png'
 import Twitter_Banner from './assets/Twitter_Banner.jpg'
 import YT_Banner from '../assets/YT_Banner.jpg'
+import hamburger from '../assets/sort.png'
 
 const App: React.FC = () => {
+  const [menuVisible, setMenuVisible] = useState(true);
+  const collapseButtons = () =>{
+setMenuVisible(!menuVisible);
 
-  
+
+if(document.documentElement.clientWidth > 1000){
+  setMenuVisible(menuVisible);
+}
+
+  }
 
   return (
 
@@ -26,43 +35,51 @@ const App: React.FC = () => {
         <div className='header'>
         <div className='container-row' style={{margin:"15px"}}>
           <div className='container-col-left' style={{width:"15%"}}>
-            <img height='100px' src= {FullLogo_HQ_Transparent_Crop}/></div>
+            <img height='100px' src= {FullLogo_HQ_Transparent_Crop}/>
+
+            <a href='javascript:void(0);'>
+            <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons}/></a>
+            </div>
           
-          <div className='container-col-right' style={{width:"85%"}}>
+          <div className='container-col-right' style={{width:"85%",transition:(".2s ease")}}>
+        
+
+        
                     
         <Link to="/">
-          <button className='header-buttons'>
+          <button className='header-buttons' style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Home
           </button></Link>
           <Link to="/draco">
-            <button className='header-buttons'>
+            <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Draco
           </button></Link>
           <Link to="/mukk">
-          <button className='header-buttons'>
+          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Mukk
           </button></Link>
           <Link to="/melk">
-          <button className='header-buttons'>
+          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Melk
           </button></Link>
           <Link to="/charm">
-          <button className='header-buttons'>
+          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Charm
           </button></Link>
           <Link to="/amigo">
-          <button className='header-buttons'>
+          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Amigo
           </button></Link>
           <Link to="/septic">
-          <button className='header-buttons'>
+          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Septic
           </button></Link>
-          <Link to="/about"><button className='header-buttons'>
+          <Link to="/about">
+          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             About
           </button></Link>
 
-        </div>
+        </div></div>
 
         </div>
           
@@ -88,8 +105,7 @@ const App: React.FC = () => {
         <div className='footer'>hiiiiiiiii</div>
     
         
-        
-</div>
+
         
  
     </Router>
