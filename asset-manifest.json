@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/neo-pyrite-website/static/css/main.bc701eeb.css",
-    "main.js": "/neo-pyrite-website/static/js/main.49481b84.js",
+    "main.css": "/neo-pyrite-website/static/css/main.1fcbf921.css",
+    "main.js": "/neo-pyrite-website/static/js/main.fd196b03.js",
     "static/js/453.fbff7cf7.chunk.js": "/neo-pyrite-website/static/js/453.fbff7cf7.chunk.js",
     "static/media/FullLogo_HQ_Transparent_Crop.png": "/neo-pyrite-website/static/media/FullLogo_HQ_Transparent_Crop.3d8756b914b8f39d2174.png",
-    "static/media/Pictorial_HQ_Transparent.png": "/neo-pyrite-website/static/media/Pictorial_HQ_Transparent.892a04ee2f488fafd22d.png",
     "static/media/DracoClip02.mp4": "/neo-pyrite-website/static/media/DracoClip02.540c4407f06ebe2ac2e5.mp4",
     "static/media/DracoClip01.mp4": "/neo-pyrite-website/static/media/DracoClip01.d347c18b42ae861f5811.mp4",
     "static/media/YT_Banner.jpg": "/neo-pyrite-website/static/media/YT_Banner.61e67f09cf8e11f11b19.jpg",
     "static/media/fg_beta_logo.png": "/neo-pyrite-website/static/media/fg_beta_logo.044a8a5c35fa4481efe5.png",
     "static/media/waddleguy.jpg": "/neo-pyrite-website/static/media/waddleguy.97e1e25b7d01f91ef019.jpg",
+    "static/media/CharcoalDecavitator.png": "/neo-pyrite-website/static/media/CharcoalDecavitator.95561ca0c25dcc1a90e3.png",
     "index.html": "/neo-pyrite-website/index.html",
-    "main.bc701eeb.css.map": "/neo-pyrite-website/static/css/main.bc701eeb.css.map",
-    "main.49481b84.js.map": "/neo-pyrite-website/static/js/main.49481b84.js.map",
+    "main.1fcbf921.css.map": "/neo-pyrite-website/static/css/main.1fcbf921.css.map",
+    "main.fd196b03.js.map": "/neo-pyrite-website/static/js/main.fd196b03.js.map",
     "453.fbff7cf7.chunk.js.map": "/neo-pyrite-website/static/js/453.fbff7cf7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc701eeb.css",
-    "static/js/main.49481b84.js"
+    "static/css/main.1fcbf921.css",
+    "static/js/main.fd196b03.js"
   ]
 }
