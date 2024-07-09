@@ -46,35 +46,35 @@ if(document.documentElement.clientWidth > 1000){
 
         
                     
-        <Link to="/">
+        <Link to="/neo-pyrite-website/">
           <button className='header-buttons' style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Home
           </button></Link>
-          <Link to="/draco">
+          <Link to="/neo-pyrite-website/draco">
             <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Draco
           </button></Link>
-          <Link to="/mukk">
+          <Link to="/neo-pyrite-website/mukk">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Mukk
           </button></Link>
-          <Link to="/melk">
+          <Link to="/neo-pyrite-website/melk">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Melk
           </button></Link>
-          <Link to="/charm">
+          <Link to="/neo-pyrite-website/charm">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Charm
           </button></Link>
-          <Link to="/amigo">
+          <Link to="/neo-pyrite-website/amigo">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Amigo
           </button></Link>
-          <Link to="/septic">
+          <Link to="/neo-pyrite-website/septic">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Septic
           </button></Link>
-          <Link to="/about">
+          <Link to="/neo-pyrite-website/about">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             About
           </button></Link>
@@ -89,14 +89,14 @@ if(document.documentElement.clientWidth > 1000){
         
         <div id="content">
         <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/draco' element={<Draco />} />
-            <Route path='/mukk' element={<Mukk />} />
-            <Route path='/melk' element={<Melk />} />
-            <Route path='/charm' element={<Charm />} />
-            <Route path='/amigo' element={<Amigo />} />
-            <Route path='/septic' element={<Septic />} />
+            <Route path='/neo-pyrite-website/' element={<Home />} />
+            <Route path='/neo-pyrite-website/about' element={<About />} />
+            <Route path='/neo-pyrite-website/draco' element={<Draco />} />
+            <Route path='/neo-pyrite-website/mukk' element={<Mukk />} />
+            <Route path='/neo-pyrite-website/melk' element={<Melk />} />
+            <Route path='/neo-pyrite-website/charm' element={<Charm />} />
+            <Route path='/neo-pyrite-website/amigo' element={<Amigo />} />
+            <Route path='/neo-pyrite-website/septic' element={<Septic />} />
           </Routes>
 
 
