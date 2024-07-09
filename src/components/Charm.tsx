@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Charm: React.FC = () => {
-  const backgroundColor = '#FF01cef1';
+  const backgroundColor = '#FF01cecc';
   return (
     <div>
       <div className='page-background' style={{backgroundColor}}>

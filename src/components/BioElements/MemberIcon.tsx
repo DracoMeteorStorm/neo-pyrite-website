@@ -1,7 +1,8 @@
 import React from "react";
 import { Bios } from "./bios";
 import biosData from "./bios.json"
-import waddleguy from "../assets/icons/waddleguy.jpg"
+import WeaponComponent from "./WeaponHolder";
+import waddleguy from "../../assets/icons/waddleguy.jpg"
 
 
 const bios: Bios = biosData;
@@ -26,9 +27,10 @@ interface IconComponentProps {
     
     
     return (
-        <div className="component-container">
+        <div className="component-container" style={{backgroundColor:bioData.color}}>
             <img src={iconSrc} className="bio-icon" />
             <h1>{bioData.name}</h1>
+            <WeaponComponent page={page}></WeaponComponent>
         </div>
 );
   };

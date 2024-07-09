@@ -18,8 +18,7 @@ const Home: React.FC = () => {
       </div>
       
     
-    <div className='footer'>hiiiiii <img src={Pictorial_HQ_Transparent} className='footer-icon'/>
-    </div>
+    
 </div>
     </div>
   );

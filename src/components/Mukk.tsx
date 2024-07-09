@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Mukk: React.FC = () => {
-  const backgroundColor = '#fbe746f1';
+  const backgroundColor = '#fbe746cc';
   return (
     <div>
       <div className='page-background' style={{backgroundColor}}>

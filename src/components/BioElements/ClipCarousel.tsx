@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+
 interface VideoCarouselProps {
   videoClips: string[];
 }
@@ -39,7 +40,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
   }, [currentVideoIndex, isSliding]);
 
   return (
-    <div className='component-container'>
+    
     <div className="video-container">
       {videoClips.map((clip, index) => (
         <video
@@ -57,7 +58,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
           Your browser does not support the video tag.
         </video>
       ))}
-    </div></div>
+    </div>
   );
 };
 

@@ -6,7 +6,9 @@ const Amigo: React.FC = () => {
     <div>
       <div className='page-background' style={{backgroundColor}}>
       <h1>Amigo</h1>
-      <p>AmigodAmigodrqacoAmigo</p></div>
+      <p>AmigodAmigodrqacoAmigo
+        
+        </p></div>
       <div className='footer'>hiiiiiiiii</div>
     </div>
   );
