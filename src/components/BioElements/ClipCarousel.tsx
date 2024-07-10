@@ -47,8 +47,6 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
           key={index}
           ref={(el) => videoRefs.current[index] = el}
           className={`video-element ${index === currentVideoIndex ? (isSliding ? 'exit' : 'active') : ''}`}
-          // width="640"
-          // height="360"
           muted={true}
           autoPlay={index === currentVideoIndex}
           loop={false}

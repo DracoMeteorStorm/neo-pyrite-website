@@ -14,6 +14,7 @@ import FullLogo_HQ_Transparent_Crop from '../assets/FullLogo_HQ_Transparent_Crop
 import Twitter_Banner from './assets/Twitter_Banner.jpg'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
+import gitHubIcon from '../assets/github-icon.png'
 
 const App: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState(true);
@@ -46,35 +47,35 @@ if(document.documentElement.clientWidth > 1000){
 
         
                     
-        <Link to="/">
+        <Link to="/neo-pyrite-website/">
           <button className='header-buttons' style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Home
           </button></Link>
-          <Link to="/draco">
+          <Link to="/neo-pyrite-website/draco">
             <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Draco
           </button></Link>
-          <Link to="/mukk">
+          <Link to="/neo-pyrite-website/mukk">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Mukk
           </button></Link>
-          <Link to="/melk">
+          <Link to="/neo-pyrite-website/melk">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Melk
           </button></Link>
-          <Link to="/charm">
+          <Link to="/neo-pyrite-website/charm">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Charm
           </button></Link>
-          <Link to="/amigo">
+          <Link to="/neo-pyrite-website/amigo">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Amigo
           </button></Link>
-          <Link to="/septic">
+          <Link to="/neo-pyrite-website/septic">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             Septic
           </button></Link>
-          <Link to="/about">
+          <Link to="/neo-pyrite-website/about">
           <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
             About
           </button></Link>
@@ -89,20 +90,23 @@ if(document.documentElement.clientWidth > 1000){
         
         <div id="content">
         <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/draco' element={<Draco />} />
-            <Route path='/mukk' element={<Mukk />} />
-            <Route path='/melk' element={<Melk />} />
-            <Route path='/charm' element={<Charm />} />
-            <Route path='/amigo' element={<Amigo />} />
-            <Route path='/septic' element={<Septic />} />
+            <Route path='/neo-pyrite-website/' element={<Home />} />
+            <Route path='/neo-pyrite-website/about' element={<About />} />
+            <Route path='/neo-pyrite-website/draco' element={<Draco />} />
+            <Route path='/neo-pyrite-website/mukk' element={<Mukk />} />
+            <Route path='/neo-pyrite-website/melk' element={<Melk />} />
+            <Route path='/neo-pyrite-website/charm' element={<Charm />} />
+            <Route path='/neo-pyrite-website/amigo' element={<Amigo />} />
+            <Route path='/neo-pyrite-website/septic' element={<Septic />} />
           </Routes>
 
 
 
         </div>
-        <div className='footer'>hiiiiiiiii</div>
+        <div className='footer'><p>hiiiiiiiii
+          <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
+          <img src={gitHubIcon} width={'75px'} style={{justifyContent:"right",float:"right",filter:" invert(100%)",margin:"5px"}}/></a></p>
+        </div>
     
         
 

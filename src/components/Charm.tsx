@@ -1,13 +1,44 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
+import VideoCarousel from './BioElements/ClipCarousel';
+import BioComponent from './BioElements/MemberBios';
+import IconComponent from './BioElements/MemberIcon';
+import SocialsComponent from './BioElements/MemberSocials';
+import bioData from './BioElements/bios.json'
+
 
 const Charm: React.FC = () => {
-  const backgroundColor = '#FF01cecc';
+  const backgroundColor = bioData.Charm.color + "cc";
+  const videoClips = bioData.Charm.clips;
+  const pageID = "Charm";
+  
+
   return (
     <div>
       <div className='page-background' style={{backgroundColor}}>
-      <h1>Charm</h1>
-      <p>CharmdCharmdrqacoCharm</p></div>
-      <div className='footer'>hiiiiiiiii</div>
+
+      <div className='content-container'>
+      
+      <div className='container-row'>
+        <div className='container-col-left'>
+<IconComponent page={pageID}/>
+<SocialsComponent page={pageID}></SocialsComponent>
+        </div>
+
+        <div className='container-col-right'>
+<BioComponent page={pageID}/>
+<div className='component-container' style={{backgroundColor:bioData.Charm.color}}>
+      <VideoCarousel videoClips={videoClips}></VideoCarousel></div>
+      
+        </div>
+
+
+
+      </div>
+      
+      
+      </div></div>
+
+      
     </div>
   );
 };

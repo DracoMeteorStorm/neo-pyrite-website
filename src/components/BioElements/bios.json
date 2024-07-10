@@ -2,47 +2,63 @@
 
     "Draco": {
         "name": "Draco",
-        "bio": "hey whats up im dracobro",
-        "color": "#ae51ed",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "#bf75f0",
         "weapons": ["Stamper","DualSquelch","CharDecav"],
         "socials": [["Twitter","https://twitter.com/DracoMeteorStrm"],
         ["Twitch","https://www.twitch.tv/dracometeorstrm"],
-        ["Sendou.ink","https://sendou.ink/u/dracometeorstrm"]]
+        ["Sendou.ink","https://sendou.ink/u/dracometeorstrm"]],
+        "clips": ["https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024062312513101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023120101431000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041211260700-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023030716162800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
+        "quote": "my least favorite part about being on a splatoon team is playing splatoon"
     },
     "Charm": {
         "name": "Charm",
-        "bio": "hey whats up im charm",
-        "color": "#FF01ce",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "#ff99eb",
         "weapons": [""],
-        "socials": [[""]]
+        "socials": [[""]],
+        "clips": [],
+        "quote": ""
     },
     "Mukk": {
         "name": "Mukk",
-        "bio": "hey whats up im mukk",
-        "color": "#fbe746",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "#ff6666",
         "weapons": [""],
-        "socials": [[""]]
+        "socials": [[""]],
+        "clips": [],
+        "quote": ""
     },
     "Melk": {
         "name": "Melk",
-        "bio": "hey whats up im melk",
-        "color": "#FF7f29",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "#ffa366",
         "weapons": [""],
-        "socials": [[""]]
+        "socials": [[""]],
+        "clips": [],
+        "quote": ""
     },
     "Amigo": {
         "name": "Amigo",
-        "bio": "hey whats up im amigoo",
-        "color": "#def500",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "#00cc99",
         "weapons": [""],
-        "socials": [[""]]
+        "socials": [[""]],
+        "clips": [],
+        "quote": ""
     },
     "Septic": {
         "name": "Septic",
-        "bio": "hey whats up im septic",
-        "color": "#2e00ff",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "#8266ff",
         "weapons": [""],
-        "socials": [[""]]
+        "socials": [[""]],
+        "clips": [],
+        "quote": ""
     }
     
     }

@@ -29,6 +29,7 @@
   margin: 0;
   padding: 0;
   z-index: 1;
+  border-bottom: #000000 solid 2px;
 }
 /* 
 .header #my-links{
@@ -144,7 +145,7 @@
   float: none;
   flex-wrap: wrap;
   justify-content: space-between;
-
+  
 }
 
 .container-row {
@@ -156,12 +157,12 @@
 
 
 .container-col-left{
-  width: 30%;
+  width: 40%;
 float:left;
 }
 
 .container-col-right{
-  width: 70%;
+  width: 60%;
   float:left;
 
 }
@@ -183,8 +184,22 @@ float:left;
   border-radius: 20px;
   border-color: #00000069;
   border-width: 4%;
-  border-style: inset;
+  border-style:outset;
+  transition: ease .1s;
+  color: white;
+}
+
+.component-container.alt{
   
+  background-color:#00000000;
+  border-width:0px;
+  padding-top:60px;
+  padding-bottom:60px;
+  padding-left:60px;
+  overflow:visible;
+  justify-content:center;
+
+
 }
 
 
@@ -222,11 +237,26 @@ float:left;
 
 }
 .bio-icon{
-  width: 55%;
+  width: 60%;
   height: auto;
   position: relative;
   border-radius: 20px;
+  z-index: 4;
+}
 
+.icon-splash{
+  width: 75%;
+  height: auto;
+  position:absolute;
+  border-radius: 20px;
+  z-index: 3;
+  left: 0;
+  /* top: 0; */
+}
+
+.player-name{
+  font-size:90px;
+  text-transform: uppercase;
 
 }
 
@@ -259,5 +289,20 @@ float:left;
 .video-element.exit {
 
   transform: translateX(-100%); /* Slide out to the left */
+}
+
+.weapon-container{
+  background-color:#ffffff21 !important;
+  display: inline-flex;
+  flex-direction: row;
+  
+  margin: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: #000000a2;
+  border-radius: 8px;
+  border-width: 0px;
+  border-style: solid;
+  padding: 2px;
 }
 

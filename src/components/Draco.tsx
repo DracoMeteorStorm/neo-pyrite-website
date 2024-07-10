@@ -1,6 +1,4 @@
 import React, {useState, useEffect, useRef} from 'react';
-import dracoClip01 from '../assets/videos/DracoClip01.mp4';
-import dracoClip02 from '../assets/videos/DracoClip02.mp4';
 import VideoCarousel from './BioElements/ClipCarousel';
 import BioComponent from './BioElements/MemberBios';
 import IconComponent from './BioElements/MemberIcon';
@@ -10,7 +8,7 @@ import bioData from './BioElements/bios.json'
 
 const Draco: React.FC = () => {
   const backgroundColor = bioData.Draco.color + "cc";
-  const videoClipsDraco = [dracoClip01, dracoClip02];
+  const videoClips = bioData.Draco.clips;
   const pageID = "Draco";
   
 
@@ -29,7 +27,7 @@ const Draco: React.FC = () => {
         <div className='container-col-right'>
 <BioComponent page={pageID}/>
 <div className='component-container' style={{backgroundColor:bioData.Draco.color}}>
-      <VideoCarousel videoClips={videoClipsDraco}></VideoCarousel></div>
+      <VideoCarousel videoClips={videoClips}></VideoCarousel></div>
       
         </div>
 
