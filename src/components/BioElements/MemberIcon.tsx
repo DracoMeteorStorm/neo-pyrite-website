@@ -20,7 +20,7 @@ interface IconComponentProps {
     
   };
 
-  const randVal = Math.floor(Math.random()* (3) + 1);
+  
   
   const IconComponent: React.FC<IconComponentProps> = ({ page }) => {
     const bioData = bios[page];
@@ -28,7 +28,7 @@ interface IconComponentProps {
   if (!bioData) {
     return <p>Bio not found.</p>;
   }
-
+  const randVal = Math.floor(Math.random()* (3) + 1);
   const iconSrc = iconMap[bioData.name];
 
   const squidMap: { [key:number] : string } = {
@@ -52,10 +52,22 @@ interface IconComponentProps {
           
         </div> */}
         <div className="component-container" style={{backgroundColor:bioData.color}}>
+            {randVal < 3 ? <h1 className="player-name">{bioData.name + " "}
+              <img src={squidMap[randVal]} height={"60px"}/>
+              </h1> : 
+              <h1 className="player-name">
+              <img src={squidMap[randVal]} height={"60px"}/>{" " + bioData.name}
+              </h1>
+              
+              }
             
-            <h1 className="player-name">{bioData.name + " "}
-            <img src={squidMap[randVal]} height={"60px"}/>
-          </h1>
+              
+            
+          
+          <p style={{fontStyle:"italic",padding:"3px"}}>"{bioData.quote}"</p>
+          </div>
+
+          <div className="component-container" style={{backgroundColor:bioData.color}}>
             <WeaponComponent page={page}></WeaponComponent>
         </div></div>
 );

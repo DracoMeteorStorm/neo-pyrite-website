@@ -14,6 +14,7 @@ import FullLogo_HQ_Transparent_Crop from '../assets/FullLogo_HQ_Transparent_Crop
 import Twitter_Banner from './assets/Twitter_Banner.jpg'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
+import gitHubIcon from '../assets/github-icon.png'
 
 const App: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState(true);
@@ -102,7 +103,10 @@ if(document.documentElement.clientWidth > 1000){
 
 
         </div>
-        <div className='footer'>hiiiiiiiii</div>
+        <div className='footer'><p>hiiiiiiiii
+          <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
+          <img src={gitHubIcon} width={'75px'} style={{justifyContent:"right",float:"right",filter:" invert(100%)",margin:"5px"}}/></a></p>
+        </div>
     
         
 

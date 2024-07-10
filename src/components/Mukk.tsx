@@ -1,13 +1,44 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
+import VideoCarousel from './BioElements/ClipCarousel';
+import BioComponent from './BioElements/MemberBios';
+import IconComponent from './BioElements/MemberIcon';
+import SocialsComponent from './BioElements/MemberSocials';
+import bioData from './BioElements/bios.json'
+
 
 const Mukk: React.FC = () => {
-  const backgroundColor = '#fbe746cc';
+  const backgroundColor = bioData.Mukk.color + "cc";
+  const videoClips = bioData.Mukk.clips;
+  const pageID = "Mukk";
+  
+
   return (
     <div>
       <div className='page-background' style={{backgroundColor}}>
-      <h1>Mukk</h1>
-      <p>MukkdMukkMukk</p></div>
-      <div className='footer'>hiiiiiiiii</div>
+
+      <div className='content-container'>
+      
+      <div className='container-row'>
+        <div className='container-col-left'>
+<IconComponent page={pageID}/>
+<SocialsComponent page={pageID}></SocialsComponent>
+        </div>
+
+        <div className='container-col-right'>
+<BioComponent page={pageID}/>
+<div className='component-container' style={{backgroundColor:bioData.Mukk.color}}>
+      <VideoCarousel videoClips={videoClips}></VideoCarousel></div>
+      
+        </div>
+
+
+
+      </div>
+      
+      
+      </div></div>
+
+      
     </div>
   );
 };
