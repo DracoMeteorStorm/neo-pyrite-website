@@ -10,8 +10,7 @@ import Melk from '../components/Melk';
 import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
-import FullLogo_HQ_Transparent_Crop from '../assets/FullLogo_HQ_Transparent_Crop.png'
-import Twitter_Banner from './assets/Twitter_Banner.jpg'
+import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
 import gitHubIcon from '../assets/github-icon.png'
@@ -54,13 +53,13 @@ if(document.documentElement.clientWidth > 1000){
         <div className='header'>
         <div className='container-row' style={{margin:"15px"}}>
           <div className='container-col-left' style={{width:"15%"}}>
-            <img height='100px' src= {FullLogo_HQ_Transparent_Crop}/>
+            <img width='100%' src= {LogoSmall}/>
 
             <a href='javascript:void(0);'>
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons}/></a>
             </div>
           
-          <div className='container-col-right' style={{width:"85%",transition:(".2s ease")}}>
+          <div className='container-col-right' style={{width:"85%",transition:(".2s ease"),alignContent:"center"}}>
         
 
         
