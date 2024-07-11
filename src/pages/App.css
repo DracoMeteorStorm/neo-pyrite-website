@@ -69,7 +69,13 @@
     right: 20px;
     
 }
-
+/* 
+.button-image{
+  width: 11%;
+  position: relative;
+  z-index: 2;
+  
+} */
 
 .header-buttons {
   margin: 5px;
@@ -83,22 +89,31 @@
   color: white;
   font-size: 25px;
   width: 11%;
+  height: 100%;
   min-width: 11%;
   min-height: 70px;
   
   text-align: center;
-  transition: .2s ease;
+  transition: .3s ease;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 3;
 }
 
 .header-buttons:hover{
   scale: 95%;
-  background-color: #fbd644;
   cursor: pointer;
-  
+  background-color: #fbd644;
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.png");
+
+background-repeat: no-repeat;
+
+background-size: cover;
+
+
 }
 
 .header-buttons.current{

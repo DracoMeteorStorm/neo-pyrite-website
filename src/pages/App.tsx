@@ -14,6 +14,7 @@ import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
 import gitHubIcon from '../assets/github-icon.png'
+import DracoAvi from "../assets/icons/DracoAvi.png"
 
 const App: React.FC = () => {
 
@@ -52,14 +53,14 @@ if(document.documentElement.clientWidth > 1000){
     <div className='App'>
         <div className='header'>
         <div className='container-row' style={{margin:"15px"}}>
-          <div className='container-col-left' style={{width:"15%"}}>
+          <div className='container-col-left' style={{width:"15%",height:"20vh"}}>
             <img width='100%' src= {LogoSmall}/>
 
             <a href='javascript:void(0);'>
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons}/></a>
             </div>
           
-          <div className='container-col-right' style={{width:"85%",transition:(".2s ease"),alignContent:"center"}}>
+          <div className='container-col-right' style={{width:"85%",height:"20vh",transition:(".2s ease"),alignContent:"center"}}>
         
 
         
@@ -71,9 +72,11 @@ if(document.documentElement.clientWidth > 1000){
             Home
           </button></Link>
           <Link to="/neo-pyrite-website/draco">
+            
           <button className={"Draco" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Draco")}}>
+                    
             Draco
           </button></Link>
           <Link to="/neo-pyrite-website/mukk">
