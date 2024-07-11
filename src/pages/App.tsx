@@ -73,7 +73,7 @@ if(document.documentElement.clientWidth > 1000){
           </button></Link>
           <Link to="/neo-pyrite-website/draco">
             
-          <button className={"Draco" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+          <button id="draco" className={"Draco" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Draco")}}>
                     

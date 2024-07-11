@@ -107,13 +107,13 @@
   scale: 95%;
   cursor: pointer;
   background-color: #fbd644;
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.png");
-
+ 
 background-repeat: no-repeat;
-
 background-size: cover;
+}
 
-
+#draco:hover{
+   background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.png");
 }
 
 .header-buttons.current{
