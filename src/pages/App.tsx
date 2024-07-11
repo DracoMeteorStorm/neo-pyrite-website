@@ -17,7 +17,25 @@ import hamburger from '../assets/sort.png'
 import gitHubIcon from '../assets/github-icon.png'
 
 const App: React.FC = () => {
+
+
+  const [currentPage, setCurrentPage] = useState("Home")
   const [menuVisible, setMenuVisible] = useState(true);
+
+  const buttonClick = (newPage: string) => {
+      updateButtons(newPage);
+      collapseButtons();
+
+
+  }
+
+  const updateButtons = (newPage: string) => {
+    newPage !== currentPage ? 
+    setCurrentPage(newPage) :
+    setCurrentPage(currentPage);
+
+
+  }
   const collapseButtons = () =>{
 setMenuVisible(!menuVisible);
 
@@ -48,35 +66,51 @@ if(document.documentElement.clientWidth > 1000){
         
                     
         <Link to="/neo-pyrite-website/">
-          <button className='header-buttons' style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"Home" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("Home")}}>
             Home
           </button></Link>
           <Link to="/neo-pyrite-website/draco">
-            <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"Draco" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("Draco")}}>
             Draco
           </button></Link>
           <Link to="/neo-pyrite-website/mukk">
-          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"Mukk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("Mukk")}}>
             Mukk
           </button></Link>
           <Link to="/neo-pyrite-website/melk">
-          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"Melk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("Melk")}}>
             Melk
           </button></Link>
           <Link to="/neo-pyrite-website/charm">
-          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"Charm" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("Charm")}}>
             Charm
           </button></Link>
           <Link to="/neo-pyrite-website/amigo">
-          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"Amigo" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("Amigo")}}>
             Amigo
           </button></Link>
           <Link to="/neo-pyrite-website/septic">
-          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"Septic" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("Septic")}}>
             Septic
           </button></Link>
           <Link to="/neo-pyrite-website/about">
-          <button className='header-buttons'  style={{display:(menuVisible ? 'inline-flex' : 'none')}} onClick={collapseButtons}>
+          <button className={"About" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+                  style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
+                  onClick={()=>{buttonClick("About")}}>
             About
           </button></Link>
 

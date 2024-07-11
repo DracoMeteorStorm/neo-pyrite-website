@@ -14,7 +14,7 @@
 
 .header {
   text-align: center;
-  background-color: #5355e4;
+  background-color: #000000;
   min-height: 20%;
   min-width: 100%;
   display: flex;
@@ -29,7 +29,7 @@
   margin: 0;
   padding: 0;
   z-index: 1;
-  border-bottom: #000000 solid 2px;
+  border-bottom: #ffffff solid 2px;
 }
 /* 
 .header #my-links{
@@ -73,13 +73,14 @@
 
 .header-buttons {
   margin: 5px;
-  background-color: #209bd7;
-  border: 2px solid rgb(0, 0, 0);
+  background-color: #2843fa;
+  border: 2px solid rgb(255, 255, 255);
   margin-top: 16px;
   margin-bottom: 16px;
-  border-radius: 25px;
+  border-radius: 35px;
+  border-top-left-radius: 5px;
   text-align: center !important;
-
+  color: white;
   font-size: 25px;
   width: 11%;
   min-width: 11%;
@@ -94,8 +95,14 @@
 
 .header-buttons:hover{
   scale: 95%;
-  
+  background-color: #fbd644;
   cursor: pointer;
+  
+}
+
+.header-buttons.current{
+  background-color: #fbd644;
+  color: #000000;
 }
 
 .static-background {
