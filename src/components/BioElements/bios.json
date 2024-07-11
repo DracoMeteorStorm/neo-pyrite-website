@@ -15,20 +15,11 @@
         "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023030716162800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
         "quote": "my least favorite part about being on a splatoon team is playing splatoon"
     },
-    "Charm": {
-        "name": "Charm",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "color": "#ff99eb",
-        "weapons": [""],
-        "socials": [[""]],
-        "clips": [],
-        "quote": ""
-    },
     "Mukk": {
         "name": "Mukk",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#ff6666",
-        "weapons": [""],
+        "weapons": ["VShot","Squeezer"],
         "socials": [[""]],
         "clips": [],
         "quote": ""
@@ -37,7 +28,16 @@
         "name": "Melk",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#ffa366",
-        "weapons": [""],
+        "weapons": ["RangeBlast"],
+        "socials": [[""]],
+        "clips": [],
+        "quote": ""
+    },
+    "Charm": {
+        "name": "Charm",
+        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "#ff99eb",
+        "weapons": ["Ballpoint","HeavyEdit","Wiper"],
         "socials": [[""]],
         "clips": [],
         "quote": ""
@@ -46,7 +46,7 @@
         "name": "Amigo",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#00cc99",
-        "weapons": [""],
+        "weapons": ["Roller","Slosh","Dualie"],
         "socials": [[""]],
         "clips": [],
         "quote": ""
@@ -55,7 +55,7 @@
         "name": "Septic",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#8266ff",
-        "weapons": [""],
+        "weapons": ["Bow","Wellstring"],
         "socials": [[""]],
         "clips": [],
         "quote": ""
