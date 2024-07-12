@@ -101,12 +101,13 @@
   align-items: center;
   position: relative;
   z-index: 3;
+  overflow: hidden;
 }
 
 .header-buttons:hover{
   scale: 95%;
   cursor: pointer;
-  background-color: #fbd644;
+  /* background-color: #fbd644; */
  
 background-repeat: no-repeat;
 background-size: cover;
@@ -116,10 +117,51 @@ background-size: cover;
    background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.png");
 }
 
-.header-buttons.current{
-  background-color: #fbd644;
-  color: #000000;
+#mukk:hover{
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MukkAvi.png");
 }
+
+#melk:hover{
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MelkAvi.png");
+}
+
+#charm:hover{
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/CharmAvi.png");
+}
+
+#amigo:hover{
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/AmigoAvi.jpg");
+}
+
+#septic:hover{
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/SepticAvi.png");
+}
+
+.header-buttons.current{
+  background-color: #0022ff;
+  border-color: #fbd644;
+}
+
+
+.button-wrap{
+  position: static;
+  background-color: #2843fa;
+  height: 100%;
+  width: 100%;
+  transition:.4s ease;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-align: center;
+}
+
+.button-wrap:hover{
+  background-color: #2844fa00;
+  color: #00000000;
+  /* content-visibility: hidden; */
+}
+
+
 
 .static-background {
   position:fixed;

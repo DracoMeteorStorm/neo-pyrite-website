@@ -60,7 +60,7 @@ if(document.documentElement.clientWidth > 1000){
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons}/></a>
             </div>
           
-          <div className='container-col-right' style={{width:"85%",height:"20vh",transition:(".2s ease"),alignContent:"center"}}>
+          <div className='container-col-right' style={{width:"85%",height:"20vh",transition:(".2s ease"),alignContent:"center",marginBottom:"10px"}}>
         
 
         
@@ -69,51 +69,70 @@ if(document.documentElement.clientWidth > 1000){
           <button className={"Home" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Home")}}>
+                    <div className='button-wrap'
+                    style={{backgroundColor:("Home" === currentPage ? "#00000000" : "")}}
+                    >
             Home
+            </div>
           </button></Link>
           <Link to="/neo-pyrite-website/draco">
             
           <button id="draco" className={"Draco" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Draco")}}>
-                    
+                    <div className='button-wrap'
+                          style={{backgroundColor:("Draco" === currentPage ? "#00000000" : "")}}>                    
             Draco
+            </div>
           </button></Link>
           <Link to="/neo-pyrite-website/mukk">
-          <button className={"Mukk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+          <button id="mukk" className={"Mukk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Mukk")}}>
-            Mukk
+                    <div className='button-wrap'
+                          style={{backgroundColor:("Mukk" === currentPage ? "#00000000" : "")}}>
+            Mukk</div>
           </button></Link>
           <Link to="/neo-pyrite-website/melk">
-          <button className={"Melk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+          <button id="melk" className={"Melk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Melk")}}>
-            Melk
+                    <div className='button-wrap'
+                          style={{backgroundColor:("Melk" === currentPage ? "#00000000" : "")}}>
+            Melk</div>
           </button></Link>
           <Link to="/neo-pyrite-website/charm">
-          <button className={"Charm" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+          <button id="charm" className={"Charm" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Charm")}}>
-            Charm
+                    <div className='button-wrap'
+                          style={{backgroundColor:("Charm" === currentPage ? "#00000000" : "")}}>
+            Charm</div>
           </button></Link>
           <Link to="/neo-pyrite-website/amigo">
-          <button className={"Amigo" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+          <button id="amigo" className={"Amigo" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Amigo")}}>
-            Amigo
+                    <div className='button-wrap'
+                          style={{backgroundColor:("Amigo" === currentPage ? "#00000000" : "")}}>
+            Amigo</div>
           </button></Link>
           <Link to="/neo-pyrite-website/septic">
-          <button className={"Septic" !== currentPage ? 'header-buttons' : 'header-buttons current'}
+          <button id="septic" className={"Septic" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Septic")}}>
-            Septic
+                    <div className='button-wrap'
+                          style={{backgroundColor:("Septic" === currentPage ? "#00000000" : "")}}
+                          >
+            Septic</div>
           </button></Link>
           <Link to="/neo-pyrite-website/about">
           <button className={"About" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("About")}}>
-            About
+                    <div className='button-wrap'
+                          style={{backgroundColor:("About" === currentPage ? "#00000000" : "")}}>
+            About</div>
           </button></Link>
 
         </div></div>
