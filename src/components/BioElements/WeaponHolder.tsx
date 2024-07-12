@@ -16,6 +16,8 @@ import SplatDualies from "../../assets/badges/SplatDualies.png"
 import TriStringer from "../../assets/badges/TriStringer.png"
 import WellstringV from "../../assets/badges/WellstringV.png"
 import SloshingMachine from "../../assets/badges/SloshingMachine.png"
+import CarbonRollerDeco from "../../assets/badges/CarbonRollerDeco.png"
+import OrderSlosher from "../../assets/badges/OrderSlosher.png"
 
 
 const bios: Bios = biosData;
@@ -39,7 +41,9 @@ interface WeaponComponentProps {
     "Dualie": SplatDualies,
     "Bow": TriStringer,
     "Wellstring": WellstringV,
-    "Machine": SloshingMachine
+    "Machine": SloshingMachine,
+    "CarbonDeco": CarbonRollerDeco,
+    "OrderSlosh": OrderSlosher
 
 
   };

@@ -4,6 +4,7 @@ export interface Bio {
     color: string;
     weapons: string[];
     socials: string[string[]];
+    numSocials: number;
     clips: string[]
     quote: string
   }

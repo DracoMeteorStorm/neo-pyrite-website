@@ -8,6 +8,7 @@
         "socials": [["Twitter","https://twitter.com/DracoMeteorStrm"],
         ["Twitch","https://www.twitch.tv/dracometeorstrm"],
         ["Sendou.ink","https://sendou.ink/u/dracometeorstrm"]],
+        "numSocials":3,
         "clips": ["https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024062312513101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
         "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023120101431000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
         "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041211260700-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
@@ -20,6 +21,7 @@
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#ff6666",
         "weapons": ["VShot","Squeezer"],
+        "numSocials":0,
         "socials": [[""]],
         "clips": [],
         "quote": ""
@@ -29,6 +31,7 @@
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#ffa366",
         "weapons": ["RangeBlast","Machine"],
+        "numSocials":1,
         "socials": [["Twitter","https://x.com/CranberryMelK"]],
         "clips": [],
         "quote": ""
@@ -38,6 +41,7 @@
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#ff99eb",
         "weapons": ["Ballpoint","HeavyEdit","Wiper"],
+        "numSocials":0,
         "socials": [[""]],
         "clips": [],
         "quote": ""
@@ -46,7 +50,8 @@
         "name": "Amigo",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#00cc99",
-        "weapons": ["Roller","Slosh","Dualie"],
+        "weapons": ["CarbonDeco","OrderSlosh","Roller","Machine"],
+        "numSocials":0,
         "socials": [[""]],
         "clips": [],
         "quote": ""
@@ -56,6 +61,7 @@
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#8266ff",
         "weapons": ["Bow","Wellstring"],
+        "numSocials":0,
         "socials": [[""]],
         "clips": [],
         "quote": ""

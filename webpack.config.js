@@ -17,6 +17,11 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
+      },{
+        test: /\.(ttf|otf)/,
+        type: 'asset/resource'
+
+
       },
       {
         test: /\.css$/i,
@@ -29,15 +34,19 @@ module.exports = {
           },
         ],
       },{
-        test: /\.(mp4|webm|ogg)$/, // Add video formats here
+        test: /\.(mp4|webm|ogg)$/,
         use: {
           loader: 'file-loader',
           options: {
             name: '[name].[hash].[ext]',
-            outputPath: 'videos/', // Adjust output path if needed
+            outputPath: 'videos/',
           },
         },
     },
+    {
+      test: /\.svg$/,
+      loader: 'svg-inline-loader'
+  },
     {
       test: /\.html$/,
       use: ['html-loader']
