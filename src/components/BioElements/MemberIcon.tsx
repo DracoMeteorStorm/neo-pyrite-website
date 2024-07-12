@@ -2,7 +2,8 @@ import React from "react";
 import { Bios } from "./bios";
 import biosData from "./bios.json"
 import WeaponComponent from "./WeaponHolder";
-import waddleguy from "../../assets/icons/waddleguy.jpg"
+import DracoAvi2 from "../../assets/icons/waddleguy.jpg"
+import MelkAvi2 from "../../assets/icons/MelkAvi2.jpg"
 import iconSplash from "../../assets/Asset 8.png"
 import squid1 from "../../assets/squids/Squid1.png"
 import squid2 from "../../assets/squids/Squid2.png"
@@ -16,7 +17,8 @@ interface IconComponentProps {
   }
 
   const iconMap: { [key: string]: string } = {
-    "Draco": waddleguy
+    "Draco": DracoAvi2,
+    "Melk": MelkAvi2
     
   };
 

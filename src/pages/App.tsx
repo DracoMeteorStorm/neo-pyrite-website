@@ -1,5 +1,6 @@
 import './App.css'
 import React, { useState } from 'react';
+import { Font } from "@react-pdf/renderer"
 import fg_beta_logo from './assets/fg_beta_logo.png';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from '../components/Home';
@@ -14,9 +15,14 @@ import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
 import gitHubIcon from '../assets/github-icon.png'
-import DracoAvi from "../assets/icons/DracoAvi.png"
+import BubbleValentine from "../assets/fonts/Bubble Valentine.ttf"
 
 const App: React.FC = () => {
+
+  // Font.register({
+  //   family: "BubbleValentine",
+  //   src:  BubbleValentine,
+  // });
 
 
   const [currentPage, setCurrentPage] = useState("Home")

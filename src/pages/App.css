@@ -140,6 +140,7 @@ background-size: cover;
 .header-buttons.current{
   background-color: #0022ff;
   border-color: #fbd644;
+  color: #fbd644;
 }
 
 
@@ -182,7 +183,7 @@ background-size: cover;
 }
 
 .page-background {
-  background-color: #209ad7f1;
+  background-color: #209ad7cc;
   min-height: 100vh;
   background-size: cover;
   

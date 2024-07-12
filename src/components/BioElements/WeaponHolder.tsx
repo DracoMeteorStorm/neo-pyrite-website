@@ -15,6 +15,7 @@ import Slosher from "../../assets/badges/Slosher.png"
 import SplatDualies from "../../assets/badges/SplatDualies.png"
 import TriStringer from "../../assets/badges/TriStringer.png"
 import WellstringV from "../../assets/badges/WellstringV.png"
+import SloshingMachine from "../../assets/badges/SloshingMachine.png"
 
 
 const bios: Bios = biosData;
@@ -37,7 +38,8 @@ interface WeaponComponentProps {
     "Slosh": Slosher,
     "Dualie": SplatDualies,
     "Bow": TriStringer,
-    "Wellstring": WellstringV
+    "Wellstring": WellstringV,
+    "Machine": SloshingMachine
 
 
   };
