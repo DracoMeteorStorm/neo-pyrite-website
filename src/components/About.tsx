@@ -12,8 +12,8 @@ const About: React.FC = () => {
       <div className='container-col-left'>
         <div className='component-container'
       style={{backgroundColor:"#209ad7"}}>
-        <h1>About Us</h1>
-        <p>{infoPages.About.AboutUsBlurb}</p>
+        <h1 style={{fontSize:"50px"}}>About Us</h1>
+        <p style={{margin:"10px",fontSize:"20px"}}>{infoPages.About.AboutUsBlurb}</p>
         </div>
 
       </div>

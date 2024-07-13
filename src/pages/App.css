@@ -268,8 +268,12 @@ height: auto;
 float: left;
 align-content: center;
 justify-content: center;
+padding: 5px;
 
+}
 
+.twitter-container{
+  
 }
 
 .header-col-right{

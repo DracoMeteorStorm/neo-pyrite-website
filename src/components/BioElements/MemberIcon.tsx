@@ -24,9 +24,12 @@ interface IconComponentProps {
 
   const iconMap: { [key: string]: string } = {
     "Draco": DracoPFP,
+    "Mukk": "https://pbs.twimg.com/profile_images/1756057323049492480/ZePelDcX_400x400.jpg",
     "Melk": MelkPFP,
     "Charm": CharmPFP,
-    "Amigo": AmigoPFP
+    "Amigo": AmigoPFP,
+    "Septic": "https://pbs.twimg.com/profile_images/1792509533987753984/-eVbou9M_400x400.jpg"
+
     
   };
 
