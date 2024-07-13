@@ -1,5 +1,5 @@
 import './App.css'
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
@@ -35,13 +35,26 @@ const App: React.FC = () => {
 
 
   }
+
+  const handleResize = () => {
+    if (window.innerWidth > 1000) {
+      setMenuVisible(true);
+     
+    } 
+  };
+
+  useEffect(() => {
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Check the initial window size
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const collapseButtons = () =>{
 setMenuVisible(!menuVisible);
 
-
-if(document.documentElement.clientWidth > 1000){
-  setMenuVisible(menuVisible);
-}
 
   }
 
@@ -52,14 +65,14 @@ if(document.documentElement.clientWidth > 1000){
     <div className='App'>
         <div className='header'>
         <div className='container-row' style={{margin:"15px"}}>
-          <div className='container-col-left' style={{width:"15%",height:"20vh"}}>
-            <img width='100%' src= {LogoSmall}/>
+          <div className='header-col-left'>
+            <img className='header-logo' src= {LogoSmall}/>
 
             <a href='javascript:void(0);'>
-            <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons}/></a>
+            <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/></a>
             </div>
           
-          <div className='container-col-right' style={{width:"85%",height:"20vh",transition:(".2s ease"),alignContent:"center",marginBottom:"10px"}}>
+          <div className='header-col-right'>
         
 
         
@@ -68,11 +81,10 @@ if(document.documentElement.clientWidth > 1000){
           <button className={"Home" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Home")}}>
-                    <div className='button-wrap'
-                    style={{backgroundColor:("Home" === currentPage ? "#00000000" : "")}}
-                    >
+                    {/* <div className='button-wrap' style={{backgroundColor:("Home" === currentPage ? "#00000000" : "")}}></div> */}
+                    
             Home
-            </div>
+            {/* </div> */}
           </button></Link>
           <Link to="/neo-pyrite-website/draco">
             
@@ -129,9 +141,9 @@ if(document.documentElement.clientWidth > 1000){
           <button className={"About" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("About")}}>
-                    <div className='button-wrap'
-                          style={{backgroundColor:("About" === currentPage ? "#00000000" : "")}}>
-            About</div>
+                    {/* <div className='button-wrap' style={{backgroundColor:("About" === currentPage ? "#00000000" : "")}}> */}
+            About
+            {/* </div> */}
           </button></Link>
 
         </div></div>

@@ -59,6 +59,10 @@
 /* .App-link {
   color: #61dafb;
 } */
+.header-logo{
+  width: 100%;
+}
+
 .footer {
   background-color: #000000;
   min-height: 5%;
@@ -120,14 +124,14 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 3;
+  
   overflow: hidden;
 }
 
 .header-buttons:hover{
   scale: 95%;
   cursor: pointer;
-  /* background-color: #fbd644; */
+  background-color: #fbd644;
  
 background-repeat: no-repeat;
 background-size: cover;
@@ -135,6 +139,7 @@ background-size: cover;
 
 #draco:hover{
    background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.png");
+   
 }
 
 #mukk:hover{
@@ -155,6 +160,10 @@ background-size: cover;
 
 #septic:hover{
   background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/SepticAvi.png");
+}
+
+#draco:hover,#mukk:hover,#melk:hover,#charm:hover,#amigo:hover,#septic:hover{
+  background-color: #2843fa;
 }
 
 .header-buttons.current{
@@ -251,8 +260,27 @@ float:left;
 .container-col-right{
   width: 60%;
   float:left;
+}
+
+.header-col-left{
+width: 15%;
+/* height: 20vh; */
+float: left;
+align-content: center;
+justify-content: center;
+
 
 }
+
+.header-col-right{
+  width:85%;
+  height:20vh;
+  align-content: center;
+  color: red;
+  float:left;
+  margin-bottom: 10px;
+}
+
 
 .component-container{
   margin: 2%;
@@ -321,13 +349,33 @@ float:left;
   .mobile-only{
     display: block;
   }
-
+  .header-logo{
+    width: 45%;
+    
+  }
+  .header-col-left{
+    width:100%;
+    
+  }
+  .header-col-right{
+    width: 100%;
+    height: auto;
+  }
+  .button-wrap:hover{
+    background-color: #2843fa;
+    color:#f1f3df;
+    background-size: cover;
+  }
+  #draco:hover,#mukk:hover,#melk:hover,#charm:hover,#amigo:hover,#septic:hover{
+    background-image: none;
+  }
 }
 .bio-icon{
   width: 60%;
   height: auto;
   position: relative;
   border-radius: 20px;
+  box-shadow: 10px 10px 20px #f1f3dfad;
   z-index: 4;
 }
 
