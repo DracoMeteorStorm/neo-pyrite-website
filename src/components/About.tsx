@@ -1,4 +1,5 @@
 import React from 'react';
+import infoPages from "./BioElements/infoPages.json"
 
 const About: React.FC = () => {
   return (
@@ -11,7 +12,8 @@ const About: React.FC = () => {
       <div className='container-col-left'>
         <div className='component-container'
       style={{backgroundColor:"#209ad7"}}>
-        we do stuff
+        <h1>About Us</h1>
+        <p>{infoPages.About.AboutUsBlurb}</p>
         </div>
 
       </div>
@@ -20,7 +22,8 @@ const About: React.FC = () => {
       <div className='component-container'
       style={{backgroundColor:"#209ad7"}}>
 
-        crazy stuff.
+        <img width="100%" src='https://storage.googleapis.com/neo-pyrite-site/FoolsGoldBanner.png' style={{borderRadius:"15px"}}/>
+        <p style={{fontStyle:"italic"}}>Banner by <a href='https://twitter.com/BUGSSLAP'>Bugslap</a></p>
       </div>
 
       </div>

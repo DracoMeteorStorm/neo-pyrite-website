@@ -264,7 +264,7 @@ float:left;
 
 .header-col-left{
 width: 15%;
-/* height: 20vh; */
+height: auto;
 float: left;
 align-content: center;
 justify-content: center;

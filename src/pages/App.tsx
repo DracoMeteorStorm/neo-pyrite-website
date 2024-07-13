@@ -23,7 +23,7 @@ const App: React.FC = () => {
 
   const buttonClick = (newPage: string) => {
       updateButtons(newPage);
-      collapseButtons();
+      // collapseButtons();
 
 
   }
@@ -40,7 +40,10 @@ const App: React.FC = () => {
     if (window.innerWidth > 1000) {
       setMenuVisible(true);
      
-    } 
+    }
+    else{
+      setMenuVisible(false);
+    }
   };
 
   useEffect(() => {
