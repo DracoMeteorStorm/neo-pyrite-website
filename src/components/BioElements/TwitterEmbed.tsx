@@ -14,7 +14,7 @@ const TwitterEmbed: React.FC = () => {
       <a
         className="twitter-timeline"
         data-theme="dark"
-        data-width="650px"
+        data-width="100%"
         data-height="800px"
         href="https://twitter.com/NeoPyriteSPL?ref_src=twsrc%5Etfw"
       >

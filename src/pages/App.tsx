@@ -23,7 +23,8 @@ const App: React.FC = () => {
 
   const buttonClick = (newPage: string) => {
       updateButtons(newPage);
-      // collapseButtons();
+      if( window.innerWidth < 1000){
+      collapseButtons();}
 
 
   }

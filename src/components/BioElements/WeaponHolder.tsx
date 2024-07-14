@@ -50,7 +50,7 @@ interface WeaponComponentProps {
     "OrderSlosh": OrderSlosher,
     "FoilSqueezer": FoilSqueezer,
     "InkBow": InklineTriStringer,
-    "OrderBow": InklineTriStringer,
+    "OrderBow": OrderTriStringer,
     "CWellstring": CustomWellstringV,
     "Enperries": EnperrySplatDualies
 

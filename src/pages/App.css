@@ -382,6 +382,9 @@ padding: 5px;
   .component-container.yt{
     height: 60vw;
   }
+  .lil-squid{
+    display: none;
+  }
 }
 .bio-icon{
   width: 60%;
@@ -470,9 +473,6 @@ padding: 5px;
     
     scale: 105%;
 }
-
-
-
 
 
 
