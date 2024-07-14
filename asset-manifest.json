@@ -1,23 +1,36 @@
 {
   "files": {
-    "main.css": "/neo-pyrite-website/static/css/main.ba641cfd.css",
-    "main.js": "/neo-pyrite-website/static/js/main.f28d3ed8.js",
+    "main.css": "/neo-pyrite-website/static/css/main.2d9580e9.css",
+    "main.js": "/neo-pyrite-website/static/js/main.d3fd0a70.js",
     "static/js/453.fbff7cf7.chunk.js": "/neo-pyrite-website/static/js/453.fbff7cf7.chunk.js",
-    "static/media/FullLogo_HQ_Transparent_Crop.png": "/neo-pyrite-website/static/media/FullLogo_HQ_Transparent_Crop.3d8756b914b8f39d2174.png",
+    "static/media/CharmPFP.png": "/neo-pyrite-website/static/media/CharmPFP.30b0b1ef742c1fb1350c.png",
+    "static/media/DelaGothicOne-Regular.ttf": "/neo-pyrite-website/static/media/DelaGothicOne-Regular.a8761c8c6d54ccaa44db.ttf",
     "static/media/YT_Banner.jpg": "/neo-pyrite-website/static/media/YT_Banner.61e67f09cf8e11f11b19.jpg",
     "static/media/Asset 8.png": "/neo-pyrite-website/static/media/Asset 8.f29a74981e3fcf0b37ea.png",
-    "static/media/Squid2.png": "/neo-pyrite-website/static/media/Squid2.e56037206415005b5b33.png",
-    "static/media/Squid3.png": "/neo-pyrite-website/static/media/Squid3.821b906aa0713120e0c5.png",
-    "static/media/Squid1.png": "/neo-pyrite-website/static/media/Squid1.a40dd4eef55dff64419e.png",
-    "static/media/fg_beta_logo.png": "/neo-pyrite-website/static/media/fg_beta_logo.044a8a5c35fa4481efe5.png",
-    "static/media/waddleguy.jpg": "/neo-pyrite-website/static/media/waddleguy.97e1e25b7d01f91ef019.jpg",
+    "static/media/AmigoPFP.png": "/neo-pyrite-website/static/media/AmigoPFP.9c8d1e01d5367a890df3.png",
+    "static/media/SepticPFP.jpg": "/neo-pyrite-website/static/media/SepticPFP.528687e394ae6b55ab17.jpg",
+    "static/media/MukkPFP.png": "/neo-pyrite-website/static/media/MukkPFP.8a5cff54c092056532aa.png",
+    "static/media/coolveticaRg.otf": "/neo-pyrite-website/static/media/coolveticaRg.3d81d0e1fdbd5f69b232.otf",
+    "static/media/LogoSmall.png": "/neo-pyrite-website/static/media/LogoSmall.edaafdba8619b8e195d2.png",
+    "static/media/yellow_squib.png": "/neo-pyrite-website/static/media/yellow_squib.ee71657390fd82763a49.png",
+    "static/media/BubbleValentine.ttf": "/neo-pyrite-website/static/media/BubbleValentine.9692d7ba2eb99770540f.ttf",
+    "static/media/orange_squib.png": "/neo-pyrite-website/static/media/orange_squib.41917559356aecadfc40.png",
+    "static/media/blue_squib.png": "/neo-pyrite-website/static/media/blue_squib.9d894f3309ef6e6d412c.png",
+    "static/media/lime_squib.png": "/neo-pyrite-website/static/media/lime_squib.b908d9531de0acf3a785.png",
+    "static/media/purple_squib.png": "/neo-pyrite-website/static/media/purple_squib.671cce91a1ee039fc37c.png",
+    "static/media/magenta_squib.png": "/neo-pyrite-website/static/media/magenta_squib.5f47744f93ab369c95ca.png",
+    "static/media/pink_squib.png": "/neo-pyrite-website/static/media/pink_squib.1c7122d3adb4a9397a0f.png",
+    "static/media/MelkPFP.jpg": "/neo-pyrite-website/static/media/MelkPFP.eb84d0d8d49aa4c390cc.jpg",
+    "static/media/DracoPFP.jpg": "/neo-pyrite-website/static/media/DracoPFP.97e1e25b7d01f91ef019.jpg",
+    "static/media/CharcoalDecavitator.png": "/neo-pyrite-website/static/media/CharcoalDecavitator.95561ca0c25dcc1a90e3.png",
+    "static/media/EnperrySplatDualies.png": "/neo-pyrite-website/static/media/EnperrySplatDualies.a9ab7bec1a444af5fb2b.png",
     "index.html": "/neo-pyrite-website/index.html",
-    "main.ba641cfd.css.map": "/neo-pyrite-website/static/css/main.ba641cfd.css.map",
-    "main.f28d3ed8.js.map": "/neo-pyrite-website/static/js/main.f28d3ed8.js.map",
+    "main.2d9580e9.css.map": "/neo-pyrite-website/static/css/main.2d9580e9.css.map",
+    "main.d3fd0a70.js.map": "/neo-pyrite-website/static/js/main.d3fd0a70.js.map",
     "453.fbff7cf7.chunk.js.map": "/neo-pyrite-website/static/js/453.fbff7cf7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba641cfd.css",
-    "static/js/main.f28d3ed8.js"
+    "static/css/main.2d9580e9.css",
+    "static/js/main.d3fd0a70.js"
   ]
 }
