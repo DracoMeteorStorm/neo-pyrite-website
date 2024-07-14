@@ -18,7 +18,7 @@ import WellstringV from "../../assets/badges/WellstringV.png"
 import SloshingMachine from "../../assets/badges/SloshingMachine.png"
 import CarbonRollerDeco from "../../assets/badges/CarbonRollerDeco.png"
 import OrderSlosher from "../../assets/badges/OrderSlosher.png"
-
+import FoilSqueezer from "../../assets/badges/FoilSqueezer.png"
 
 const bios: Bios = biosData;
 
@@ -43,7 +43,8 @@ interface WeaponComponentProps {
     "Wellstring": WellstringV,
     "Machine": SloshingMachine,
     "CarbonDeco": CarbonRollerDeco,
-    "OrderSlosh": OrderSlosher
+    "OrderSlosh": OrderSlosher,
+    "FoilSqueezer": FoilSqueezer
 
 
   };

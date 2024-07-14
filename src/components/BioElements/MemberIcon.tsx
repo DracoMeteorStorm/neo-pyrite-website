@@ -3,6 +3,7 @@ import { Bios } from "./bios";
 import biosData from "./bios.json"
 import WeaponComponent from "./WeaponHolder";
 import DracoPFP from "../../assets/icons/DracoPFP.jpg"
+import MukkPFP from "../../assets/icons/MukkPFP.png"
 import MelkPFP from "../../assets/icons/MelkPFP.jpg"
 import CharmPFP from "../../assets/icons/CharmPFP.png"
 import AmigoPFP from "../../assets/icons/AmigoPFP.png"
@@ -24,7 +25,7 @@ interface IconComponentProps {
 
   const iconMap: { [key: string]: string } = {
     "Draco": DracoPFP,
-    "Mukk": "https://pbs.twimg.com/profile_images/1756057323049492480/ZePelDcX_400x400.jpg",
+    "Mukk": MukkPFP,
     "Melk": MelkPFP,
     "Charm": CharmPFP,
     "Amigo": AmigoPFP,
