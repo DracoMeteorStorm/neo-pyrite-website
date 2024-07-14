@@ -21,7 +21,6 @@ const Amigo: React.FC = () => {
       <div className='container-row'>
         <div className='container-col-left'>
 <IconComponent page={pageID}/>
-<SocialsComponent page={pageID}></SocialsComponent>
         </div>
 
         <div className='container-col-right'>

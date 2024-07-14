@@ -75,10 +75,12 @@
   color: white;
   /* position: sticky; */
   bottom: 0;
-  margin: 0;
+  padding: 10px;
   position: relative;
+  font-size: 15px;
   z-index: 1;
-
+  font-family: "coolvetica";
+  border-top: #f1f3df solid 2px;
 }
 
 .footer-text {
@@ -272,9 +274,9 @@ padding: 5px;
 
 }
 
-.twitter-container{
+/* .twitter-container{
   
-}
+} */
 
 .header-col-right{
   width:85%;
@@ -318,9 +320,11 @@ padding: 5px;
   overflow:visible;
   justify-content:center;
 
-
 }
 
+.component-container.yt{
+  height: 32vw;
+}
 
 @media screen and (max-width: 1000px) {
   .container-col-left {
@@ -372,6 +376,9 @@ padding: 5px;
   }
   #draco:hover,#mukk:hover,#melk:hover,#charm:hover,#amigo:hover,#septic:hover{
     background-image: none;
+  }
+  .component-container.yt{
+    height: 60vw;
   }
 }
 .bio-icon{
@@ -445,3 +452,30 @@ padding: 5px;
   padding: 2px;
 }
 
+.weapon-container.socials{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.socials-icon{
+  width: 45px;
+  margin: 5px;
+  filter: invert(100%);
+  transition: ease .2s;
+}
+
+.socials-icon:hover{
+    
+    scale: 105%;
+}
+
+
+
+
+
+
+.twitter-container{
+  height: 100%;
+  width: 100%;
+  padding: 0%;
+}

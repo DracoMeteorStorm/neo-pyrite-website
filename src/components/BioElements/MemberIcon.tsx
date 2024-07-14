@@ -15,6 +15,7 @@ import squid4 from "../../assets/squids/lime_squib.png"
 import squid5 from "../../assets/squids/pink_squib.png"
 import squid6 from "../../assets/squids/purple_squib.png"
 import squid7 from "../../assets/squids/yellow_squib.png"
+import SocialsComponent from "./MemberSocials";
 
 
 const bios: Bios = biosData;
@@ -88,7 +89,15 @@ interface IconComponentProps {
 
           <div className="component-container" style={{backgroundColor:bioData.color}}>
             <WeaponComponent page={page}></WeaponComponent>
-        </div></div>
+        </div>
+        {bioData.numSocials !== 0 ?
+        <div className="component-container" style={{backgroundColor:bioData.color}}>
+            <SocialsComponent page={page}></SocialsComponent>
+        </div>
+        : <div></div>
+        }
+        
+        </div>
 );
   };
   

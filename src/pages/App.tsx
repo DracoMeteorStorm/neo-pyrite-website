@@ -172,9 +172,10 @@ setMenuVisible(!menuVisible);
 
 
         </div>
-        <div className='footer'><p>hiiiiiiiii
+        <div className='footer'><p>hiiiiiiiii 
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
-          <img src={gitHubIcon} width={'75px'} style={{justifyContent:"right",float:"right",filter:" invert(100%)",margin:"5px"}}/></a></p>
+          <img src={gitHubIcon} width={'50px'} style={{justifyContent:"right",float:"right",filter:" invert(100%)",margin:"5px"}}/></a><br></br>
+        <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Social media icons created by Pixel perfect - Flaticon</a></p>
         </div>
     
         

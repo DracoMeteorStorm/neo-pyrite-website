@@ -19,6 +19,7 @@ import SloshingMachine from "../../assets/badges/SloshingMachine.png"
 import CarbonRollerDeco from "../../assets/badges/CarbonRollerDeco.png"
 import OrderSlosher from "../../assets/badges/OrderSlosher.png"
 import FoilSqueezer from "../../assets/badges/FoilSqueezer.png"
+import InklineTriStringer from "../../assets/badges/InklineTriStringer.png"
 
 const bios: Bios = biosData;
 
@@ -44,7 +45,8 @@ interface WeaponComponentProps {
     "Machine": SloshingMachine,
     "CarbonDeco": CarbonRollerDeco,
     "OrderSlosh": OrderSlosher,
-    "FoilSqueezer": FoilSqueezer
+    "FoilSqueezer": FoilSqueezer,
+    "InkBow": InklineTriStringer
 
 
   };
@@ -56,7 +58,9 @@ interface WeaponComponentProps {
     return (<div>
         {bioData.weapons.map((weapon) => (
           <div className="weapon-container">
-        <img src={wepMap[weapon]} alt={weapon} key={weapon} width={"60px"}/></div>))}
+        <img src={wepMap[weapon]} alt={weapon} key={weapon} width={"60px"}/>
+        </div>
+      ))}
 
     </div>
         

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Bios } from './bios';
 import biosData from './bios.json';
-import TwitterIcon from "../../assets/SocialMedia/twitter.svg"
-
+import TwitterIcon from "../../assets/SocialMedia/twitter.png"
+import YoutubeIcon from "../../assets/SocialMedia/youtube.png"
+import TwitchIcon from "../../assets/SocialMedia/twitch.png"
 
 const bios: Bios = biosData;
 
@@ -11,7 +12,9 @@ interface SocialsComponentProps {
 }
 
 const socialIcons: {[key:string]:string} = {
-"Twitter": TwitterIcon
+"Twitter": TwitterIcon,
+"YouTube": YoutubeIcon,
+"Twitch": TwitchIcon
 
 
 }
@@ -25,12 +28,14 @@ const SocialsComponent: React.FC<SocialsComponentProps> = ({ page }) => {
   return (<div>
   
   {bioData.numSocials !== 0 ?
-  <div className='component-container' style={{backgroundColor:bioData.color}}>
+  <div>
     {bioData.socials.map((sm: string[]) => (
-      
+      <div className='weapon-container socials'>
       <a href={sm[1]} target='_blank'>
+        <img className="socials-icon" src={socialIcons[sm[0]]}/>
         
-        {sm[0]}</a>
+        </a>
+        </div>
 
     ))}
 

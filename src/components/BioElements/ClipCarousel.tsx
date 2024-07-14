@@ -50,7 +50,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
           muted={true}
           autoPlay={index === currentVideoIndex}
           loop={false}
-          controls={false}
+          controls={true}
         >
           <source src={clip} type="video/mp4" />
           Your browser does not support the video tag.
