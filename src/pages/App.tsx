@@ -175,7 +175,9 @@ setMenuVisible(!menuVisible);
         <div className='footer'><p>hiiiiiiiii 
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
           <img src={gitHubIcon} width={'50px'} style={{justifyContent:"right",float:"right",filter:" invert(100%)",margin:"5px"}}/></a><br></br>
-        <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Social media icons created by Pixel perfect - Flaticon</a></p>
+        Social media icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br>
+        Social media icons created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a>
+        </p>
         </div>
     
         

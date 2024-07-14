@@ -20,6 +20,9 @@ import CarbonRollerDeco from "../../assets/badges/CarbonRollerDeco.png"
 import OrderSlosher from "../../assets/badges/OrderSlosher.png"
 import FoilSqueezer from "../../assets/badges/FoilSqueezer.png"
 import InklineTriStringer from "../../assets/badges/InklineTriStringer.png"
+import OrderTriStringer from "../../assets/badges/OrderTriStringer.png"
+import CustomWellstringV from "../../assets/badges/CustomWellstringV.png"
+import EnperrySplatDualies from "../../assets/badges/EnperrySplatDualies.png"
 
 const bios: Bios = biosData;
 
@@ -46,7 +49,10 @@ interface WeaponComponentProps {
     "CarbonDeco": CarbonRollerDeco,
     "OrderSlosh": OrderSlosher,
     "FoilSqueezer": FoilSqueezer,
-    "InkBow": InklineTriStringer
+    "InkBow": InklineTriStringer,
+    "OrderBow": InklineTriStringer,
+    "CWellstring": CustomWellstringV,
+    "Enperries": EnperrySplatDualies
 
 
   };

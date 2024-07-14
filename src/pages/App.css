@@ -227,6 +227,7 @@ background-size: cover;
   z-index: 0;
   border-left: #0000003d groove 15px;
   border-right: #0000003d ridge 15px;
+  
 }
 
 
@@ -243,6 +244,7 @@ background-size: cover;
   flex-wrap: wrap;
   justify-content: space-between;
   font-family: "coolvetica";
+  
   
 }
 

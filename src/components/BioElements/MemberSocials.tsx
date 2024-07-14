@@ -4,6 +4,8 @@ import biosData from './bios.json';
 import TwitterIcon from "../../assets/SocialMedia/twitter.png"
 import YoutubeIcon from "../../assets/SocialMedia/youtube.png"
 import TwitchIcon from "../../assets/SocialMedia/twitch.png"
+import TumblrIcon from "../../assets/SocialMedia/tumblr.png"
+import EtsyIcon from "../../assets/SocialMedia/etsy.png"
 
 const bios: Bios = biosData;
 
@@ -14,7 +16,9 @@ interface SocialsComponentProps {
 const socialIcons: {[key:string]:string} = {
 "Twitter": TwitterIcon,
 "YouTube": YoutubeIcon,
-"Twitch": TwitchIcon
+"Twitch": TwitchIcon,
+"Etsy": EtsyIcon,
+"Tumblr": TumblrIcon
 
 
 }

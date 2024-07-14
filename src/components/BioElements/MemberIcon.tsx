@@ -7,6 +7,7 @@ import MukkPFP from "../../assets/icons/MukkPFP.png"
 import MelkPFP from "../../assets/icons/MelkPFP.jpg"
 import CharmPFP from "../../assets/icons/CharmPFP.png"
 import AmigoPFP from "../../assets/icons/AmigoPFP.png"
+import SepticPFP from "../../assets/icons/SepticPFP.jpg"
 import iconSplash from "../../assets/Asset 8.png"
 import squid1 from "../../assets/squids/blue_squib.png"
 import squid2 from "../../assets/squids/magenta_squib.png"
@@ -30,7 +31,7 @@ interface IconComponentProps {
     "Melk": MelkPFP,
     "Charm": CharmPFP,
     "Amigo": AmigoPFP,
-    "Septic": "https://pbs.twimg.com/profile_images/1792509533987753984/-eVbou9M_400x400.jpg"
+    "Septic": SepticPFP
 
     
   };
