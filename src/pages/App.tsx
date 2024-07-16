@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 import Draco from '../components/Draco';
@@ -82,7 +82,7 @@ setMenuVisible(!menuVisible);
 
         
                     
-        <Link to="/">
+        <Link to="/neo-pyrite-website/">
           <button className={"Home" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Home")}}>
@@ -91,7 +91,7 @@ setMenuVisible(!menuVisible);
             Home
             {/* </div> */}
           </button></Link>
-          <Link to="/draco">
+          <Link to="/neo-pyrite-website/draco">
             
           <button id="draco" className={"Draco" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
@@ -101,7 +101,7 @@ setMenuVisible(!menuVisible);
             Draco
             </div>
           </button></Link>
-          <Link to="/mukk">
+          <Link to="/neo-pyrite-website/mukk">
           <button id="mukk" className={"Mukk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Mukk")}}>
@@ -109,7 +109,7 @@ setMenuVisible(!menuVisible);
                           style={{backgroundColor:("Mukk" === currentPage ? "#00000000" : "")}}>
             Mukk</div>
           </button></Link>
-          <Link to="/melk">
+          <Link to="/neo-pyrite-website/melk">
           <button id="melk" className={"Melk" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Melk")}}>
@@ -117,7 +117,7 @@ setMenuVisible(!menuVisible);
                           style={{backgroundColor:("Melk" === currentPage ? "#00000000" : "")}}>
             Melk</div>
           </button></Link>
-          <Link to="/charm">
+          <Link to="/neo-pyrite-website/charm">
           <button id="charm" className={"Charm" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Charm")}}>
@@ -125,7 +125,7 @@ setMenuVisible(!menuVisible);
                           style={{backgroundColor:("Charm" === currentPage ? "#00000000" : "")}}>
             Charm</div>
           </button></Link>
-          <Link to="/amigo">
+          <Link to="/neo-pyrite-website/amigo">
           <button id="amigo" className={"Amigo" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Amigo")}}>
@@ -133,7 +133,7 @@ setMenuVisible(!menuVisible);
                           style={{backgroundColor:("Amigo" === currentPage ? "#00000000" : "")}}>
             Amigo</div>
           </button></Link>
-          <Link to="/septic">
+          <Link to="/neo-pyrite-website/septic">
           <button id="septic" className={"Septic" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Septic")}}>
@@ -142,7 +142,7 @@ setMenuVisible(!menuVisible);
                           >
             Septic</div>
           </button></Link>
-          <Link to="/about">
+          <Link to="/neo-pyrite-website/about">
           <button className={"About" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("About")}}>
@@ -161,14 +161,15 @@ setMenuVisible(!menuVisible);
         
         <div id="content">
         <Routes>
-            <Route path='/' element={<Home />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/draco' element={<Draco />} />
-            <Route path='/mukk' element={<Mukk />} />
-            <Route path='/melk' element={<Melk />} />
-            <Route path='/charm' element={<Charm />} />
-            <Route path='/amigo' element={<Amigo />} />
-            <Route path='/septic' element={<Septic />} />
+            <Route path='/neo-pyrite-website/' element={<Home />} />
+            <Route path='/neo-pyrite-website/about' element={<About />} />
+            <Route path='/neo-pyrite-website/draco' element={<Draco />} />
+            <Route path='/neo-pyrite-website/mukk' element={<Mukk />} />
+            <Route path='/neo-pyrite-website/melk' element={<Melk />} />
+            <Route path='/neo-pyrite-website/charm' element={<Charm />} />
+            <Route path='/neo-pyrite-website/amigo' element={<Amigo />} />
+            <Route path='/neo-pyrite-website/septic' element={<Septic />} />
+            <Route path='/' element={<Home />}/>
             <Route path='*' element={<Err404 />}/>
           </Routes>
 
