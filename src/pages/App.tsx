@@ -9,6 +9,7 @@ import Melk from '../components/Melk';
 import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
+import Err404 from '../components/404';
 import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
@@ -64,7 +65,7 @@ setMenuVisible(!menuVisible);
 
   return (
 
-    <Router basename='/'>
+    <Router>
     
     <div className='App'>
         <div className='header'>
@@ -168,6 +169,7 @@ setMenuVisible(!menuVisible);
             <Route path='/charm' element={<Charm />} />
             <Route path='/amigo' element={<Amigo />} />
             <Route path='/septic' element={<Septic />} />
+            <Route path='*' element={<Err404 />}/>
           </Routes>
 
 
