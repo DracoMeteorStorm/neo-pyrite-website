@@ -160,14 +160,14 @@ setMenuVisible(!menuVisible);
         
         <div id="content">
         <Routes>
-            <Route path='/neo-pyrite-website/' element={<Home />} />
-            <Route path='/neo-pyrite-website/about' element={<About />} />
-            <Route path='/neo-pyrite-website/draco' element={<Draco />} />
-            <Route path='/neo-pyrite-website/mukk' element={<Mukk />} />
-            <Route path='/neo-pyrite-website/melk' element={<Melk />} />
-            <Route path='/neo-pyrite-website/charm' element={<Charm />} />
-            <Route path='/neo-pyrite-website/amigo' element={<Amigo />} />
-            <Route path='/neo-pyrite-website/septic' element={<Septic />} />
+            <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/draco' element={<Draco />} />
+            <Route path='/mukk' element={<Mukk />} />
+            <Route path='/melk' element={<Melk />} />
+            <Route path='/charm' element={<Charm />} />
+            <Route path='/amigo' element={<Amigo />} />
+            <Route path='/septic' element={<Septic />} />
           </Routes>
 
 
