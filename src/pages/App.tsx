@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Routes, BrowserRouter, useLocation } from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 import Draco from '../components/Draco';
@@ -20,6 +20,7 @@ const App: React.FC = () => {
 
   const [currentPage, setCurrentPage] = useState("Home")
   const [menuVisible, setMenuVisible] = useState(true);
+  // const location = useLocation();
 
   const buttonClick = (newPage: string) => {
       updateButtons(newPage);
@@ -56,37 +57,37 @@ const App: React.FC = () => {
     };
   }, []);
 
-  useEffect(() => {
-    const path = location.pathname;
-    switch (path) {
-      case "/neo-pyrite-website/":
-        setCurrentPage("Home");
-        break;
-      case "/neo-pyrite-website/draco":
-        setCurrentPage("Draco");
-        break;
-      case "/neo-pyrite-website/mukk":
-        setCurrentPage("Mukk");
-        break;
-      case "/neo-pyrite-website/melk":
-        setCurrentPage("Melk");
-        break;
-      case "/neo-pyrite-website/charm":
-        setCurrentPage("Charm");
-        break;
-      case "/neo-pyrite-website/amigo":
-        setCurrentPage("Amigo");
-        break;
-      case "/neo-pyrite-website/septic":
-        setCurrentPage("Septic");
-        break;
-      case "/neo-pyrite-website/about":
-        setCurrentPage("About");
-        break;
-      default:
-        setCurrentPage("404");
-    }
-  }, [location]);
+  // useEffect(() => {
+  //   const path = location.pathname;
+  //   switch (path) {
+  //     case "/neo-pyrite-website/":
+  //       setCurrentPage("Home");
+  //       break;
+  //     case "/neo-pyrite-website/draco":
+  //       setCurrentPage("Draco");
+  //       break;
+  //     case "/neo-pyrite-website/mukk":
+  //       setCurrentPage("Mukk");
+  //       break;
+  //     case "/neo-pyrite-website/melk":
+  //       setCurrentPage("Melk");
+  //       break;
+  //     case "/neo-pyrite-website/charm":
+  //       setCurrentPage("Charm");
+  //       break;
+  //     case "/neo-pyrite-website/amigo":
+  //       setCurrentPage("Amigo");
+  //       break;
+  //     case "/neo-pyrite-website/septic":
+  //       setCurrentPage("Septic");
+  //       break;
+  //     case "/neo-pyrite-website/about":
+  //       setCurrentPage("About");
+  //       break;
+  //     default:
+  //       setCurrentPage("404");
+  //   }
+  // }, [location]);
 
   const collapseButtons = () =>{
 setMenuVisible(!menuVisible);
