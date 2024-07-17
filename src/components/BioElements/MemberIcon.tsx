@@ -3,10 +3,10 @@ import { Bios } from "./bios";
 import biosData from "./bios.json"
 import WeaponComponent from "./WeaponHolder";
 import DracoPFP from "../../assets/icons/DracoPFP.jpg"
-import MukkPFP from "../../assets/icons/MukkPFP.png"
+import MukkPFP from "../../assets/icons/MukkPFP.jpg"
 import MelkPFP from "../../assets/icons/MelkPFP.jpg"
-import CharmPFP from "../../assets/icons/CharmPFP.png"
-import AmigoPFP from "../../assets/icons/AmigoPFP.png"
+import CharmPFP from "../../assets/icons/CharmPFP.jpg"
+import AmigoPFP from "../../assets/icons/AmigoPFP.jpg"
 import SepticPFP from "../../assets/icons/SepticPFP.jpg"
 import iconSplash from "../../assets/Asset 8.png"
 import squid1 from "../../assets/squids/blue_squib.png"

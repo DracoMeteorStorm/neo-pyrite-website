@@ -14,11 +14,18 @@ import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
 import gitHubIcon from '../assets/github-icon.png'
+import DracoPFP from "../assets/icons/DracoPFP.jpg"
+import MukkPFP from "../assets/icons/MukkPFP.jpg"
+import MelkPFP from "../assets/icons/MelkPFP.jpg"
+import CharmPFP from "../assets/icons/CharmPFP.jpg"
+import AmigoPFP from "../assets/icons/AmigoPFP.jpg"
+import SepticPFP from "../assets/icons/SepticPFP.jpg"
+import IconSplash from "../assets/Asset 8.png"
+
 
 const App: React.FC = () => {
 
-
-  const [currentPage, setCurrentPage] = useState("Home")
+  const [currentPage, setCurrentPage] = useState("");
   const [menuVisible, setMenuVisible] = useState(true);
 
   const buttonClick = (newPage: string) => {
@@ -55,7 +62,8 @@ const App: React.FC = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
+  
+ 
   const collapseButtons = () =>{
 setMenuVisible(!menuVisible);
 
@@ -183,6 +191,16 @@ setMenuVisible(!menuVisible);
         Twitter, YouTube, Twitch, Tumblr icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br>
         Etsy icon created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a>
         </p>
+        <div style={{display:"none"}}>
+          <img src={DracoPFP}/>
+          <img src={MukkPFP}/>
+          <img src={MelkPFP}/>
+          <img src={CharmPFP}/>
+          <img src={AmigoPFP}/>
+          <img src={SepticPFP}/>
+          <img src={IconSplash}/>
+        </div>
+        
         </div>
     
         

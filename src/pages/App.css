@@ -291,10 +291,10 @@ padding: 5px;
 
 
 .component-container{
-  margin: 2%;
+  margin: 1%;
   padding: 2%;
   background-color: #ffffff;
-  width: 95%;
+  width: 98%;
   height: min-content;
   position: relative;
   overflow: hidden;
