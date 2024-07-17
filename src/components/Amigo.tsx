@@ -4,13 +4,14 @@ import BioComponent from './BioElements/MemberBios';
 import IconComponent from './BioElements/MemberIcon';
 import SocialsComponent from './BioElements/MemberSocials';
 import bioData from './BioElements/bios.json'
-
+import { memo } from 'react';
 
 const Amigo: React.FC = () => {
   const backgroundColor = bioData.Amigo.color + "cc";
   const videoClips = bioData.Amigo.clips;
   const pageID = "Amigo";
   
+
 
   return (
     <div>
@@ -42,4 +43,4 @@ const Amigo: React.FC = () => {
   );
 };
 
-export default Amigo;
+export default memo(Amigo);

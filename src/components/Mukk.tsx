@@ -4,6 +4,7 @@ import BioComponent from './BioElements/MemberBios';
 import IconComponent from './BioElements/MemberIcon';
 import SocialsComponent from './BioElements/MemberSocials';
 import bioData from './BioElements/bios.json'
+import { memo } from 'react';
 
 
 const Mukk: React.FC = () => {
@@ -42,4 +43,4 @@ const Mukk: React.FC = () => {
   );
 };
 
-export default Mukk;
+export default memo(Mukk);

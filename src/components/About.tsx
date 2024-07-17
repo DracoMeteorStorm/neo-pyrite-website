@@ -1,5 +1,6 @@
 import React from 'react';
 import infoPages from "./BioElements/infoPages.json"
+import { memo } from 'react';
 
 const About: React.FC = () => {
   return (
@@ -40,4 +41,4 @@ const About: React.FC = () => {
   );
 };
 
-export default About;
+export default memo(About);

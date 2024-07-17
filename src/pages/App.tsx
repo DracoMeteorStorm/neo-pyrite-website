@@ -14,7 +14,6 @@ import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
 import gitHubIcon from '../assets/github-icon.png'
-// import BubbleValentine from "../assets/fonts/BubbleValentine.ttf"
 
 const App: React.FC = () => {
 
@@ -24,7 +23,7 @@ const App: React.FC = () => {
 
   const buttonClick = (newPage: string) => {
       updateButtons(newPage);
-      if( window.innerWidth < 1000){
+      if( window.innerWidth < 1024){
       collapseButtons();}
 
 
@@ -39,7 +38,7 @@ const App: React.FC = () => {
   }
 
   const handleResize = () => {
-    if (window.innerWidth > 1000) {
+    if (window.innerWidth > 1024) {
       setMenuVisible(true);
      
     }
@@ -56,6 +55,38 @@ const App: React.FC = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  useEffect(() => {
+    const path = location.pathname;
+    switch (path) {
+      case "/neo-pyrite-website/":
+        setCurrentPage("Home");
+        break;
+      case "/neo-pyrite-website/draco":
+        setCurrentPage("Draco");
+        break;
+      case "/neo-pyrite-website/mukk":
+        setCurrentPage("Mukk");
+        break;
+      case "/neo-pyrite-website/melk":
+        setCurrentPage("Melk");
+        break;
+      case "/neo-pyrite-website/charm":
+        setCurrentPage("Charm");
+        break;
+      case "/neo-pyrite-website/amigo":
+        setCurrentPage("Amigo");
+        break;
+      case "/neo-pyrite-website/septic":
+        setCurrentPage("Septic");
+        break;
+      case "/neo-pyrite-website/about":
+        setCurrentPage("About");
+        break;
+      default:
+        setCurrentPage("404");
+    }
+  }, [location]);
 
   const collapseButtons = () =>{
 setMenuVisible(!menuVisible);

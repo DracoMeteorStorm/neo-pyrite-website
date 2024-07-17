@@ -328,7 +328,7 @@ padding: 5px;
   height: 32vw;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .container-col-left {
     width: 100% !important;
   }
@@ -344,6 +344,21 @@ padding: 5px;
     border-left: 0px;
     border-right: 0px;
   }
+#err-page{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+  #err404{
+    background-color: #FFFFFFCC;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+  }
+  .err2{
+    font-size: 25px !important;
+  }
+
   .header-buttons{
     width: 80%;
     margin: 2% 0;
@@ -480,4 +495,11 @@ padding: 5px;
   height: 100%;
   width: 100%;
   padding: 0%;
+}
+
+.err1{font-size: 90px;}
+
+.err2{
+  font-size: 50px;
+  font-style: italic;
 }

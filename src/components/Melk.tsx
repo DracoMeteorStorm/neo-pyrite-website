@@ -4,6 +4,8 @@ import BioComponent from './BioElements/MemberBios';
 import IconComponent from './BioElements/MemberIcon';
 import SocialsComponent from './BioElements/MemberSocials';
 import bioData from './BioElements/bios.json'
+import { memo } from 'react';
+
 
 
 const Melk: React.FC = () => {
@@ -42,4 +44,4 @@ const Melk: React.FC = () => {
   );
 };
 
-export default Melk;
+export default memo(Melk);

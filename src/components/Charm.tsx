@@ -4,6 +4,7 @@ import BioComponent from './BioElements/MemberBios';
 import IconComponent from './BioElements/MemberIcon';
 import SocialsComponent from './BioElements/MemberSocials';
 import bioData from './BioElements/bios.json'
+import { memo } from 'react';
 
 
 const Charm: React.FC = () => {
@@ -42,4 +43,4 @@ const Charm: React.FC = () => {
   );
 };
 
-export default Charm;
+export default memo(Charm);

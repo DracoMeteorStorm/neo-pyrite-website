@@ -2,6 +2,8 @@ import React from 'react';
 import fg_beta_logo from '../assets/fg_beta_logo.png';
 import TwitterEmbed from './BioElements/TwitterEmbed';
 import Pictorial_HQ_Transparent from '../assets/Pictorial_HQ_Transparent.png'
+import { memo } from 'react';
+
 
 const Home: React.FC = () => {
   const pageColor = "#209ad7";
@@ -48,4 +50,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default memo(Home);
