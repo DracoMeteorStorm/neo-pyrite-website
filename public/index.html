@@ -21,9 +21,13 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script>
-
-      
+    <script type="text/javascript">
+      // Check for the redirect query parameter
+      var params = new URLSearchParams(window.location.search);
+      var redirectPath = params.get('redirect');
+      if (redirectPath) {
+        window.history.replaceState({}, document.title, redirectPath);
+      }
     </script>
     <!-- <script defer="defer" src="bundle.js"></script> -->
     <!-- Your bundled React app will be injected here -->
