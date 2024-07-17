@@ -9,7 +9,7 @@ import Melk from '../components/Melk';
 import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
-import Err404 from '../components/404';
+import Err404 from '../components/Err404';
 import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
@@ -94,9 +94,11 @@ setMenuVisible(!menuVisible);
 
   }
 
+
+
   return (
 
-    <Router>
+    <BrowserRouter>
     
     <div className='App'>
         <div className='header'>
@@ -104,7 +106,7 @@ setMenuVisible(!menuVisible);
           <div className='header-col-left'>
             <img className='header-logo' src= {LogoSmall}/>
 
-            <a href='javascript:void(0);'>
+            <a>
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/></a>
             </div>
           
@@ -210,8 +212,8 @@ setMenuVisible(!menuVisible);
         <div className='footer'><p>hiiiiiiiii 
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
           <img src={gitHubIcon} width={'50px'} style={{justifyContent:"right",float:"right",filter:" invert(100%)",margin:"5px"}}/></a><br></br>
-        Social media icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br>
-        Social media icons created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a>
+        Twitter, YouTube, Twitch, Tumblr icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br>
+        Etsy icon created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a>
         </p>
         </div>
     
@@ -219,7 +221,7 @@ setMenuVisible(!menuVisible);
 
         
  
-    </Router>
+    </BrowserRouter>
   );
 }
 

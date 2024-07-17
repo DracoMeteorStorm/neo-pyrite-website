@@ -1,4 +1,4 @@
-import bioData from "../components/BioElements/bios.json"
+import bioData from "./BioElements/bios.json"
 const Err404: React.FC = () => {
     const backgroundColor = "#FFFFFF" + "cc";
     
