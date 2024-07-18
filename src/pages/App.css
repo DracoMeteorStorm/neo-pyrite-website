@@ -312,6 +312,7 @@ padding: 5px;
   color: white;
 }
 
+
 .component-container.alt{
   
   background-color:#00000000;
@@ -334,6 +335,7 @@ padding: 5px;
   }
   .container-col-right {
     width: 100% !important;
+    margin-top: 0;
   }
   .component-container {
     width: 100%; /* Stack containers on smaller screens */
@@ -354,7 +356,8 @@ padding: 5px;
     background-color: #FFFFFFCC;
     margin-left: 0;
     margin-right: 0;
-    padding: 5px;
+    padding: 10px;
+    min-height: 1000px;
   }
   .err2{
     font-size: 25px !important;
@@ -398,8 +401,18 @@ padding: 5px;
   .component-container.yt{
     height: 60vw;
   }
+  .component-container.alt2{
+    margin-top: 0%;
+  }
+  .player-name{
+    font-size: 60px;
+  }
+
   .lil-squid{
     display: none;
+  }
+  .component-container.desktop{
+  display: none;
   }
 }
 .bio-icon{
