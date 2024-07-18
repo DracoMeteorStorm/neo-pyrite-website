@@ -10,10 +10,9 @@
         ],
         "numSocials":2,
         "clips": ["https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024062312513101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023120101431000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041211260700-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023030716162800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041418363201-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023090320324101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
         "quote": "my least favorite part about being on a splatoon team is playing splatoon"
     },
     "Mukk": {
@@ -66,7 +65,10 @@
         "weapons": ["OrderBow","InkBow","Wellstring","CWellstring","Enperries"],
         "numSocials":3,
         "socials": [["Twitter","https://x.com/septictech"],["Etsy","https://www.etsy.com/shop/LousyFrowsy"],["Tumblr","https://www.tumblr.com/septictech"]],
-        "clips": [],
+        "clips": ["https://storage.googleapis.com/neo-pyrite-site/SepticClips/2024032822482301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2024010802355800-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
+                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2023091612243600-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
+                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2023071400265100-4CE9651EE88A979D41F24CE8D6EA1C23.mov"],
         "quote": "If you're not paying me, I'm not selling my body to this game. Goodnight"
     }
     
