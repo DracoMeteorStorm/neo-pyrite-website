@@ -25,10 +25,10 @@ const Amigo: React.FC = () => {
         </div>
 
         <div className='container-col-right'>
-<BioComponent page={pageID}/>
-<div className='component-container' style={{backgroundColor:bioData.Amigo.color}}>
+
+<div className='component-container desktop' style={{backgroundColor:bioData.Amigo.color}}>
       <VideoCarousel videoClips={videoClips}></VideoCarousel></div>
-      
+      <BioComponent page={pageID}/>
         </div>
 
 
