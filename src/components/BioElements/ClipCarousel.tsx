@@ -40,7 +40,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
   }, [currentVideoIndex, isSliding]);
 
   return (
-    
+    <>
     <div className="video-container">
       {videoClips.map((clip, index) => (
         <video
@@ -57,6 +57,14 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
         </video>
       ))}
     </div>
+    <div>
+        {videoClips.map(()=>(
+          <div className='weapon-container'></div>
+        ))}
+    </div>
+    </>
+    
+    
   );
 };
 

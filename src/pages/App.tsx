@@ -21,7 +21,13 @@ import CharmPFP from "../assets/icons/CharmPFP.jpg"
 import AmigoPFP from "../assets/icons/AmigoPFP.jpg"
 import SepticPFP from "../assets/icons/SepticPFP.jpg"
 import IconSplash from "../assets/Asset 8.png"
-
+import Squid1 from "../assets/squids/blue_squib.png"
+import Squid2 from "../assets/squids/lime_squib.png"
+import Squid3 from "../assets/squids/magenta_squib.png"
+import Squid4 from "../assets/squids/orange_squib.png"
+import Squid5 from "../assets/squids/pink_squib.png"
+import Squid6 from "../assets/squids/purple_squib.png"
+import Squid7 from "../assets/squids/yellow_squib.png"
 
 const App: React.FC = () => {
 
@@ -199,6 +205,7 @@ setMenuVisible(!menuVisible);
           <img src={AmigoPFP}/>
           <img src={SepticPFP}/>
           <img src={IconSplash}/>
+          <img src={Squid1}/><img src={Squid2}/><img src={Squid3}/><img src={Squid4}/><img src={Squid5}/><img src={Squid6}/><img src={Squid7}/>
         </div>
         
         </div>
