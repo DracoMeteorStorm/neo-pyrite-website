@@ -24,7 +24,7 @@ const About: React.FC = () => {
       style={{backgroundColor:"#209ad7"}}>
 
         <img width="100%" src='https://storage.googleapis.com/neo-pyrite-site/FoolsGoldBanner.png' style={{borderRadius:"15px"}}/>
-        <p style={{fontStyle:"italic",marginTop:"10px",fontSize:"20px"}}>Banner by <a href='https://twitter.com/BUGSSLAP'>Bugslap</a></p>
+        <p style={{fontStyle:"italic",marginTop:"10px",fontSize:"20px"}}>Fool's Gold banner by <a href='https://twitter.com/BUGSSLAP'>Bugslap</a></p>
       </div>
 
       </div>

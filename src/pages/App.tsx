@@ -32,7 +32,7 @@ import Squid7 from "../assets/squids/yellow_squib.png"
 const App: React.FC = () => {
 
   const [currentPage, setCurrentPage] = useState("");
-  const [menuVisible, setMenuVisible] = useState(true);
+  const [menuVisible, setMenuVisible] = useState(false);
 
   const buttonClick = (newPage: string) => {
       updateButtons(newPage);

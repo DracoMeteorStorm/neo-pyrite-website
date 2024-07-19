@@ -2,7 +2,7 @@
 
     "Draco": {
         "name": "Draco",
-        "bio": "Hey. I’m Draco, the project manager for Neo Pyrite and the person who put together this very website. You could say I’m the most mild-mannered member of the team though that’d definitely be a lie. I started playing Splatoon competitively around the beginning of last year, but I dabbled in games like Pokémon Unite and Super Smash Bros before that. Other than that, I’m a big fan of RPGs of all sorts and love reading manga. I'm really glad that I'm able to work on this project with The Fools and I can't wait to see what we whip up going forward.",
+        "bio": "Hey. I’m Draco, the project manager for Neo Pyrite and the person who put together this very website. You could say I’m the most mild-mannered member of the team though that’d definitely be a lie. I started playing Splatoon competitively around the beginning of last year, but I dabbled in games like Pokémon Unite and Super Smash Bros before that. Other than that, I’m a big fan of RPGs of all sorts and love reading manga and whatnot. I'm really glad that I'm able to work on this project with The Fools and I can't wait to see what we whip up going forward.",
         "color": "#bf75f0",
         "weapons": ["Stamper","DualSquelch","CharDecav"],
         "socials": [["Twitter","https://twitter.com/DracoMeteorStrm"],
@@ -12,7 +12,10 @@
         "clips": ["https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024062312513101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
                     "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
                     "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041418363201-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023090320324101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023090320324101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024061117164400-4CE9651EE88A979D41F24CE8D6EA1C23%20(1).mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024060913392501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024020217340000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
         "quote": "my least favorite part about being on a splatoon team is playing splatoon"
     },
     "Mukk": {
