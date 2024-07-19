@@ -265,6 +265,8 @@ float:left;
 .container-col-right{
   width: 60%;
   float:left;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-col-left{
@@ -337,6 +339,7 @@ padding: 5px;
   .container-col-right {
     width: 100% !important;
     margin-top: 0;
+    flex-direction: column-reverse;
   }
   .component-container {
     width: 100%; /* Stack containers on smaller screens */
