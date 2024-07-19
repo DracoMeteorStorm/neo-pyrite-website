@@ -34,7 +34,7 @@ const SocialsComponent: React.FC<SocialsComponentProps> = ({ page }) => {
   {bioData.numSocials !== 0 ?
   <div>
     {bioData.socials.map((sm: string[]) => (
-      <div className='weapon-container socials'>
+      <div key={sm[0]} className='weapon-container socials'>
       <a href={sm[1]} target='_blank'>
         <img className="socials-icon" src={socialIcons[sm[0]]}/>
         

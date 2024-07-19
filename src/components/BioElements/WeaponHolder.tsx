@@ -63,7 +63,7 @@ interface WeaponComponentProps {
     
     return (<div>
         {bioData.weapons.map((weapon) => (
-          <div className="weapon-container">
+          <div key={weapon} className="weapon-container">
         <img src={wepMap[weapon]} alt={weapon} key={weapon} width={"60px"}/>
         </div>
       ))}
