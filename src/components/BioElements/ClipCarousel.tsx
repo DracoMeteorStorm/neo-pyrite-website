@@ -28,7 +28,7 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videoClips }) => {
       setTimeout(() => {
         setCurrentVideoIndex((prevIndex) => (prevIndex + 1) % videoClips.length);
         setIsSliding(false);
-      }, 500);
+      }, 200);
     };
 
     const currentVideoRef = videoRefs.current[currentVideoIndex];
