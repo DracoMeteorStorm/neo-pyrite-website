@@ -88,12 +88,11 @@
 }
 
 .footer-icon {
-    align-content: right;
-    text-align: right;
-    height: 45px;
-    width: 45px;
-    right: 20px;
-    
+  width: 45px;
+  justify-content: right;
+  float: right;
+  filter: invert(100%);
+  margin: 5px;
 }
 /* 
 .button-image{
@@ -329,7 +328,7 @@ padding: 5px;
 }
 
 .component-container.yt{
-  height: 32vw;
+  min-height: 30vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -527,7 +526,10 @@ padding: 5px;
     scale: 105%;
 }
 
-
+.yt-vid-container{
+  width: 100%;
+  height: 56.25vh;
+}
 
 .twitter-container{
   height: 100%;
@@ -541,3 +543,4 @@ padding: 5px;
   font-size: 50px;
   font-style: italic;
 }
+

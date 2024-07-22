@@ -26,8 +26,9 @@ const Home: React.FC = () => {
       style={{backgroundColor:pageColor}}>
         <h1 style={{fontSize:"40px"}}>Latest Video</h1>
         {/* <div className='video-container'></div> */}
+        <div className='yt-vid-container'>
 <iframe width={"100%"} height={"100%"} style={{marginTop:"10px"}} src="https://www.youtube.com/embed/BDIRQZt4kgw?si=CfOZiofrb-3XaBtO" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-        </div>
+        </div></div>
 
       </div>
 

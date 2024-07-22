@@ -14,6 +14,8 @@ import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
 import gitHubIcon from '../assets/github-icon.png'
+import twitterIcon from "../assets/SocialMedia/twitter.png"
+import ytIcon from "../assets/SocialMedia/youtube.png"
 import DracoPFP from "../assets/icons/DracoPFP.jpg"
 import MukkPFP from "../assets/icons/MukkPFP.jpg"
 import MelkPFP from "../assets/icons/MelkPFP.jpg"
@@ -194,7 +196,12 @@ setMenuVisible(!menuVisible);
         </div>
         <div className='footer'><p>hiiiiiiiii 
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
-          <img src={gitHubIcon} width={'50px'} style={{justifyContent:"right",float:"right",filter:" invert(100%)",margin:"5px"}}/></a><br></br>
+          <img src={gitHubIcon} className='footer-icon'/></a>
+        <a href='https://www.youtube.com/@NeoPyriteSpl' target='_blank'>
+          <img src={ytIcon} className='footer-icon'/></a>
+        <a href='https://x.com/NeoPyriteSPL' target='_blank'>
+        <img src={twitterIcon} className='footer-icon'/></a>
+          <br></br>
         Twitter, YouTube, Twitch, Tumblr icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br>
         Etsy icon created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a>
         </p>
