@@ -17,8 +17,8 @@ const Home: React.FC = () => {
       <div className='container-col-left'
       style={{width:"60%"}}>
         <div className='component-container'
-      style={{backgroundColor:pageColor}}>
-        <p style={{fontSize:"25px"}}>
+      style={{backgroundColor:pageColor, padding:"20px"}}>
+        <p className='home-page-blurb' style={{fontSize:"25px"}}>
         {bioData.Home.HomePageBlurb}
         </p>
         </div>

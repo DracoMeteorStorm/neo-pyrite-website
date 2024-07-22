@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
-import { HashRouter as Router, Route, Link, Routes, HashRouter} from 'react-router-dom';
+import { HashRouter as Router, Route, Link, Routes, HashRouter, useLocation} from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 import Draco from '../components/Draco';
@@ -31,11 +31,12 @@ import Squid5 from "../assets/squids/pink_squib.png"
 import Squid6 from "../assets/squids/purple_squib.png"
 import Squid7 from "../assets/squids/yellow_squib.png"
 
+
+
 const App: React.FC = () => {
 
   const [currentPage, setCurrentPage] = useState("");
   const [menuVisible, setMenuVisible] = useState(false);
-
   const buttonClick = (newPage: string) => {
       updateButtons(newPage);
       if( window.innerWidth < 1024){
@@ -71,13 +72,32 @@ const App: React.FC = () => {
     };
   }, []);
   
- 
+
+
   const collapseButtons = () =>{
 setMenuVisible(!menuVisible);
 
 
   }
 
+  const headerColor = () =>{
+    const headerMap: { [key: string]: string } = {
+      "" : "header",  
+      "Home" : "header",
+        "Draco" : "header draco",
+        "Mukk" : "header mukk",
+        
+        "Melk" : "header melk",
+        "Charm" : "header charm",
+        
+        "Amigo" : "header amigo",
+        "Septic" : "header septic",
+        "About" : "header",
+        "404" : "header err404"
+
+    }
+    return headerMap[currentPage] || "header";
+  }
 
 
   return (
@@ -85,7 +105,7 @@ setMenuVisible(!menuVisible);
     <HashRouter>
     
     <div className='App'>
-        <div className='header'>
+        <div className={headerColor()}>
         <div className='container-row' style={{margin:"15px"}}>
           <div className='header-col-left'>
             <Link to="/">
@@ -181,7 +201,9 @@ setMenuVisible(!menuVisible);
         <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
-            <Route path='/draco' element={<Draco />} />
+            <Route path='/draco' element={<Draco />} 
+            loader= {async () => setCurrentPage("Draco")}
+            />
             <Route path='/mukk' element={<Mukk />} />
             <Route path='/melk' element={<Melk />} />
             <Route path='/charm' element={<Charm />} />
