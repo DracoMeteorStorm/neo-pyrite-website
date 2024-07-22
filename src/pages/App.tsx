@@ -86,8 +86,9 @@ setMenuVisible(!menuVisible);
         <div className='header'>
         <div className='container-row' style={{margin:"15px"}}>
           <div className='header-col-left'>
+            <Link to="/">
             <img className='header-logo' src= {LogoSmall}/>
-
+            </Link>
             <a>
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/></a>
             </div>

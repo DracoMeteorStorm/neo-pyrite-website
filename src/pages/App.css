@@ -140,20 +140,20 @@ background-size: cover;
 }
 
 #draco:hover{
-   background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.png");
+   background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.jpg");
    
 }
 
 #mukk:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MukkAvi.png");
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MukkAvi.jpg");
 }
 
 #melk:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MelkAvi.png");
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MelkAvi.jpg");
 }
 
 #charm:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/CharmAvi.png");
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/CharmAvi.jpg");
 }
 
 #amigo:hover{
@@ -161,7 +161,7 @@ background-size: cover;
 }
 
 #septic:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/SepticAvi.png");
+  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/SepticAvi.jpg");
 }
 
 #draco:hover,#mukk:hover,#melk:hover,#charm:hover,#amigo:hover,#septic:hover{
@@ -180,7 +180,7 @@ background-size: cover;
   background-color: #2843fa;
   height: 100%;
   width: 100%;
-  transition:.4s ease;
+  transition:.5s ease;
   justify-content: center;
   align-items: center;
   display: inline-flex;
@@ -220,13 +220,13 @@ background-size: cover;
   
   margin: 0;
   padding: 0;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
   margin-top: 0%;
   position: relative;
   z-index: 0;
-  border-left: #0000003d groove 15px;
-  border-right: #0000003d ridge 15px;
+  border-left: #0000003d groove 25px;
+  border-right: #0000003d ridge 25px;
   
 }
 
@@ -294,7 +294,7 @@ padding: 5px;
 
 
 .component-container{
-  margin: 1%;
+  margin: 10px;
   padding: 2%;
   background-color: #ffffff;
   width: 98%;
@@ -308,9 +308,9 @@ padding: 5px;
   flex-direction: column;
   overflow: hidden;
   border-radius: 20px;
-  border-color: #00000069;
+  border-color: #0000002f;
   border-width: 4%;
-  border-style:outset;
+  border-style: solid;
   transition: ease .1s;
   color: white;
 }
@@ -373,7 +373,8 @@ padding: 5px;
     
   }
   .header{
-    position: static;
+    position:static;
+  
   }
   .header-buttons-cont {
     
@@ -407,9 +408,11 @@ padding: 5px;
   }
   .component-container.alt2{
     margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 15px !important;
   }
   .player-name{
-    font-size: 60px;
+    font-size: 60px !important;
   }
 
   .lil-squid{

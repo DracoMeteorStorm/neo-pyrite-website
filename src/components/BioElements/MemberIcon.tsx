@@ -73,9 +73,9 @@ interface IconComponentProps {
         </div> */}
         <div className="component-container" style={{backgroundColor:bioData.color}}>
             {randVal < 4 ?
-              <h1 className="player-name">{bioData.name}
+              <p className="player-name">{bioData.name}
               <img src={squidMap[randVal]} height={"75px"} className="lil-squid" style={{marginLeft:"10px"}}/>
-              </h1> : 
+              </p> : 
               <h1 className="player-name">
               <img src={squidMap[randVal]} height={"75px"} className="lil-squid" style={{marginRight:"10px"}}/>{bioData.name}
               </h1>
