@@ -48,7 +48,9 @@
         "weapons": ["Ballpoint","HeavyEdit","Wiper"],
         "numSocials":0,
         "socials": [[""]],
-        "clips": [],
+        "clips": ["https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310303501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310322301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310383001-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
         "quote": ""
     },
     "Amigo": {
@@ -58,7 +60,11 @@
         "weapons": ["CarbonDeco","OrderSlosh","Roller","Machine"],
         "numSocials":2,
         "socials": [["Twitter","https://twitter.com/PHD_Amigo"],["Twitch","https://www.twitch.tv/dr_amigoh"]],
-        "clips": [],
+        "clips": ["https://storage.googleapis.com/neo-pyrite-site/AmigoClips/dAJcZziBWX7UuDg9.mp4",
+        "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823072800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823141200-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823263500-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"
+                ],
         "quote": "when i’m in a easy peasy competition and my opponent starts squeezing lemons"
     },
     "Septic": {

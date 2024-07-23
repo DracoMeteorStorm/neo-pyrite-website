@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
-import { HashRouter as Router, Route, Link, Routes, HashRouter, useLocation} from 'react-router-dom';
+import {Route, Link, Routes, HashRouter, useLocation} from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 import Draco from '../components/Draco';
@@ -10,6 +10,7 @@ import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
 import Err404 from '../components/Err404';
+import PathGet from '../components/PathGet';
 import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
@@ -34,9 +35,29 @@ import Squid7 from "../assets/squids/yellow_squib.png"
 
 
 const App: React.FC = () => {
-
+  
   const [currentPage, setCurrentPage] = useState("");
   const [menuVisible, setMenuVisible] = useState(false);
+
+
+function FindPath() {
+    const location = useLocation();
+    const urlMap: { [key: string]: string } = {
+      "/" : "Home",
+      "/draco" : "Draco",
+      "/mukk" : "Mukk",        
+      "/melk" : "Melk",
+      "/charm" : "Charm",
+        "/amigo" : "Amigo",
+        "/septic" : "Septic",
+        "/about" : "About",
+
+    }
+    setCurrentPage(urlMap[location.pathname]||"404")
+  return <></>
+
+}
+
   const buttonClick = (newPage: string) => {
       updateButtons(newPage);
       if( window.innerWidth < 1024){
@@ -49,7 +70,7 @@ const App: React.FC = () => {
     newPage !== currentPage ? 
     setCurrentPage(newPage) :
     setCurrentPage(currentPage);
-
+    
 
   }
 
@@ -105,6 +126,7 @@ setMenuVisible(!menuVisible);
     <HashRouter>
     
     <div className='App'>
+        <FindPath/>
         <div className={headerColor()}>
         <div className='container-row' style={{margin:"15px"}}>
           <div className='header-col-left'>
@@ -199,11 +221,9 @@ setMenuVisible(!menuVisible);
         
         <div id="content">
         <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path='/about' element={<About />} />
-            <Route path='/draco' element={<Draco />} 
-            loader= {async () => setCurrentPage("Draco")}
-            />
+            <Route path='/draco' element={<Draco />} />
             <Route path='/mukk' element={<Mukk />} />
             <Route path='/melk' element={<Melk />} />
             <Route path='/charm' element={<Charm />} />
