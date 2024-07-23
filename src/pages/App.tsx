@@ -10,7 +10,6 @@ import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
 import Err404 from '../components/Err404';
-import PathGet from '../components/PathGet';
 import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
@@ -128,6 +127,7 @@ setMenuVisible(!menuVisible);
     <div className='App'>
         <FindPath/>
         <div className={headerColor()}>
+          <div className='header-transition'>
         <div className='container-row' style={{margin:"15px"}}>
           <div className='header-col-left'>
             <Link to="/">
@@ -213,7 +213,7 @@ setMenuVisible(!menuVisible);
 
         </div></div>
 
-        </div>
+        </div></div>
           
 
         </div>
