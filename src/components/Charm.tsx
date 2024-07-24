@@ -15,9 +15,8 @@ const Charm: React.FC = () => {
 
   return (
     <div>
-      <div className='page-background' style={{backgroundColor}}>
 
-      <div className='content-container'>
+     
       
       <div className='container-row'>
         <div className='container-col-left'>
@@ -36,10 +35,9 @@ const Charm: React.FC = () => {
       </div>
       
       
-      </div></div>
+      </div>
 
       
-    </div>
   );
 };
 

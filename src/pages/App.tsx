@@ -10,6 +10,7 @@ import Amigo from '../components/Amigo';
 import Charm from '../components/Charm';
 import Septic from '../components/Septic';
 import Err404 from '../components/Err404';
+import bioData from '../components/BioElements/bios.json'
 import LogoSmall from '../assets/LogoSmall.png'
 import YT_Banner from '../assets/YT_Banner.jpg'
 import hamburger from '../assets/sort.png'
@@ -30,7 +31,7 @@ import Squid4 from "../assets/squids/orange_squib.png"
 import Squid5 from "../assets/squids/pink_squib.png"
 import Squid6 from "../assets/squids/purple_squib.png"
 import Squid7 from "../assets/squids/yellow_squib.png"
-
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 
 const App: React.FC = () => {
@@ -117,6 +118,18 @@ setMenuVisible(!menuVisible);
 
     }
     return headerMap[currentPage] || "header";
+  }
+
+  const setBGColor: { [key: string]: string } = {
+    "Home": "#209ad7",
+    "About": "#209ad7",
+    "Draco": bioData.Draco.color,
+    "Mukk": bioData.Mukk.color,
+    "Melk": bioData.Melk.color,
+    "Charm": bioData.Charm.color,
+    "Amigo": bioData.Amigo.color,
+    "Septic": bioData.Septic.color,
+    "404": "#FFFFFF"
   }
 
 
@@ -217,8 +230,10 @@ setMenuVisible(!menuVisible);
 
         </div>
         <img width='100%' className='static-background' src = {YT_Banner}/>
-        
+        <div className='page-background' style={{backgroundColor:setBGColor[currentPage]+"cc"}}>
+        <div className='content-container'>
         <div id="content">
+        
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path='/about' element={<About />} />
@@ -233,7 +248,8 @@ setMenuVisible(!menuVisible);
           </Routes>
 
 
-
+        </div>
+        </div>
         </div>
         <div className='footer'><p>hiiiiiiiii 
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>

@@ -9,9 +9,7 @@ import bioData from "./BioElements/infoPages.json"
 const Home: React.FC = () => {
   const pageColor = "#209ad7";
   return (<div>
-    <div className='page-background'>
 
-    <div className='content-container'>
     
     <div className='container-row'>
       <div className='container-col-left'
@@ -44,13 +42,11 @@ const Home: React.FC = () => {
 
 
 
-    </div>
     
     
     </div></div>
 
     
-  </div>
   );
 };
 

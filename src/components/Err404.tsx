@@ -5,9 +5,9 @@ const Err404: React.FC = () => {
   
     return (
       <div>
-        <div className='page-background' id="err-page" style={{backgroundColor,color:"black"}}>
+        <div id="err-page" style={{color:"black"}}>
   
-        <div className='content-container' id="err404" style={{justifyContent:"center",alignContent:"normal"}}>
+        <div id="err404" style={{justifyContent:"center",alignContent:"normal"}}>
             <div className="err1">404
             <br />
             <div>

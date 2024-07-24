@@ -270,6 +270,8 @@ background-size: cover;
   margin: 0 auto;
 }
 
+
+
 .page-background {
   background-color: #209ad7cc;
   min-height: 90vh;
@@ -284,7 +286,11 @@ background-size: cover;
   z-index: 0;
   border-left: #0000003d groove 25px;
   border-right: #0000003d ridge 25px;
+  transition: .5s ease;
+  transition-delay: 1s;
 }
+
+
 
 
 .content-container {
@@ -300,9 +306,13 @@ background-size: cover;
   flex-wrap: wrap;
   justify-content: space-between;
   font-family: "coolvetica";
-  
-  
+  animation: fadeIn .5s ease;
 }
+
+.content-container::after{
+  transform: skewX(0%);
+}
+
 
 .container-row {
   display:table;

@@ -17,9 +17,7 @@ const Septic: React.FC = () => {
 
   return (
     <div>
-      <div className='page-background' style={{backgroundColor}}>
 
-      <div className='content-container'>
       
       <div className='container-row'>
         <div className='container-col-left'>
@@ -35,13 +33,11 @@ const Septic: React.FC = () => {
 
 
 
-      </div>
       
       
       </div></div>
 
       
-    </div>
   );
 };
 

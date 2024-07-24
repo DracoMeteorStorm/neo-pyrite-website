@@ -5,9 +5,7 @@ import { memo } from 'react';
 const About: React.FC = () => {
   return (
     <div>
-    <div className='page-background'>
 
-    <div className='content-container'>
     
     <div className='container-row'>
       <div className='container-col-left'
@@ -31,11 +29,9 @@ const About: React.FC = () => {
         <p style={{fontStyle:"italic",marginTop:"10px",fontSize:"20px"}}>Fool's Gold banner by <a href='https://twitter.com/BUGSSLAP'>Bugslap</a></p>
       </div>
 
-      </div>
 
 
 
-    </div>
     
     
     </div></div>
