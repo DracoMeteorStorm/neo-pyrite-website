@@ -128,12 +128,13 @@ setMenuVisible(!menuVisible);
         <FindPath/>
         <div className={headerColor()}>
           <div className='header-transition'>
-        <div className='container-row' style={{margin:"15px"}}>
+        <div className='container-row headera'>
           <div className='header-col-left'>
             <Link to="/">
             <img className='header-logo' src= {LogoSmall}/>
             </Link>
             <a>
+              
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/></a>
             </div>
           
@@ -146,10 +147,8 @@ setMenuVisible(!menuVisible);
           <button className={"Home" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Home")}}>
-                    {/* <div className='button-wrap' style={{backgroundColor:("Home" === currentPage ? "#00000000" : "")}}></div> */}
                     
             Home
-            {/* </div> */}
           </button></Link>
           <Link to="/draco">
             
@@ -206,14 +205,14 @@ setMenuVisible(!menuVisible);
           <button className={"About" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("About")}}>
-                    {/* <div className='button-wrap' style={{backgroundColor:("About" === currentPage ? "#00000000" : "")}}> */}
             About
-            {/* </div> */}
           </button></Link>
 
-        </div></div>
+        </div>
+        </div>
 
-        </div></div>
+        </div> 
+        </div>
           
 
         </div>

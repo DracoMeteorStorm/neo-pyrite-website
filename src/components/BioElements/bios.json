@@ -2,7 +2,7 @@
 
     "Draco": {
         "name": "Draco",
-        "bio": "Hey. I’m Draco, the project manager for Neo Pyrite and the person who put together this very website. You could say I’m the most mild-mannered member of the team though that’d definitely be a lie. I started playing Splatoon competitively around the beginning of last year, but I dabbled in games like Pokémon Unite and Super Smash Bros before that. Other than that, I’m a big fan of RPGs of all sorts and love reading manga and whatnot. I'm really glad that I'm able to work on this project with The Fools and I can't wait to see what we whip up going forward.",
+        "bio": "Hey. I’m Draco, the project manager for Neo Pyrite and the person who put together this very website. I started playing Splatoon competitively around the beginning of last year with Fool's Gold, but I dabbled in games like Pokémon Unite and Super Smash Bros before that. Stamper is my one true love though I always look forward to experimenting and learning about the game through different lenses. Other than that, I’m a big fan of RPGs and love reading manga and whatnot. I'm really glad that I'm able to work on this project with The Fools and I can't wait to see what we whip up going forward.",
         "color": "#bf75f0",
         "weapons": ["Stamper","DualSquelch","CharDecav"],
         "socials": [["Twitter","https://twitter.com/DracoMeteorStrm"],
@@ -20,7 +20,7 @@
     },
     "Mukk": {
         "name": "Mukk",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bio": "Ahoy there! I'm MuKK, Squeezer Vshot player and Zooka Warlord! I was one of the founders of Fool's Gold before we disbanded and later created Neo Pyrite together for more fun content purposes. I like game devlopment and I am a self proclaimed Splatoon pirate streamer! I hope you stay for the ride and check us out for what come next!",
         "color": "#ff6666",
         "weapons": ["FoilSqueezer","Squeezer","VShot","Slosh","Machine"],
         "numSocials":3,
@@ -51,11 +51,11 @@
         "clips": ["https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310303501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
                     "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310322301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
                 "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310383001-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
-        "quote": ""
+        "quote": "Hi, I'm Charm!"
     },
     "Amigo": {
         "name": "Amigo",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bio": "I'm Amigo, one of the editors and team members of Neo Pyrite. I'm just kinda here for the ride, having fun as I go. Also, I like pikmin. :)",
         "color": "#00cc99",
         "weapons": ["CarbonDeco","OrderSlosh","Roller","Machine"],
         "numSocials":2,
@@ -69,7 +69,7 @@
     },
     "Septic": {
         "name": "Septic",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bio": "Hulloo, my name is Septic! I'm a graphic designer, who's also a pro Tri-Stringer player in disguise. I've been around the competitive scene since Splatoon 2, but Fool's Gold (now Neo Pyrite) has been my home team for the majority of Splatoon 3. When i'm not gaming--I enjoy watching gaming content. Graphic design is my passion--most of the time. Which means I'm in charge of the teams branding! Feel free to check out my art & shop! (pleasepleaseplease) :]",
         "color": "#8266ff",
         "weapons": ["OrderBow","InkBow","Wellstring","CWellstring","Enperries"],
         "numSocials":3,
