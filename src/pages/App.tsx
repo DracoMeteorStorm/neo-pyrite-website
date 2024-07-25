@@ -31,13 +31,13 @@ import Squid4 from "../assets/squids/orange_squib.png"
 import Squid5 from "../assets/squids/pink_squib.png"
 import Squid6 from "../assets/squids/purple_squib.png"
 import Squid7 from "../assets/squids/yellow_squib.png"
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 
 const App: React.FC = () => {
   
   const [currentPage, setCurrentPage] = useState("");
   const [menuVisible, setMenuVisible] = useState(false);
+  const [isTransition, setTransition] = useState(false);
 
 
 function FindPath() {
@@ -59,6 +59,8 @@ function FindPath() {
 }
 
   const buttonClick = (newPage: string) => {
+      
+    
       updateButtons(newPage);
       if( window.innerWidth < 1024){
       collapseButtons();}
@@ -68,11 +70,26 @@ function FindPath() {
 
   const updateButtons = (newPage: string) => {
     newPage !== currentPage ? 
-    setCurrentPage(newPage) :
+    handleTransition(newPage) :
     setCurrentPage(currentPage);
     
 
   }
+
+  const handleTransition = (newPage: string) => {
+  setCurrentPage(newPage);
+  setTransition(true);
+  setTimeout(() => {setTransition(false)}, 500)
+  
+  }
+
+useEffect(() => {
+  if(isTransition){
+    setTransition(false);
+  }
+
+    
+  }, [500]);
 
   const handleResize = () => {
     if (window.innerWidth > 1024) {
@@ -140,7 +157,7 @@ setMenuVisible(!menuVisible);
     <div className='App'>
         <FindPath/>
         <div className={headerColor()}>
-          <div className='header-transition'>
+          <div className={isTransition ? "header-transition active1" : "header-transition"}>
         <div className='container-row headera'>
           <div className='header-col-left'>
             <Link to="/">
@@ -231,7 +248,7 @@ setMenuVisible(!menuVisible);
         </div>
         <img width='100%' className='static-background' src = {YT_Banner}/>
         <div className='page-background' style={{backgroundColor:setBGColor[currentPage]+"cc"}}>
-        <div className='content-container'>
+        <div className={isTransition ? "content-container inactive1": 'content-container'}>
         <div id="content">
         
         <Routes>
