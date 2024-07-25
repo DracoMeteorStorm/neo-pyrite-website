@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
-import {Route, Link, Routes, HashRouter, useLocation} from 'react-router-dom';
+import {Route, Link, Routes, HashRouter, useLocation, useNavigate} from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 import Draco from '../components/Draco';
@@ -31,13 +31,15 @@ import Squid4 from "../assets/squids/orange_squib.png"
 import Squid5 from "../assets/squids/pink_squib.png"
 import Squid6 from "../assets/squids/purple_squib.png"
 import Squid7 from "../assets/squids/yellow_squib.png"
+import path from 'path';
 
 
 const App: React.FC = () => {
   
   const [currentPage, setCurrentPage] = useState("");
   const [menuVisible, setMenuVisible] = useState(false);
-  const [isTransition, setTransition] = useState(false);
+  const [isTransition, setTransition] = useState(true);
+  const [isHeaderTransition, setHeaderTransition] = useState(false);
 
 
 function FindPath() {
@@ -53,10 +55,11 @@ function FindPath() {
         "/about" : "About",
 
     }
-    setCurrentPage(urlMap[location.pathname]||"404")
+    setCurrentPage(urlMap[location.pathname]||"404");
   return <></>
 
 }
+
 
   const buttonClick = (newPage: string) => {
       
@@ -77,9 +80,12 @@ function FindPath() {
   }
 
   const handleTransition = (newPage: string) => {
+  setTimeout(() => {setHeaderTransition(true)})
   setCurrentPage(newPage);
   setTransition(true);
-  setTimeout(() => {setTransition(false)}, 500)
+  
+  setTimeout(() => {setTransition(false)}, 1000);
+  setTimeout(() => {setHeaderTransition(false)}, 1000)
   
   }
 
@@ -136,7 +142,7 @@ setMenuVisible(!menuVisible);
     }
     return headerMap[currentPage] || "header";
   }
-
+  
   const setBGColor: { [key: string]: string } = {
     "Home": "#209ad7",
     "About": "#209ad7",
@@ -148,7 +154,7 @@ setMenuVisible(!menuVisible);
     "Septic": bioData.Septic.color,
     "404": "#FFFFFF"
   }
-
+  
 
   return (
 
@@ -157,10 +163,11 @@ setMenuVisible(!menuVisible);
     <div className='App'>
         <FindPath/>
         <div className={headerColor()}>
-          <div className={isTransition ? "header-transition active1" : "header-transition"}>
+          <div className={
+            isHeaderTransition ? "header-transition active1" : "header-transition"}>
         <div className='container-row headera'>
           <div className='header-col-left'>
-            <Link to="/">
+            <Link to="/" onClick={()=>buttonClick("Home")}>
             <img className='header-logo' src= {LogoSmall}/>
             </Link>
             <a>
