@@ -40,7 +40,7 @@ const App: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [isTransition, setTransition] = useState(true);
   const [isHeaderTransition, setHeaderTransition] = useState(false);
-  const [isDelayed, setIsDelayed] = useState(true);
+  const [firstLoad, setFirstLoad] = useState(true);
 
 
   
@@ -93,6 +93,7 @@ function FindPath() {
     if(isTransition){
       setTransition(false);
     }
+
   
       
     }, [500]);
@@ -102,7 +103,10 @@ function FindPath() {
      
     }
     else{
+      if(firstLoad){
       setMenuVisible(false);
+      setFirstLoad(false);
+    }
     }
     
   };
@@ -171,9 +175,8 @@ setMenuVisible(!menuVisible);
             <Link to="/">
             <img className='header-logo' src= {LogoSmall}/>
             </Link>
-            <a>
               
-            <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/></a>
+            <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/>
             </div>
           
           <div className='header-col-right'>
