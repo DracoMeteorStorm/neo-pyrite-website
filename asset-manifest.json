@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/neo-pyrite-website/static/css/main.f48ddba8.css",
-    "main.js": "/neo-pyrite-website/static/js/main.915766f9.js",
+    "main.css": "/neo-pyrite-website/static/css/main.4759d928.css",
+    "main.js": "/neo-pyrite-website/static/js/main.e93370b4.js",
     "static/js/453.fbff7cf7.chunk.js": "/neo-pyrite-website/static/js/453.fbff7cf7.chunk.js",
     "static/media/DelaGothicOne-Regular.ttf": "/neo-pyrite-website/static/media/DelaGothicOne-Regular.a8761c8c6d54ccaa44db.ttf",
     "static/media/YT_Banner.jpg": "/neo-pyrite-website/static/media/YT_Banner.61e67f09cf8e11f11b19.jpg",
@@ -25,12 +25,12 @@
     "static/media/CharcoalDecavitator.png": "/neo-pyrite-website/static/media/CharcoalDecavitator.95561ca0c25dcc1a90e3.png",
     "static/media/EnperrySplatDualies.png": "/neo-pyrite-website/static/media/EnperrySplatDualies.a9ab7bec1a444af5fb2b.png",
     "index.html": "/neo-pyrite-website/index.html",
-    "main.f48ddba8.css.map": "/neo-pyrite-website/static/css/main.f48ddba8.css.map",
-    "main.915766f9.js.map": "/neo-pyrite-website/static/js/main.915766f9.js.map",
+    "main.4759d928.css.map": "/neo-pyrite-website/static/css/main.4759d928.css.map",
+    "main.e93370b4.js.map": "/neo-pyrite-website/static/js/main.e93370b4.js.map",
     "453.fbff7cf7.chunk.js.map": "/neo-pyrite-website/static/js/453.fbff7cf7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f48ddba8.css",
-    "static/js/main.915766f9.js"
+    "static/css/main.4759d928.css",
+    "static/js/main.e93370b4.js"
   ]
 }
