@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useEffect, useState } from 'react';
-import {Route, Link, Routes, HashRouter, useLocation, useNavigate} from 'react-router-dom';
+import {Route, Link, Routes, HashRouter, useLocation} from 'react-router-dom';
 import Home from '../components/Home';
 import About from '../components/About';
 import Draco from '../components/Draco';
@@ -31,7 +31,7 @@ import Squid4 from "../assets/squids/orange_squib.png"
 import Squid5 from "../assets/squids/pink_squib.png"
 import Squid6 from "../assets/squids/purple_squib.png"
 import Squid7 from "../assets/squids/yellow_squib.png"
-import path from 'path';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 
 const App: React.FC = () => {
@@ -40,7 +40,10 @@ const App: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [isTransition, setTransition] = useState(true);
   const [isHeaderTransition, setHeaderTransition] = useState(false);
+  const [isDelayed, setIsDelayed] = useState(true);
 
+
+  
 
 function FindPath() {
     const location = useLocation();
@@ -60,10 +63,7 @@ function FindPath() {
 
 }
 
-
   const buttonClick = (newPage: string) => {
-      
-    
       updateButtons(newPage);
       if( window.innerWidth < 1024){
       collapseButtons();}
@@ -80,23 +80,22 @@ function FindPath() {
   }
 
   const handleTransition = (newPage: string) => {
-  setTimeout(() => {setHeaderTransition(true)})
-  setCurrentPage(newPage);
-  setTransition(true);
-  
-  setTimeout(() => {setTransition(false)}, 1000);
-  setTimeout(() => {setHeaderTransition(false)}, 1000)
-  
-  }
-
-useEffect(() => {
-  if(isTransition){
-    setTransition(false);
-  }
-
+    setTimeout(() => {setHeaderTransition(true)})
+    setCurrentPage(newPage);
+    setTransition(true);
     
-  }, [500]);
-
+    setTimeout(() => {setTransition(false)}, 1000);
+    setTimeout(() => {setHeaderTransition(false)}, 1000)
+    
+    }
+  
+  useEffect(() => {
+    if(isTransition){
+      setTransition(false);
+    }
+  
+      
+    }, [500]);
   const handleResize = () => {
     if (window.innerWidth > 1024) {
       setMenuVisible(true);
@@ -105,12 +104,13 @@ useEffect(() => {
     else{
       setMenuVisible(false);
     }
+    
   };
 
   useEffect(() => {
     window.addEventListener('resize', handleResize);
     handleResize(); // Check the initial window size
-
+console.log(menuVisible);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -142,7 +142,7 @@ setMenuVisible(!menuVisible);
     }
     return headerMap[currentPage] || "header";
   }
-  
+
   const setBGColor: { [key: string]: string } = {
     "Home": "#209ad7",
     "About": "#209ad7",
@@ -154,7 +154,7 @@ setMenuVisible(!menuVisible);
     "Septic": bioData.Septic.color,
     "404": "#FFFFFF"
   }
-  
+
 
   return (
 
@@ -162,12 +162,13 @@ setMenuVisible(!menuVisible);
     
     <div className='App'>
         <FindPath/>
+        <a href={window.innerWidth < 1024 ? 'javascript:void(0)' : undefined} className='header-empty'>
         <div className={headerColor()}>
-          <div className={
+        <div className={
             isHeaderTransition ? "header-transition active1" : "header-transition"}>
         <div className='container-row headera'>
           <div className='header-col-left'>
-            <Link to="/" onClick={()=>buttonClick("Home")}>
+            <Link to="/">
             <img className='header-logo' src= {LogoSmall}/>
             </Link>
             <a>
@@ -250,11 +251,12 @@ setMenuVisible(!menuVisible);
 
         </div> 
         </div>
-          
+          </a>
 
         </div>
         <img width='100%' className='static-background' src = {YT_Banner}/>
         <div className='page-background' style={{backgroundColor:setBGColor[currentPage]+"cc"}}>
+        
         <div className={isTransition ? "content-container inactive1": 'content-container'}>
         <div id="content">
         
