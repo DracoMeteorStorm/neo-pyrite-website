@@ -102,12 +102,8 @@ function FindPath() {
       setMenuVisible(true);
      
     }
-    else{
-      if(firstLoad){
-      setMenuVisible(false);
-      setFirstLoad(false);
-    }
-    }
+    
+    
     
   };
 
