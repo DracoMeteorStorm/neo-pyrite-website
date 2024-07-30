@@ -380,7 +380,7 @@ padding: 5px;
   overflow: hidden;
   border-radius: 20px;
   border-color: #0000002f;
-  border-width: 4%;
+  border-width: 3px;
   border-style: solid;
   transition: ease .1s;
   color: white;
