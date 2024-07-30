@@ -31,8 +31,6 @@ import Squid4 from "../assets/squids/orange_squib.png"
 import Squid5 from "../assets/squids/pink_squib.png"
 import Squid6 from "../assets/squids/purple_squib.png"
 import Squid7 from "../assets/squids/yellow_squib.png"
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
-
 
 const App: React.FC = () => {
   
@@ -40,7 +38,7 @@ const App: React.FC = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [isTransition, setTransition] = useState(true);
   const [isHeaderTransition, setHeaderTransition] = useState(false);
-  const [firstLoad, setFirstLoad] = useState(true);
+  const [displayLocation, setDisplayLocation] = useState("");
 
 
   
@@ -58,6 +56,7 @@ function FindPath() {
         "/about" : "About",
 
     }
+    setTimeout(() => {setDisplayLocation(location.pathname)}, 1000);
     setCurrentPage(urlMap[location.pathname]||"404");
   return <></>
 
@@ -110,7 +109,6 @@ function FindPath() {
   useEffect(() => {
     window.addEventListener('resize', handleResize);
     handleResize(); // Check the initial window size
-console.log(menuVisible);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -126,21 +124,21 @@ setMenuVisible(!menuVisible);
 
   const headerColor = () =>{
     const headerMap: { [key: string]: string } = {
-      "" : "header",  
-      "Home" : "header",
-        "Draco" : "header draco",
-        "Mukk" : "header mukk",
+      "/" : "header default",  
+      "/home" : "header default",
+        "/draco" : "header draco",
+        "/mukk" : "header mukk",
         
-        "Melk" : "header melk",
-        "Charm" : "header charm",
+        "/melk" : "header melk",
+        "/charm" : "header charm",
         
-        "Amigo" : "header amigo",
-        "Septic" : "header septic",
-        "About" : "header",
-        "404" : "header err404"
+        "/amigo" : "header amigo",
+        "/septic" : "header septic",
+        "/about" : "header default",
+        "/404" : "header err404"
 
     }
-    return headerMap[currentPage] || "header";
+    return headerMap[displayLocation] || "header";
   }
 
   const setBGColor: { [key: string]: string } = {
@@ -156,9 +154,11 @@ setMenuVisible(!menuVisible);
   }
 
 
+
   return (
 
-    <HashRouter>
+    <HashRouter
+    >
     
     <div className='App'>
         <FindPath/>
@@ -169,7 +169,7 @@ setMenuVisible(!menuVisible);
         <div className='container-row headera'>
           <div className='header-col-left'>
             <Link to="/">
-            <img className='header-logo' src= {LogoSmall}/>
+            <img className='header-logo' src= {LogoSmall} onClick={()=>{buttonClick("Home")}}/>
             </Link>
               
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/>
@@ -179,8 +179,7 @@ setMenuVisible(!menuVisible);
         
 
         
-                    
-        <Link to="/">
+        <Link to="/" >
           <button className={"Home" !== currentPage ? 'header-buttons' : 'header-buttons current'}
                   style={{display:(menuVisible ? 'inline-flex' : 'none')}} 
                   onClick={()=>{buttonClick("Home")}}>
@@ -258,8 +257,7 @@ setMenuVisible(!menuVisible);
         
         <div className={isTransition ? "content-container inactive1": 'content-container'}>
         <div id="content">
-        
-        <Routes>
+        <Routes location={displayLocation}>
             <Route path="/" element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/draco' element={<Draco />} />
@@ -271,8 +269,6 @@ setMenuVisible(!menuVisible);
             <Route path='/' element={<Home />}/>
             <Route path='*' element={<Err404 />}/>
           </Routes>
-
-
         </div>
         </div>
         </div>
