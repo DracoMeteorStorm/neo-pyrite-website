@@ -130,7 +130,7 @@
 }
 
 .footer-icon {
-  width: 45px;
+  width: 25px;
   justify-content: right;
   float: right;
   filter: invert(100%);
@@ -408,6 +408,9 @@ padding: 5px;
 }
 
 @media screen and (max-width: 1024px) {
+  .about-container{
+    width: 85% !important;
+  }
   .container-row{
     width:100%;
   }
@@ -649,4 +652,48 @@ padding: 5px;
 .err2{
   font-size: 50px;
   font-style: italic;
+}
+
+.about-container{
+  width: 45%;
+  position: relative;
+  z-index: 7;
+  display: inline-flex;
+  flex-direction: row;
+  color: white;
+  margin: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-color: #ffffff65;
+  border-radius: 8px;
+  border-width: 4px;
+  border-style: solid;
+  padding: 2px;
+  transition: ease .5s;
+  overflow: hidden;
+}
+
+.about-container:hover{
+  scale: 95%;
+  color: black;
+  .about-icon{
+    filter: invert(0%);
+  }
+  /* filter: invert(100%); */
+
+}
+
+.about-icon{
+  height: 100%;
+  justify-content: right;
+  float: right;
+  filter: invert(100%);
+  margin-right: 5px;
+  margin-left: 15px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: ease .5s;
+
 }

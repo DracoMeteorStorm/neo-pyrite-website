@@ -280,8 +280,8 @@ setMenuVisible(!menuVisible);
         <a href='https://x.com/NeoPyriteSPL' target='_blank'>
         <img src={twitterIcon} className='footer-icon'/></a>
           <br></br>
-        Twitter, YouTube, Twitch, Tumblr icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br>
-        Etsy icon created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a>
+        {/* Twitter, YouTube, Twitch, Tumblr icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br> */}
+        {/* Etsy icon created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a> */}
         </p>
         <div style={{display:"none"}}>
           <img src={DracoPFP}/>
