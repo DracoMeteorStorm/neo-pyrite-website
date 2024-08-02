@@ -17,7 +17,7 @@ const BioComponent: React.FC<BioComponentProps> = ({ page }) => {
   }
 
   return (
-    <div className='component-container' style={{backgroundColor:bioData.color,padding:"30px",fontSize:"20px"}}>
+    <div className='component-container alt2' style={{backgroundColor:bioData.color,padding:"30px",fontSize:"20px"}}>
     <div className="bio-container">
       <p>{bioData.bio}</p>
     </div></div>

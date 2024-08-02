@@ -2,63 +2,83 @@
 
     "Draco": {
         "name": "Draco",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bio": "Hey. I’m Draco, the project manager for Neo Pyrite and the person who put together this very website. I started playing Splatoon competitively around the beginning of last year with Fool's Gold, but I dabbled in games like Pokémon Unite and Super Smash Bros before that. Stamper is my one true love though I always look forward to experimenting and learning about the game through different lenses. Other than that, I’m a big fan of RPGs and love reading manga and whatnot. I'm really glad that I'm able to work on this project with The Fools and I can't wait to see what we whip up going forward.",
         "color": "#bf75f0",
         "weapons": ["Stamper","DualSquelch","CharDecav"],
         "socials": [["Twitter","https://twitter.com/DracoMeteorStrm"],
-        ["Twitch","https://www.twitch.tv/dracometeorstrm"],
-        ["Sendou.ink","https://sendou.ink/u/dracometeorstrm"]],
+        ["Twitch","https://www.twitch.tv/dracometeorstrm"]
+        ],
+        "numSocials":2,
         "clips": ["https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024062312513101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023120101431000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041211260700-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023030716162800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041418363201-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023090320324101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024061117164400-4CE9651EE88A979D41F24CE8D6EA1C23%20(1).mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024060913392501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024020217340000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
         "quote": "my least favorite part about being on a splatoon team is playing splatoon"
+    },
+    "Mukk": {
+        "name": "Mukk",
+        "bio": "Ahoy there! I'm MuKK, Squeezer Vshot player and Zooka Warlord! I was one of the founders of Fool's Gold before we disbanded and later created Neo Pyrite together for more fun content purposes. I like game devlopment and I am a self proclaimed Splatoon pirate streamer! I hope you stay for the ride and check us out for what come next!",
+        "color": "#ff6666",
+        "weapons": ["FoilSqueezer","Squeezer","VShot","Slosh","Machine"],
+        "numSocials":3,
+        "socials": [["Twitter","https://x.com/MuKK_TTV"],
+                    ["Twitch","https://www.twitch.tv/MuKK_TTV"],
+                    ["YouTube","https://www.youtube.com/channel/UCKu1iDdNCfs0HS9EYGRPiJA"]],
+        "clips": [],
+        "quote": "Look at him strolling in his gated community"
+    },
+    "Melk": {
+        "name": "Melk",
+        "bio": "Hello! My name is MelK, and I am an ex-competitive splatoon player that's now a (new) editor for Neo Pyrite. I hate playing splatoon these days (lol) but I do love editing splatoon videos for my friends and I'm grateful to have this opportunity to work with my friends on a project like this. I hope that every video I make is entertaining for people who do and don't play the game! kupo",
+        "color": "#ffa366",
+        "weapons": ["RangeBlast","Machine"],
+        "numSocials":2,
+        "socials": [["Twitter","https://x.com/CranberryMelK"],
+                    ["Twitch","https://www.twitch.tv/berrymelk"]],
+        "clips": [],
+        "quote": "THIS BRINGS A SMILE TO MY MISERABLE FACE"
     },
     "Charm": {
         "name": "Charm",
         "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "color": "#ff99eb",
-        "weapons": [""],
+        "weapons": ["Ballpoint","HeavyEdit","Wiper"],
+        "numSocials":0,
         "socials": [[""]],
-        "clips": [],
-        "quote": ""
-    },
-    "Mukk": {
-        "name": "Mukk",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "color": "#ff6666",
-        "weapons": [""],
-        "socials": [[""]],
-        "clips": [],
-        "quote": ""
-    },
-    "Melk": {
-        "name": "Melk",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "color": "#ffa366",
-        "weapons": [""],
-        "socials": [[""]],
-        "clips": [],
-        "quote": ""
+        "clips": ["https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310303501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310322301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310383001-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
+        "quote": "Hi, I'm Charm!"
     },
     "Amigo": {
         "name": "Amigo",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bio": "I'm Amigo, one of the editors and team members of Neo Pyrite. I'm just kinda here for the ride, having fun as I go. Also, I like pikmin. :)",
         "color": "#00cc99",
-        "weapons": [""],
-        "socials": [[""]],
-        "clips": [],
-        "quote": ""
+        "weapons": ["CarbonDeco","OrderSlosh","Roller","Machine"],
+        "numSocials":2,
+        "socials": [["Twitter","https://twitter.com/PHD_Amigo"],["Twitch","https://www.twitch.tv/dr_amigoh"]],
+        "clips": ["https://storage.googleapis.com/neo-pyrite-site/AmigoClips/dAJcZziBWX7UuDg9.mp4",
+        "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823072800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823141200-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823263500-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"
+                ],
+        "quote": "when i’m in a easy peasy competition and my opponent starts squeezing lemons"
     },
     "Septic": {
         "name": "Septic",
-        "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "bio": "Hulloo, my name is Septic! I'm a graphic designer, who's also a pro Tri-Stringer player in disguise. I've been around the competitive scene since Splatoon 2, but Fool's Gold (now Neo Pyrite) has been my home team for the majority of Splatoon 3. When i'm not gaming--I enjoy watching gaming content. Graphic design is my passion--most of the time. Which means I'm in charge of the teams branding! Feel free to check out my art & shop! (pleasepleaseplease) :]",
         "color": "#8266ff",
-        "weapons": [""],
-        "socials": [[""]],
-        "clips": [],
-        "quote": ""
+        "weapons": ["OrderBow","InkBow","Wellstring","CWellstring","Enperries"],
+        "numSocials":3,
+        "socials": [["Twitter","https://x.com/septictech"],["Etsy","https://www.etsy.com/shop/LousyFrowsy"],["Tumblr","https://www.tumblr.com/septictech"]],
+        "clips": ["https://storage.googleapis.com/neo-pyrite-site/SepticClips/2024032822482301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2024010802355800-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
+                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2023091612243600-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
+                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2023071400265100-4CE9651EE88A979D41F24CE8D6EA1C23.mov"],
+        "quote": "If you're not paying me, I'm not selling my body to this game. Goodnight"
     }
     
     }
