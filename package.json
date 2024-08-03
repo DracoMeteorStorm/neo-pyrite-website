@@ -2,7 +2,7 @@
   "name": "styled-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dracometeorstorm.github.io/neo-pyrite-website/",
+  "homepage": "https://neopyrite.com",
   "dependencies": {
     "@react-pdf/renderer": "^3.4.4",
     "@testing-library/jest-dom": "^5.17.0",
