@@ -557,9 +557,18 @@ padding: 5px;
 
 .lil-squid{
   position: absolute;
-  top: 0;
-  left: 0;
-    z-index: 9;
+  top: 8%;
+  opacity: 80%;
+  
+    z-index:9;
+}
+
+.lil-squid.right-squid{
+  right: 13%;
+}
+
+.lil-squid.left-squid{
+  left: 13%;
 }
 
 .video-container {

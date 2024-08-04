@@ -47,15 +47,14 @@ interface IconComponentProps {
   }
   
   const iconSrc = iconMap[bioData.name];
-const randVal = Math.floor(Math.random()* (7) + 1);
-  const squidMap: { [key:number] : string } = {
-    1 : squid1,
-    2 : squid2,
-    3 : squid3,
-    4 : squid4,
-    5 : squid5,
-    6 : squid6,
-    7 : squid7
+  const squidMap: { [key:string] : string } = {
+    "Septic" : squid1,
+    "Charm" : squid2,
+    // "Melk" : squid3,
+    "Amigo" : squid4,
+    "Mukk" : squid5,
+    "Draco" : squid6,
+    "Melk" : squid7
 
   }
     
@@ -73,21 +72,15 @@ const randVal = Math.floor(Math.random()* (7) + 1);
           
         </div> */}
         <div className="component-container" style={{backgroundColor:bioData.color}}>
-            {randVal < 4 ?
               <div>
-              <img src={squidMap[randVal]} height={"120px"} className="lil-squid" style={{marginLeft:"10px"}}/>
+              <img src={squidMap[page]} height={"110px"} 
+              className={"lil-squid" + " " + (page === "Septic" || page ===  "Charm" ? "right-squid" : "left-squid")}
+               style={{marginLeft:"10px"}}/>
               <h1 className="player-name">{bioData.name}
               
               </h1>
               </div>
-               : 
-              <div>
-              <img src={squidMap[randVal]} height={"120px"} className="lil-squid" style={{marginRight:"10px"}}/>
-              <h1 className="player-name">
-              {bioData.name}
-              </h1>
-              </div>
-              }
+              
             
               
             
