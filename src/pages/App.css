@@ -177,7 +177,7 @@
   border-top-left-radius: 5px;
   text-align: center !important;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   width: 11%;
   height: 100%;
   min-width: 11%;
@@ -221,7 +221,7 @@ background-size: cover;
 }
 
 #amigo:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/AmigoAvi.jpg");
+  background-image: url("https://storage.cloud.google.com/neo-pyrite-site/Icons/AmigoAvi.jpg");
 }
 
 #septic:hover{
@@ -408,9 +408,9 @@ padding: 5px;
 }
 
 @media screen and (max-width: 1024px) {
-  .about-container{
+  /* .about-container{
     width: 85% !important;
-  }
+  } */
   .container-row{
     width:100%;
   }
@@ -511,14 +511,16 @@ padding: 5px;
   .component-container.alt2{
     margin-top: 0%;
     margin-bottom: 0%;
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
   .player-name{
     font-size: 60px !important;
+    
   }
 
   .lil-squid{
     display: none;
+    
   }
 
   .home-page-blurb{
@@ -548,7 +550,16 @@ padding: 5px;
 .player-name{
   font-size:90px;
   text-transform: uppercase;
-  font-family:"bubbleValentine"
+  font-family:"bubbleValentine";
+  position: relative;
+    z-index: 10;
+}
+
+.lil-squid{
+  position: absolute;
+  top: 0;
+  left: 0;
+    z-index: 9;
 }
 
 .video-container {
@@ -655,7 +666,7 @@ padding: 5px;
 }
 
 .about-container{
-  width: 45%;
+  width: 95%;
   position: relative;
   z-index: 7;
   display: inline-flex;
@@ -671,6 +682,7 @@ padding: 5px;
   padding: 2px;
   transition: ease .5s;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .about-container:hover{

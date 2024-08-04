@@ -56,8 +56,10 @@ function FindPath() {
         "/about" : "About",
 
     }
+    if(displayLocation !== location.pathname){
     setTimeout(() => {setDisplayLocation(location.pathname)}, 1000);
     setCurrentPage(urlMap[location.pathname]||"404");
+    }
   return <></>
 
 }
@@ -272,7 +274,7 @@ setMenuVisible(!menuVisible);
         </div>
         </div>
         </div>
-        <div className='footer'><p>hiiiiiiiii 
+        <div className='footer'><p>hiiiiiiiii :D
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
           <img src={gitHubIcon} className='footer-icon'/></a>
         <a href='https://www.youtube.com/@NeoPyriteSpl' target='_blank'>

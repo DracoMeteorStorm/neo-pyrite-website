@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Bios } from "./bios";
 import biosData from "./bios.json"
 import WeaponComponent from "./WeaponHolder";
@@ -44,9 +45,9 @@ interface IconComponentProps {
   if (!bioData) {
     return <p>Bio not found.</p>;
   }
-  const randVal = Math.floor(Math.random()* (7) + 1);
+  
   const iconSrc = iconMap[bioData.name];
-
+const randVal = Math.floor(Math.random()* (7) + 1);
   const squidMap: { [key:number] : string } = {
     1 : squid1,
     2 : squid2,
@@ -73,13 +74,19 @@ interface IconComponentProps {
         </div> */}
         <div className="component-container" style={{backgroundColor:bioData.color}}>
             {randVal < 4 ?
-              <p className="player-name">{bioData.name}
-              <img src={squidMap[randVal]} height={"75px"} className="lil-squid" style={{marginLeft:"10px"}}/>
-              </p> : 
-              <h1 className="player-name">
-              <img src={squidMap[randVal]} height={"75px"} className="lil-squid" style={{marginRight:"10px"}}/>{bioData.name}
-              </h1>
+              <div>
+              <img src={squidMap[randVal]} height={"120px"} className="lil-squid" style={{marginLeft:"10px"}}/>
+              <h1 className="player-name">{bioData.name}
               
+              </h1>
+              </div>
+               : 
+              <div>
+              <img src={squidMap[randVal]} height={"120px"} className="lil-squid" style={{marginRight:"10px"}}/>
+              <h1 className="player-name">
+              {bioData.name}
+              </h1>
+              </div>
               }
             
               

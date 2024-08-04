@@ -43,20 +43,39 @@ const About: React.FC = () => {
         <p style={{fontStyle:"italic",marginTop:"10px",fontSize:"20px"}}>Fool's Gold banner by <a href='https://twitter.com/BUGSSLAP'>Bugslap</a></p>
       </div>
 
-      {/* <div className='component-container'
-      style={{backgroundColor:"#209ad7"}}>
-        <h1 style={{fontSize:"50px"}}>Socials</h1> */}
-        {infoPages.About.SocialMedia.map((sm: string[]) => (
-          <a href={sm[1]} style={{width:"auto%"}} target='_blank'><button className='about-container'
-          style={{fontSize:"30px", padding:"8px",margin:"4px",justifyContent:"left", fontFamily:"delaGothic",backgroundColor:(socialColors[sm[0]])}}>
-      
-          {sm[0]}
 
-          <img src={socialIcons[sm[0]]} className='about-icon'/>
+      <div className='container-row'>
+      <div className='container-col-left'
+      style={{width:"50%"}}
+      >
+        <a href={infoPages.About.SocialMedia[0][1]} style={{width:"auto%"}} target='_blank'><button className='about-container'
+          style={{fontSize:"30px", padding:"8px",margin:"4px",justifyContent:"left", fontFamily:"delaGothic",backgroundColor:(socialColors[infoPages.About.SocialMedia[0][0]])}}>
+      
+          {infoPages.About.SocialMedia[0][0]}
+
+          <img src={socialIcons[infoPages.About.SocialMedia[0][0]]} className='about-icon'/>
         
         </button></a>
-        ))}
-        {/* </div>       */}
+
+      </div>
+      <div className='container-col-right'
+      style={{width:"50%"}}
+      >
+<a href={infoPages.About.SocialMedia[1][1]} style={{width:"auto%"}} target='_blank'><button className='about-container'
+          style={{fontSize:"30px", padding:"8px",margin:"4px",justifyContent:"left", fontFamily:"delaGothic",backgroundColor:(socialColors[infoPages.About.SocialMedia[1][0]])}}>
+      
+          {infoPages.About.SocialMedia[1][0]}
+
+          <img src={socialIcons[infoPages.About.SocialMedia[1][0]]} className='about-icon'/>
+        
+        </button></a>
+
+
+      </div>
+          
+
+      </div>
+        
 
 
 
