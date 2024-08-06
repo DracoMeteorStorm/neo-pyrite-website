@@ -73,12 +73,39 @@ interface IconComponentProps {
         </div> */}
         <div className="component-container" style={{backgroundColor:bioData.color}}>
               <div>
-              <img src={squidMap[page]} height={"110px"} 
-              className={"lil-squid" + " " + (page === "Septic" || page ===  "Charm" ? "right-squid" : "left-squid")}
-               style={{marginLeft:"10px"}}/>
+
+                {
+                  (page === "Septic" || page ===  "Charm") ? 
+                     <div>
+                    
               <h1 className="player-name">{bioData.name}
+              <img src={squidMap[page]} height={"70px"} 
+              className={"lil-squid"}
+               style={{marginLeft:"10px"}}/>
+              </h1>
+              
+                    
+                    </div>
+                    :<div>
+                    
+              <h1 className="player-name"><img src={squidMap[page]} height={"70px"} 
+              className={"lil-squid"}
+               style={{marginLeft:"10px"}}/>
+               {bioData.name}
               
               </h1>
+                    
+                    </div>
+                   
+                  
+                  
+                  
+                  
+
+
+
+                }
+
               </div>
               
             

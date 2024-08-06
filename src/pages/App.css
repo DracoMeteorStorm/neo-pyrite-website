@@ -556,20 +556,14 @@ padding: 5px;
 }
 
 .lil-squid{
-  position: absolute;
-  top: 8%;
+  position: relative;
   opacity: 80%;
-  
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
     z-index:9;
 }
 
-.lil-squid.right-squid{
-  right: 13%;
-}
-
-.lil-squid.left-squid{
-  left: 13%;
-}
 
 .video-container {
   

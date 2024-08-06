@@ -274,7 +274,7 @@ setMenuVisible(!menuVisible);
         </div>
         </div>
         </div>
-        <div className='footer'><p>hiiiiiiiii :D
+        <div className='footer'><p>hiiiiiiiii :D ● created by DracoMeteorStrm
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
           <img src={gitHubIcon} className='footer-icon'/></a>
         <a href='https://www.youtube.com/@NeoPyriteSpl' target='_blank'>
