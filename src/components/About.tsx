@@ -31,6 +31,13 @@ const About: React.FC = () => {
         <p style={{margin:"10px",fontSize:"20px"}}>{infoPages.About.AboutUsBlurb}</p>
         </div>
 
+        <div className='component-container'
+      style={{backgroundColor:"#209ad7"}}>
+
+        <img width="100%" src='https://storage.cloud.google.com/neo-pyrite-site/lsl36.png' style={{borderRadius:"15px"}}/>
+        <p style={{fontStyle:"italic",marginTop:"10px",fontSize:"20px"}}>Edited by Septic</p>
+      </div>
+
       </div>
 
       <div className='container-col-right'
@@ -39,7 +46,7 @@ const About: React.FC = () => {
       <div className='component-container'
       style={{backgroundColor:"#209ad7"}}>
 
-        <img width="100%" src='https://storage.googleapis.com/neo-pyrite-site/FoolsGoldBanner.jpg' style={{borderRadius:"15px"}}/>
+        <img width="100%" src='https://storage.cloud.google.com/neo-pyrite-site/FoolsGoldBannerV2.jpg' style={{borderRadius:"15px"}}/>
         <p style={{fontStyle:"italic",marginTop:"10px",fontSize:"20px"}}>Fool's Gold banner by <a href='https://twitter.com/BUGSSLAP'>Bugslap</a></p>
       </div>
 
@@ -72,7 +79,7 @@ const About: React.FC = () => {
 
 
       </div>
-          
+      
 
       </div>
         

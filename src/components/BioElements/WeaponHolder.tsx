@@ -23,6 +23,7 @@ import InklineTriStringer from "../../assets/badges/InklineTriStringer.png"
 import OrderTriStringer from "../../assets/badges/OrderTriStringer.png"
 import CustomWellstringV from "../../assets/badges/CustomWellstringV.png"
 import EnperrySplatDualies from "../../assets/badges/EnperrySplatDualies.png"
+import SplashOMatic from "../../assets/badges/SplashOMatic.png"
 
 const bios: Bios = biosData;
 
@@ -52,7 +53,8 @@ interface WeaponComponentProps {
     "InkBow": InklineTriStringer,
     "OrderBow": OrderTriStringer,
     "CWellstring": CustomWellstringV,
-    "Enperries": EnperrySplatDualies
+    "Enperries": EnperrySplatDualies,
+    "Splash": SplashOMatic
 
 
   };

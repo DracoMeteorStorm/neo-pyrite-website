@@ -57,7 +57,7 @@ function FindPath() {
 
     }
     if(displayLocation !== location.pathname){
-    setTimeout(() => {setDisplayLocation(location.pathname)}, 1000);
+    setTimeout(() => {setDisplayLocation(location.pathname)}, 700);
     setCurrentPage(urlMap[location.pathname]||"404");
     }
   return <></>
@@ -177,7 +177,7 @@ setMenuVisible(!menuVisible);
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/>
             </div>
           
-          <div className='header-col-right'>
+          <div className='header-col-right' style={{height:"180px"}}>
         
 
         
@@ -275,26 +275,17 @@ setMenuVisible(!menuVisible);
         </div>
         </div>
         <div className='footer'><p>hiiiiiiiii :D ● created by DracoMeteorStrm
+          <div className='footer-icon-container' style={{height:"5px"}}>
           <a href='https://github.com/DracoMeteorStorm/neo-pyrite-website' target='_blank'>
           <img src={gitHubIcon} className='footer-icon'/></a>
         <a href='https://www.youtube.com/@NeoPyriteSpl' target='_blank'>
           <img src={ytIcon} className='footer-icon'/></a>
         <a href='https://x.com/NeoPyriteSPL' target='_blank'>
         <img src={twitterIcon} className='footer-icon'/></a>
-          <br></br>
-        {/* Twitter, YouTube, Twitch, Tumblr icons created by <a href="https://www.flaticon.com/authors/pixel-perfect" target='_blank'>Pixel perfect</a><br></br> */}
-        {/* Etsy icon created by <a href="https://www.flaticon.com/authors/riajulislam" target='_blank'>riajulislam</a> */}
-        </p>
-        <div style={{display:"none"}}>
-          <img src={DracoPFP}/>
-          <img src={MukkPFP}/>
-          <img src={MelkPFP}/>
-          <img src={CharmPFP}/>
-          <img src={AmigoPFP}/>
-          <img src={SepticPFP}/>
-          <img src={IconSplash}/>
-          <img src={Squid1}/><img src={Squid2}/><img src={Squid3}/><img src={Squid4}/><img src={Squid5}/><img src={Squid6}/><img src={Squid7}/>
         </div>
+          <br></br>
+        </p>
+       
         
         </div>
     
