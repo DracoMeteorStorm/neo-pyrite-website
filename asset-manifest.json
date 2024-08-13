@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a118449.css",
-    "main.js": "/static/js/main.028149ac.js",
+    "main.css": "/static/css/main.12478ac7.css",
+    "main.js": "/static/js/main.9f8c32cc.js",
     "static/js/453.fbff7cf7.chunk.js": "/static/js/453.fbff7cf7.chunk.js",
     "static/media/DelaGothicOne-Regular.ttf": "/static/media/DelaGothicOne-Regular.a8761c8c6d54ccaa44db.ttf",
     "static/media/YT_Banner.jpg": "/static/media/YT_Banner.61e67f09cf8e11f11b19.jpg",
@@ -10,7 +10,6 @@
     "static/media/LogoSmall.png": "/static/media/LogoSmall.edaafdba8619b8e195d2.png",
     "static/media/yellow_squib.png": "/static/media/yellow_squib.ee71657390fd82763a49.png",
     "static/media/BubbleValentine.ttf": "/static/media/BubbleValentine.9692d7ba2eb99770540f.ttf",
-    "static/media/orange_squib.png": "/static/media/orange_squib.41917559356aecadfc40.png",
     "static/media/blue_squib.png": "/static/media/blue_squib.9d894f3309ef6e6d412c.png",
     "static/media/lime_squib.png": "/static/media/lime_squib.b908d9531de0acf3a785.png",
     "static/media/purple_squib.png": "/static/media/purple_squib.671cce91a1ee039fc37c.png",
@@ -25,12 +24,12 @@
     "static/media/CharcoalDecavitator.png": "/static/media/CharcoalDecavitator.95561ca0c25dcc1a90e3.png",
     "static/media/EnperrySplatDualies.png": "/static/media/EnperrySplatDualies.a9ab7bec1a444af5fb2b.png",
     "index.html": "/index.html",
-    "main.1a118449.css.map": "/static/css/main.1a118449.css.map",
-    "main.028149ac.js.map": "/static/js/main.028149ac.js.map",
+    "main.12478ac7.css.map": "/static/css/main.12478ac7.css.map",
+    "main.9f8c32cc.js.map": "/static/js/main.9f8c32cc.js.map",
     "453.fbff7cf7.chunk.js.map": "/static/js/453.fbff7cf7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a118449.css",
-    "static/js/main.028149ac.js"
+    "static/css/main.12478ac7.css",
+    "static/js/main.9f8c32cc.js"
   ]
 }
