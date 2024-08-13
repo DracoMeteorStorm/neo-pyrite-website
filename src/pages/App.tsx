@@ -164,7 +164,6 @@ setMenuVisible(!menuVisible);
     
     <div className='App'>
         <FindPath/>
-        <a href={window.innerWidth < 1024 ? 'javascript:void(0)' : undefined} className='header-empty'>
         <div className={headerColor()}>
         <div className={
             isHeaderTransition ? "header-transition active1" : "header-transition"}>
@@ -177,7 +176,7 @@ setMenuVisible(!menuVisible);
             <img height='50px' className='mobile-only' src={hamburger} onClick={collapseButtons} style={{filter:" invert(100%)",marginBottom:"15px"}}/>
             </div>
           
-          <div className='header-col-right' style={{height:"180px"}}>
+          <div className='header-col-right' >
         
 
         
@@ -251,7 +250,6 @@ setMenuVisible(!menuVisible);
 
         </div> 
         </div>
-          </a>
 
         </div>
         <img width='100%' className='static-background' src = {YT_Banner}/>

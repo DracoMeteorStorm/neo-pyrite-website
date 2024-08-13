@@ -22,7 +22,7 @@ const Mukk: React.FC = () => {
 <IconComponent page={pageID}/>
         </div>
 
-        <div className='container-col-right'>
+        <div className='container-col-right' style={{padding:"10px"}}>
 
         <div className='component-container yt' style={{backgroundColor:bioData.Mukk.color}}>
       <div className='yt-vid-container'>
