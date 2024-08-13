@@ -412,6 +412,11 @@ padding: 5px;
   /* .about-container{
     width: 85% !important;
   } */
+
+  .yt-vid-container{
+    width: 90vw !important;
+    height: 50.625vw !important;
+  }
   .footer-icon-container{
     display: flex;
     margin-bottom: 20px;
@@ -456,6 +461,7 @@ padding: 5px;
   margin-left: 0;
   margin-right: 0;
 }
+
 
   #err404{
     background-color: #FFFFFFCC;
