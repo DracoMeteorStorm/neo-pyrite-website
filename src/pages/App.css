@@ -545,7 +545,9 @@ padding: 5px;
     display: none;
     
   }
-
+  .shirt-img{
+    width: 25% !important;
+  }
   .home-page-blurb{
     font-size: 15px !important;
   }
@@ -560,13 +562,13 @@ padding: 5px;
   z-index: 4;
 }
 .shirt-img{
-  width: 30%;
+  width: 45%;
   margin: 1%;
   transition: .1s ease;
   border-radius: 5px;
 }
 .shirt-img:hover{
-  scale: 110%;
+  scale: 105%;
 }
 
 

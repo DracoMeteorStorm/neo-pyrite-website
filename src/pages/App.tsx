@@ -57,6 +57,7 @@ function FindPath() {
 
     }
     if(displayLocation !== location.pathname){
+    updateButtons(location.pathname);
     setTimeout(() => {setDisplayLocation(location.pathname)}, 700);
     setCurrentPage(urlMap[location.pathname]||"404");
     }
