@@ -85,13 +85,13 @@ const About: React.FC = () => {
 <div className='container-col-left'
       style={{width:"100%"}}
       >
-        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/draco_shirt_1.jpg'/>
-        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/mukk_shirt_1.jpg'/>
-        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/melk_shirt_1.jpg'/>
+        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/draco_shirt_1.jpg'/>
+        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/mukk_shirt_1.jpg'/>
+        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/melk_shirt_1.jpg'/>
       
-        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/charm_shirt_1.jpg'/>
-        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/amigo_shirt_1.jpg'/>
-        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/septic_shirt_1.jpg'/>
+        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/charm_shirt_1.jpg'/>
+        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/amigo_shirt_1.jpg'/>
+        <img className={"shirt-img"} style={{width:"25%"}} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/septic_shirt_1.jpg'/>
         <p style={{fontStyle:"italic",marginTop:"10px",fontSize:"20px"}}>Riptide Shirt Designs by Septic</p>
       </div>
       </div>

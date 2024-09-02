@@ -42,14 +42,14 @@ const Home: React.FC = () => {
 <div className='container-col-left'
       style={{width:"100%"}}
       >
-        <Link to="/draco"><img className={"shirt-img"} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/draco_shirt_1.jpg'/></Link>
-        <Link to="/mukk"><img className={"shirt-img"} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/mukk_shirt_1.jpg'/></Link>
-        <Link to="/melk"><img className={"shirt-img"} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/melk_shirt_1.jpg'/></Link>
-      <Link to="/charm"><img className={"shirt-img"} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/charm_shirt_1.jpg'/></Link>
+        <Link to="/draco"><img className={"shirt-img"} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/draco_shirt_1.jpg'/></Link>
+        <Link to="/mukk"><img className={"shirt-img"} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/mukk_shirt_1.jpg'/></Link>
+        <Link to="/melk"><img className={"shirt-img"} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/melk_shirt_1.jpg'/></Link>
+      <Link to="/charm"><img className={"shirt-img"} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/charm_shirt_1.jpg'/></Link>
       
         
-        <Link to="/amigo"><img className={"shirt-img"} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/amigo_shirt_1.jpg'/></Link>
-        <Link to="/septic"><img className={"shirt-img"} src='https://storage.googleapis.com/neo-pyrite-site/ShirtDesigns/septic_shirt_1.jpg'/></Link>
+        <Link to="/amigo"><img className={"shirt-img"} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/amigo_shirt_1.jpg'/></Link>
+        <Link to="/septic"><img className={"shirt-img"} src='https://storage.cloud.google.com/neo-pyrite-site/ShirtDesigns/septic_shirt_1.jpg'/></Link>
       </div>
 
 </div>
