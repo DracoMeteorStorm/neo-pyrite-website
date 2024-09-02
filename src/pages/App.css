@@ -111,8 +111,8 @@
   min-width: 100%;
   display: flex;
   flex-direction: column;
-  /* align-items: center;
-  justify-content: center; */
+   align-items: center;
+  /*justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
   /* position: sticky; */
@@ -132,11 +132,10 @@
 .footer-icon {
   position: relative;
   width: 25px;
-  justify-content: right;
-  float: right;
+  float: initial;
   filter: invert(100%);
-  margin: 5px;
-  margin-left: 15px;
+  margin: 15px;
+  margin-bottom: 5px;
   transition: ease .1s;
 } 
 .footer-icon:hover{
@@ -205,20 +204,20 @@ background-size: cover;
 }
 
 #draco:hover{
-   background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/DracoAvi.jpg");
+   background-image: url("https://storage.cloud.google.com/neo-pyrite-site/Icons/DracoAvi.jpg");
    
 }
 
 #mukk:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MukkAvi.jpg");
+  background-image: url("https://storage.cloud.google.com/neo-pyrite-site/Icons/MukkAvi.jpg");
 }
 
 #melk:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/MelkAvi.jpg");
+  background-image: url("https://storage.cloud.google.com/neo-pyrite-site/Icons/MelkAvi.jpg");
 }
 
 #charm:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/CharmAvi.jpg");
+  background-image: url("https://storage.cloud.google.com/neo-pyrite-site/Icons/CharmAvi.jpg");
 }
 
 #amigo:hover{
@@ -226,7 +225,7 @@ background-size: cover;
 }
 
 #septic:hover{
-  background-image: url("https://storage.googleapis.com/neo-pyrite-site/Icons/SepticAvi.jpg");
+  background-image: url("https://storage.cloud.google.com/neo-pyrite-site/Icons/SepticAvi.jpg");
 }
 
 #draco:hover,#mukk:hover,#melk:hover,#charm:hover,#amigo:hover,#septic:hover{
@@ -417,13 +416,7 @@ padding: 5px;
     width: 90vw !important;
     height: 50.625vw !important;
   }
-  .footer-icon-container{
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: center;
-    margin-top: 10px;
-    
-  }
+  
 
   .footer{
     align-items: center;
@@ -609,7 +602,14 @@ padding: 5px;
   overflow: hidden;
   border-radius: 20px;
 }
-
+.footer-icon-container{
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    
+  }
 .video-element {
   position: absolute;
   top: 0;

@@ -9,13 +9,14 @@
         ["Twitch","https://www.twitch.tv/dracometeorstrm"]
         ],
         "numSocials":2,
-        "clips": ["https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024062312513101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023041418363201-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2023090320324101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024061117164400-4CE9651EE88A979D41F24CE8D6EA1C23%20(1).mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024060913392501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/DracoClips/2024020217340000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
+        "clips": ["https://storage.cloud.google.com/neo-pyrite-site/DracoClips/2024062312513101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/DracoClips/2023041418363201-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/DracoClips/2023090320324101-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/DracoClips/2024020217340000-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/DracoClips/2024060913392501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/DracoClips/2024061117164400-4CE9651EE88A979D41F24CE8D6EA1C23%20(1).mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/DracoClips/2023040723485501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"
+                    ],
         "quote": "my least favorite part about being on a splatoon team is playing splatoon"
     },
     "Mukk": {
@@ -48,9 +49,9 @@
         "weapons": ["Ballpoint","HeavyEdit","Wiper"],
         "numSocials":0,
         "socials": [[""]],
-        "clips": ["https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310303501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310322301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                "https://storage.googleapis.com/neo-pyrite-site/CharmClips/2024072310383001-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
+        "clips": ["https://storage.cloud.google.com/neo-pyrite-site/CharmClips/2024072310303501-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/CharmClips/2024072310322301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                "https://storage.cloud.google.com/neo-pyrite-site/CharmClips/2024072310383001-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
         "quote": "Hi, I'm Charm!"
     },
     "Amigo": {
@@ -60,10 +61,10 @@
         "weapons": ["CarbonDeco","OrderSlosh","Roller","Machine"],
         "numSocials":2,
         "socials": [["Twitter","https://twitter.com/PHD_Amigo"],["Twitch","https://www.twitch.tv/dr_amigoh"]],
-        "clips": ["https://storage.googleapis.com/neo-pyrite-site/AmigoClips/dAJcZziBWX7UuDg9.mp4",
-        "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823072800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823141200-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                "https://storage.googleapis.com/neo-pyrite-site/AmigoClips/2024071823263500-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"
+        "clips": ["https://storage.cloud.google.com/neo-pyrite-site/AmigoClips/2024071823072800-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                     "https://storage.cloud.google.com/neo-pyrite-site/AmigoClips/2024071823141200-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/AmigoClips/2024071823263500-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
+                    "https://storage.cloud.google.com/neo-pyrite-site/AmigoClips/dAJcZziBWX7UuDg9.mp4"
                 ],
         "quote": "when i’m in a easy peasy competition and my opponent starts squeezing lemons"
     },
@@ -74,10 +75,10 @@
         "weapons": ["OrderBow","InkBow","Wellstring","CWellstring","Enperries"],
         "numSocials":3,
         "socials": [["Twitter","https://x.com/septictech"],["Etsy","https://www.etsy.com/shop/LousyFrowsy"],["Tumblr","https://www.tumblr.com/septictech"]],
-        "clips": ["https://storage.googleapis.com/neo-pyrite-site/SepticClips/2024032822482301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4",
-                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2024010802355800-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
-                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2023091612243600-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
-                    "https://storage.googleapis.com/neo-pyrite-site/SepticClips/2023071400265100-4CE9651EE88A979D41F24CE8D6EA1C23.mov"],
+        "clips": ["https://storage.cloud.google.com/neo-pyrite-site/SepticClips/2023071400265100-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
+                    "https://storage.cloud.google.com/neo-pyrite-site/SepticClips/2023091612243600-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
+                    "https://storage.cloud.google.com/neo-pyrite-site/SepticClips/2024010802355800-4CE9651EE88A979D41F24CE8D6EA1C23.mov",
+                    "https://storage.cloud.google.com/neo-pyrite-site/SepticClips/2024032822482301-4CE9651EE88A979D41F24CE8D6EA1C23.mp4"],
         "quote": "If you're not paying me, I'm not selling my body to this game. Goodnight"
     }
     
